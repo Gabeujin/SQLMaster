@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "question": "GROUP BY 절과 함께 자주 사용되며, 그룹화된 결과에 조건을 지정하는 절은?",
+    "options": ["WHERE", "HAVING", "ON", "GROUPING"],
+    "correctAnswer": 1,
+    "hint": "WHERE절은 개별 행에 대한 조건이고, 이 절은 그룹화된 결과에 대한 조건입니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 2,
+    "question": "Oracle에서 계층적 쿼리를 작성할 때 사용하는 절은?",
+    "options": ["CONNECT BY", "HIERARCHY", "LEVEL BY", "TREE"],
+    "correctAnswer": 0,
+    "hint": "두 개의 단어로 이루어져 있으며, '연결하다'는 의미의 단어가 포함되어 있습니다.",
+    "difficulty": "medium",
+    "category": "고급 쿼리"
+  },
+  {
+    "id": 3,
+    "question": "SQL에서 트리거를 생성하는 명령어는?",
+    "options": ["CREATE TRIGGER", "MAKE TRIGGER", "NEW TRIGGER", "ADD TRIGGER"],
+    "correctAnswer": 0,
+    "hint": "트리거를 생성합니다.",
+    "difficulty": "medium",
+    "category": "데이터베이스 객체"
+  },
+  {
+    "id": 4,
+    "question": "SQL에서 데이터베이스 사용자에게 권한을 부여하는 명령어는?",
+    "options": ["GRANT", "GIVE", "ASSIGN", "ALLOW"],
+    "correctAnswer": 0,
+    "hint": "사용자에게 권한을 부여합니다.",
+    "difficulty": "medium",
+    "category": "보안"
+  },
+  {
+    "id": 5,
+    "question": "SQL에서 권한을 취소하는 명령어는?",
+    "options": ["REVOKE", "REMOVE", "DENY", "DELETE"],
+    "correctAnswer": 0,
+    "hint": "권한을 취소합니다.",
+    "difficulty": "medium",
+    "category": "보안"
+  },
+  {
+    "id": 6,
+    "question": "SQL에서 사용자 정의 함수(UDF)를 삭제하는 명령어는?",
+    "options": ["DROP FUNCTION", "DELETE FUNCTION", "REMOVE FUNCTION", "CLEAR FUNCTION"],
+    "correctAnswer": 0,
+    "hint": "함수를 삭제합니다.",
+    "difficulty": "medium",
+    "category": "데이터베이스 객체"
+  },
+  {
+    "id": 7,
+    "question": "SQL에서 인덱스를 생성하는 명령어는?",
+    "options": ["CREATE INDEX", "MAKE INDEX", "NEW INDEX", "ADD INDEX"],
+    "correctAnswer": 0,
+    "hint": "인덱스를 생성합니다.",
+    "difficulty": "medium",
+    "category": "성능 최적화"
+  },
+  {
+    "id": 8,
+    "question": "SQL에서 인덱스를 삭제하는 명령어는?",
+    "options": ["DROP INDEX", "DELETE INDEX", "REMOVE INDEX", "CLEAR INDEX"],
+    "correctAnswer": 0,
+    "hint": "인덱스를 삭제합니다.",
+    "difficulty": "medium",
+    "category": "성능 최적화"
+  },
+  {
+    "id": 9,
+    "question": "SQL에서 사용자가 테이블에 대한 모든 권한을 가지는 것을 보장하는 제약 조건은?",
+    "options": ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "GRANT ALL"],
+    "correctAnswer": 3,
+    "hint": "모든 권한을 부여합니다.",
+    "difficulty": "medium",
+    "category": "보안"
+  },
+  {
+    "id": 10,
+    "question": "SQL에서 날짜 형식을 변환하는 함수는?",
+    "options": ["TO_DATE", "CONVERT_DATE", "FORMAT_DATE", "DATE_FORMAT"],
+    "correctAnswer": 0,
+    "hint": "날짜 형식을 변환합니다.",
+    "difficulty": "medium",
+    "category": "함수"
+  },
+  {
+    "id": 11,
+    "question": "SQL에서 문자를 숫자로 변환하는 함수는?",
+    "options": ["TO_NUMBER", "CONVERT_NUMBER", "FORMAT_NUMBER", "NUMBER_FORMAT"],
+    "correctAnswer": 0,
+    "hint": "문자를 숫자로 변환합니다.",
+    "difficulty": "medium",
+    "category": "함수"
+  },
+  {
+    "id": 12,
+    "question": "SQL에서 두 테이블의 공통된 열을 기반으로 결합하는 유형은?",
+    "options": ["INNER JOIN", "OUTER JOIN", "LEFT JOIN", "RIGHT JOIN"],
+    "correctAnswer": 0,
+    "hint": "공통된 열을 기반으로 결합합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 13,
+    "question": "SQL에서 두 테이블의 모든 행을 결합하는 유형은?",
+    "options": ["INNER JOIN", "OUTER JOIN", "LEFT JOIN", "FULL JOIN"],
+    "correctAnswer": 3,
+    "hint": "모든 행을 결합합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 14,
+    "question": "SQL에서 첫 번째 행을 반환하는 함수는?",
+    "options": ["FIRST", "TOP", "LIMIT", "ROWNUM"],
+    "correctAnswer": 3,
+    "hint": "첫 번째 행을 반환합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 15,
+    "question": "SQL에서 두 날짜 사이의 차이를 계산하는 함수는?",
+    "options": ["DATEDIFF", "DATE_DIFF", "DATEGAP", "DAYSBETWEEN"],
+    "correctAnswer": 0,
+    "hint": "두 날짜 사이의 차이를 계산합니다.",
+    "difficulty": "medium",
+    "category": "함수"
+  },
+  {
+    "id": 16,
+    "question": "SQL에서 조건부 로직을 수행하는 키워드는?",
+    "options": ["IF", "CASE", "WHEN", "CONDITION"],
+    "correctAnswer": 1,
+    "hint": "조건부 로직을 수행합니다.",
+    "difficulty": "medium",
+    "category": "기본 문법"
+  },
+  {
+    "id": 17,
+    "question": "SQL에서 NULL 값이 아닌 첫 번째 값을 반환하는 함수는?",
+    "options": ["NVL", "ISNULL", "COALESCE", "NULLIF"],
+    "correctAnswer": 2,
+    "hint": "NULL이 아닌 값을 반환합니다.",
+    "difficulty": "medium",
+    "category": "함수"
+  },
+  {
+    "id": 18,
+    "question": "SQL에서 값의 집합을 포함하는지 여부를 확인하는 연산자는?",
+    "options": ["IN", "INCLUDES", "CONTAINS", "BELONGS"],
+    "correctAnswer": 0,
+    "hint": "값의 집합을 확인합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 19,
+    "question": "SQL에서 특정 열의 값이 NULL인지 확인하는 조건은?",
+    "options": ["IS NULL", "EQUALS NULL", "IS EMPTY", "IS BLANK"],
+    "correctAnswer": 0,
+    "hint": "NULL 값을 확인합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조회"
+  },
+  {
+    "id": 20,
+    "question": "SQL에서 모든 값을 반환하는 집합 연산자는?",
+    "options": ["UNION", "UNION ALL", "INTERSECT", "MINUS"],
+    "correctAnswer": 1,
+    "hint": "모든 값을 반환합니다.",
+    "difficulty": "medium",
+    "category": "집합 연산"
+  },
+  {
+    "id": 21,
+    "question": "SQL에서 두 집합의 공통된 값을 반환하는 연산자는?",
+    "options": ["UNION", "UNION ALL", "INTERSECT", "MINUS"],
+    "correctAnswer": 2,
+    "hint": "공통된 값을 반환합니다.",
+    "difficulty": "medium",
+    "category": "집합 연산"
+  },
+  {
+    "id": 22,
+    "question": "SQL에서 두 집합의 차이를 반환하는 연산자는?",
+    "options": ["UNION", "UNION ALL", "INTERSECT", "MINUS"],
+    "correctAnswer": 3,
+    "hint": "차이를 반환합니다.",
+    "difficulty": "medium",
+    "category": "집합 연산"
+  },
+  {
+    "id": 23,
+    "question": "SQL에서 조건에 따라 서로 다른 값을 반환하는 함수는?",
+    "options": ["IF", "CASE", "DECODE", "SWITCH"],
+    "correctAnswer": 2,
+    "hint": "조건에 따라 값을 반환합니다.",
+    "difficulty": "medium",
+    "category": "함수"
+  },
+  {
+    "id": 24,
+    "question": "SQL에서 테이블의 데이터와 관련된 데이터를 저장하는 것은?",
+    "options": ["VIEW", "INDEX", "SEQUENCE", "TRIGGER"],
+    "correctAnswer": 1,
+    "hint": "데이터와 관련된 정보를 저장합니다.",
+    "difficulty": "medium",
+    "category": "데이터베이스 객체"
+  },
+  {
+    "id": 25,
+    "question": "SQL에서 일련 번호를 생성하는 객체는?",
+    "options": ["SEQUENCE", "INDEX", "VIEW", "TRIGGER"],
+    "correctAnswer": 0,
+    "hint": "일련 번호를 생성합니다.",
+    "difficulty": "medium",
+    "category": "데이터베이스 객체"
+  },
+  {
+    "id": 26,
+    "question": "SQL에서 데이터베이스를 복구하는 명령어는?",
+    "options": ["RECOVER", "RESTORE", "REBUILD", "REPAIR"],
+    "correctAnswer": 1,
+    "hint": "데이터베이스를 복구합니다.",
+    "difficulty": "medium",
+    "category": "데이터베이스 관리"
+  },
+  {
+    "id": 27,
+    "question": "SQL에서 트랜잭션의 일관성을 보장하는 명령어는?",
+    "options": ["COMMIT", "ROLLBACK", "SAVEPOINT", "CHECKPOINT"],
+    "correctAnswer": 2,
+    "hint": "트랜잭션의 일관성을 보장합니다.",
+    "difficulty": "medium",
+    "category": "트랜잭션"
+  },
+  {
+    "id": 28,
+    "question": "SQL에서 트랜잭션의 일부분을 저장하는 명령어는?",
+    "options": ["SAVEPOINT", "ROLLBACK", "COMMIT", "CHECKPOINT"],
+    "correctAnswer": 0,
+    "hint": "트랜잭션의 일부분을 저장합니다.",
+    "difficulty": "medium",
+    "category": "트랜잭션"
+  },
+  {
+    "id": 29,
+    "question": "SQL에서 데이터베이스에 대한 변경 사항을 취소하는 명령어는?",
+    "options": ["ROLLBACK", "UNDO", "REVERT", "CANCEL"],
+    "correctAnswer": 0,
+    "hint": "변경 사항을 취소합니다.",
+    "difficulty": "medium",
+    "category": "트랜잭션"
+  },
+  {
+    "id": 30,
+    "question": "SQL에서 열의 데이터를 변경하는 명령어는?",
+    "options": ["UPDATE", "MODIFY", "CHANGE", "ALTER"],
+    "correctAnswer": 0,
+    "hint": "열의 데이터를 변경합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조작"
+  },
+  {
+    "id": 31,
+    "question": "SQL에서 테이블의 구조를 변경하는 명령어는?",
+    "options": ["ALTER", "MODIFY", "CHANGE", "UPDATE"],
+    "correctAnswer": 0,
+    "hint": "테이블 구조를 변경합니다.",
+    "difficulty": "medium",
+    "category": "데이터 정의"
+  },
+  {
+    "id": 32,
+    "question": "SQL에서 모든 행을 삭제하는 명령어는?",
+    "options": ["DELETE", "TRUNCATE", "REMOVE", "CLEAR"],
+    "correctAnswer": 1,
+    "hint": "모든 행을 삭제합니다.",
+    "difficulty": "medium",
+    "category": "데이터 조작"
+  },
+  {
+    "id": 33,
+    "question": "SQL에서 특정 열의 이름을 변경하는 명령어는?",
+    "options": ["RENAME COLUMN", "ALTER COLUMN", "CHANGE COLUMN", "MODIFY COLUMN"],
+    "correctAnswer": 1,
+    "hint": "열의 이름을 변경합니다.",
+    "difficulty": "medium",
+    "category": "데이터 정의"
+  },
+  {
+    "id": 34,
+    "question": "SQL에서 특정 열의 데이터를 삭제하는 명령어는?",
+    "options": ["DELETE COLUMN", "REMOVE COLUMN", "DROP COLUMN", "CLEAR COLUMN"],
+"correctAnswer": 2,
+"hint": "열의 데이터를 삭제합니다.",
+"difficulty": "medium",
+"category": "데이터 정의"
+},
+{
+"id": 35,
+"question": "SQL에서 열의 데이터를 대체하는 함수는?",
+"options": ["REPLACE", "SUBSTITUTE", "SWAP", "CHANGE"],
+"correctAnswer": 0,
+"hint": "열의 데이터를 대체합니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 36,
+"question": "SQL에서 중첩된 SELECT 문을 포함하는 절은?",
+"options": ["INNER SELECT", "SUBQUERY", "NESTED SELECT", "SELECT IN"],
+"correctAnswer": 1,
+"hint": "서브쿼리를 포함합니다.",
+"difficulty": "medium",
+"category": "서브쿼리"
+},
+{
+"id": 37,
+"question": "SQL에서 특정 조건을 만족하는 첫 번째 행을 반환하는 함수는?",
+"options": ["FIRST", "TOP", "LIMIT", "ROWNUM"],
+"correctAnswer": 3,
+"hint": "첫 번째 행을 반환합니다.",
+"difficulty": "medium",
+"category": "데이터 조회"
+},
+{
+"id": 38,
+"question": "SQL에서 특정 열의 값을 증가시키는 명령어는?",
+"options": ["INCREMENT", "ADD", "INCREASE", "UPDATE"],
+"correctAnswer": 3,
+"hint": "열의 값을 증가시킵니다.",
+"difficulty": "medium",
+"category": "데이터 조작"
+},
+{
+"id": 39,
+"question": "SQL에서 테이블의 데이터를 정렬하는 명령어는?",
+"options": ["ORDER BY", "SORT BY", "ARRANGE BY", "ORGANIZE BY"],
+"correctAnswer": 0,
+"hint": "데이터를 정렬합니다.",
+"difficulty": "medium",
+"category": "데이터 조회"
+},
+{
+"id": 40,
+"question": "SQL에서 현재 사용자 이름을 반환하는 함수는?",
+"options": ["CURRENT_USER", "USER", "SESSION_USER", "SYSTEM_USER"],
+"correctAnswer": 1,
+"hint": "현재 사용자 이름을 반환합니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 41,
+"question": "SQL에서 특정 열의 최대값을 구하는 함수는?",
+"options": ["MAX", "HIGHEST", "GREATEST", "TOP"],
+"correctAnswer": 0,
+"hint": "최대값을 구합니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 42,
+"question": "SQL에서 특정 열의 최소값을 구하는 함수는?",
+"options": ["MIN", "LOWEST", "LEAST", "BOTTOM"],
+"correctAnswer": 0,
+"hint": "최소값을 구합니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 43,
+"question": "SQL에서 테이블의 행 수를 세는 함수는?",
+"options": ["COUNT", "NUMROWS", "ROWCOUNT", "TOTAL"],
+"correctAnswer": 0,
+"hint": "행 수를 셉니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 44,
+"question": "SQL에서 특정 열의 평균값을 구하는 함수는?",
+"options": ["AVG", "AVERAGE", "MEAN", "MEDIAN"],
+"correctAnswer": 0,
+"hint": "평균값을 구합니다.",
+"difficulty": "medium",
+"category": "함수"
+},
+{
+"id": 45,
+"question": "SQL에서 열의 데이터 형식을 지정하는 명령어는?",
+"options": ["DATA TYPE", "COLUMN TYPE", "DEFINE TYPE", "ALTER TYPE"],
+"correctAnswer": 0,
+"hint": "열의 데이터 형식을 지정합니다.",
+"difficulty": "medium",
+"category": "데이터 정의"
+},
+{
+"id": 46,
+"question": "SQL에서 열의 이름을 변경하는 명령어는?",
+"options": ["RENAME COLUMN", "ALTER COLUMN", "MODIFY COLUMN", "CHANGE COLUMN"],
+"correctAnswer": 1,
+"hint": "열의 이름을 변경합니다.",
+"difficulty": "medium",
+"category": "데이터 정의"
+},
+{
+"id": 47,
+"question": "SQL에서 열의 기본값을 설정하는 명령어는?",
+"options": ["DEFAULT", "SET DEFAULT", "DEFINE DEFAULT", "ALTER DEFAULT"],
+"correctAnswer": 0,
+"hint": "열의 기본값을 설정합니다.",
+"difficulty": "medium",
+"category": "데이터 정의"
+},
+{
+"id": 48,
+"question": "SQL에서 데이터를 그룹화하는 명령어는?",
+"options": ["GROUP BY", "SORT BY", "ORDER BY", "CLUSTER BY"],
+"correctAnswer": 0,
+"hint": "데이터를 그룹화합니다.",
+"difficulty": "medium",
+"category": "데이터 조회"
+},
+{
+"id": 49,
+"question": "SQL에서 데이터를 필터링하는 조건은?",
+"options": ["WHERE", "FILTER", "SEARCH", "CONDITION"],
+"correctAnswer": 0,
+"hint": "데이터를 필터링합니다.",
+"difficulty": "medium",
+"category": "데이터 조회"
+},
+{
+"id": 50,
+"question": "SQL에서 특정 패턴과 일치하는 행을 찾는 조건은?",
+"options": ["MATCHES", "CONTAINS", "LIKE", "SIMILAR"],
+"correctAnswer": 2,
+"hint": "패턴을 찾습니다.",
+"difficulty": "medium",
+"category": "데이터 조회"
+}
+]
