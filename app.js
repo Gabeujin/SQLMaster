@@ -9,6 +9,7 @@ let hintsRemaining = 10;
 let isBossQuestion = false;
 let currentDifficulty = 'easy';
 
+const mainTitleEl = document.querySelector('.container>h1');
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
 const submitBtn = document.getElementById('submitBtn');
@@ -70,6 +71,7 @@ function displayQuestion() {
     shuffledOptions.forEach((option, index) => {
         const button = document.createElement('button');
         button.textContent = option;
+        button.type = 'button';
         button.classList.add('option');
         button.addEventListener('click', () => selectOption(index));
         optionsEl.appendChild(button);
@@ -102,20 +104,29 @@ function selectOption(index) {
 function showHint() {
     if (hintsRemaining > 0) {
         const question = questions[currentDifficulty][currentQuestionIndex];
-        hintContainer.textContent = `힌트: ${question.hint}`;
-        hintsRemaining--;
-        hintCountEl.textContent = hintsRemaining;
+        if(hintContainer.textContent != "") {
+            hintContainer.classList.toggle('shake', true);
+            setTimeout(() => {
+                hintContainer.classList.toggle('shake', false);
+            }, 300);
+        } else {
+            hintContainer.textContent = `힌트: ${question.hint}`;
+            hintsRemaining--;
+            hintCountEl.textContent = hintsRemaining;
+            if(hintsRemaining == 0) {
+                hintBtn.disabled = true;
+            }
+        }
     } else {
         alert('힌트를 모두 사용하셨습니다.');
+        hintBtn.disabled = true;
     }
 }
 
 function checkAnswer() {
     const selectedOption = optionsEl.querySelector('.selected');
     if (!selectedOption) return;
-
     const question = questions[currentDifficulty][currentQuestionIndex];
-
     if(question.options[question.correctAnswer] === selectedOption.innerText) {
         score++;
         showPositiveFeedback();
@@ -191,7 +202,7 @@ function updateProgressBar() {
 function checkBossQuestion() {
     isBossQuestion = (getOverallQuestionNumber() % 50 === 0);
     document.body.classList.toggle('boss-mode', isBossQuestion);
-    questionEl.classList.toggle('shake', isBossQuestion);
+    mainTitleEl.classList.toggle('shake', isBossQuestion);
 }
 
 function updateScore() {
