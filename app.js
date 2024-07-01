@@ -72,6 +72,7 @@ function displayQuestion() {
         const button = document.createElement('button');
         button.textContent = option;
         button.type = 'button';
+        button.dataset.opVal = option;
         button.classList.add('option');
         button.addEventListener('click', () => selectOption(index));
         optionsEl.appendChild(button);
@@ -110,7 +111,7 @@ function showHint() {
                 hintContainer.classList.toggle('shake', false);
             }, 300);
         } else {
-            hintContainer.textContent = `힌트: ${question.hint}`;
+            hintContainer.textContent = `힌트: ${ fnDec(question.hint, getEncPo()) }`;
             hintsRemaining--;
             hintCountEl.textContent = hintsRemaining;
             if(hintsRemaining == 0) {
@@ -127,7 +128,7 @@ function checkAnswer() {
     const selectedOption = optionsEl.querySelector('.selected');
     if (!selectedOption) return;
     const question = questions[currentDifficulty][currentQuestionIndex];
-    if(question.options[question.correctAnswer] === selectedOption.innerText) {
+    if(question.options[fnDec(question.correctAnswer, getEncPo())] === selectedOption.dataset.opVal) {
         score++;
         showPositiveFeedback();
         showToast('정답입니다!');
@@ -211,6 +212,21 @@ function updateScore() {
 
 function updateDifficultyDisplay() {
     difficultyEl.textContent = currentDifficulty.charAt(0).toUpperCase() + currentDifficulty.slice(1);
+}
+
+function getEncPo(){
+    return document.querySelector('.enc-po[name="po1"]').value + document.querySelector('.enc-po[name="po2"]').value + document.querySelector('.enc-po[name="po3"]').value;
+}
+
+// 암호화 함수
+function fnEnc(data, secretKey) {
+    return CryptoJS.AES.encrypt(JSON.stringify(data), secretKey).toString();
+}
+
+// 복호화 함수
+function fnDec(encryptedData, secretKey) {
+    const bytes = CryptoJS.AES.decrypt(encryptedData, secretKey);
+    return JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
 }
 
 submitBtn.addEventListener('click', checkAnswer);
