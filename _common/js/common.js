@@ -3,32 +3,65 @@ let questions = {
     medium: [],
     hard: []
 };
-let currentQuestionIndex = 0;
-let score = 0;
-let hintsRemaining = 10;
-let isBossQuestion = false;
-let currentDifficulty = 'easy';
 
-const mainTitleEl = document.querySelector('.container>h1');
-const questionEl = document.getElementById('question');
-const optionsEl = document.getElementById('options');
-const submitBtn = document.getElementById('submitBtn');
-const hintBtn = document.getElementById('hintBtn');
-const hintContainer = document.getElementById('hintContainer');
-const hintCountEl = document.getElementById('hintCount');
-const progressBar = document.querySelector('.progress');
-const scoreEl = document.getElementById('score');
-const difficultyEl = document.getElementById('difficulty');
+let currentQuestionIndex = 0
+    ,score = 0
+    ,hintsRemaining = 10
+    ,isBossQuestion = false
+    ,currentDifficulty = 'easy';
 
-async function fetchQuestions() {
+let mainTitleEl,questionEl,optionsEl,submitBtn,hintBtn,hintContainer,hintCountEl,progressBar,scoreEl,difficultyEl;
+
+//main model (don't change)
+const containerModel = `<h1></h1>
+                        <div class="quiz-container animate__animated animate__fadeIn">
+                            <div class="progress-bar"><div class="progress"></div></div>
+                            <div class="info-bar">
+                                <div class="hint-count">남은 힌트: <span id="hintCount">10</span></div>
+                                <div class="score">점수: <span id="score">0</span></div>
+                                <div class="difficulty">난이도: <span id="difficulty">Easy</span></div>
+                            </div>
+                            <div id="question" class="question"></div>
+                            <div id="options" class="options"></div>
+                            <div id="hintContainer" class="hint-container"></div>
+                            <div class="controls">
+                                <button type="button" id="hintBtn" class="animate__animated animate__fadeIn">힌트 보기</button>
+                                <button type="button" id="submitBtn" class="animate__animated animate__fadeIn" disabled>제출</button>
+                            </div>
+                        </div>`;
+
+async function fetchQuestions(app) {
     try {
-        const difficulties = ['easy', 'medium', 'hard'];
-        for (let diff of difficulties) {
-            const response = await fetch(`oracle-sql-quiz-${diff}.json`);
-            questions[diff] = await response.json();
-            shuffleArray(questions[diff]);
+        if(app != "ready"){
+            document.querySelector(`.container.app-${app}`).innerHTML = containerModel;
+            mainTitleEl = document.querySelector('.container>h1');
+            questionEl = document.getElementById('question');
+            optionsEl = document.getElementById('options');
+            submitBtn = document.getElementById('submitBtn');
+            hintBtn = document.getElementById('hintBtn');
+            hintContainer = document.getElementById('hintContainer');
+            hintCountEl = document.getElementById('hintCount');
+            progressBar = document.querySelector('.progress');
+            scoreEl = document.getElementById('score');
+            difficultyEl = document.getElementById('difficulty');
+    
+            mainTitleEl.textContent = `🐶${app.toUpperCase()}🐹퀴즈`;
+            submitBtn.addEventListener('click', checkAnswer);
+            hintBtn.addEventListener('click', showHint);
+            const difficulties = ['easy', 'medium', 'hard'];
+            for (let diff of difficulties) {
+                const response = await fetch(`/_common/json/${app}/quiz-${diff}.json`);
+                questions[diff] = await response.json();
+                shuffleArray(questions[diff]);
+            }
+            displayQuestion();
+        }else{
+            document.querySelector('.container').innerHTML = containerModel;
+            mainTitleEl = document.querySelector('.container>h1');
+            questionEl = document.getElementById('question');
+            mainTitleEl.textContent = '문제를 준비중입니다!';
+            questionEl.classList.add(app);
         }
-        displayQuestion();
     } catch (error) {
         console.error('Error fetching questions:', error);
     }
@@ -57,7 +90,7 @@ function showResult(isCorrect) {
     result.style.animation = 'fadeInOut 1s ease-in-out';
     setTimeout(() => {
         result.style.animation = '';
-    }, 2000);
+    }, 1000);
 }
 
 function displayQuestion() {
@@ -229,7 +262,45 @@ function fnDec(encryptedData, secretKey) {
     return JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
 }
 
-submitBtn.addEventListener('click', checkAnswer);
-hintBtn.addEventListener('click', showHint);
+function toggleMenu() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    
+    if (sidebar.style.width === '250px') {
+        sidebar.style.width = '0';
+        overlay.classList.remove('active');
+    } else {
+        sidebar.style.width = '250px';
+        overlay.classList.add('active');
+    }
+}
 
-fetchQuestions();
+function getToggleMenu() {
+    //const docFrag = document.createDocumentFragment();
+    const tempEl = document.createElement("div");
+    tempEl.id = `toggle-menu`;
+    tempEl.innerHTML = `<header>
+                        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                        </header>
+                        <div id="overlay" onclick="toggleMenu()"></div>
+                        <nav id="sidebar">
+                        <ul>
+                            <li><a href="/">🥔</a></li>
+                            <li><a href="/oracle-sql/">ORACLE SQL</a></li>
+                            <li><a href="/adsp/">ADSP</a></li>
+                        </ul>
+                        </nav>`;
+
+    document.body.appendChild(tempEl);
+}
+
+function getToast(){
+    const tempEl = document.createElement("div");
+    tempEl.innerHTML = `<div id="toast" class="toast"></div>
+                    <div id="result" class="result"></div>`;
+
+    document.body.appendChild(tempEl);
+}
+
+getToggleMenu();
+getToast();

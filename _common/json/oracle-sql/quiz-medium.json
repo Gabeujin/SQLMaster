@@ -1,0 +1,702 @@
+[
+  {
+      "id": 1,
+      "question": "GROUP BY 절과 함께 자주 사용되며, 그룹화된 결과에 조건을 지정하는 절은?",
+      "options": [
+          "WHERE",
+          "HAVING",
+          "ON",
+          "GROUPING"
+      ],
+      "correctAnswer": "U2FsdGVkX18RG1TAiKJGmWMagUTIIloBcc3xLbzv9JFJV14+B25yb7beK1gQnIamFap7uUmRoRLdUsXTVqBCtw==",
+      "hint": "U2FsdGVkX19nNQ/3Nx3yvfO8ni4v8zLK4VxYHYL78yHFTMJ+KnS2nQvQim1rHcAahdJ06tzAjDh93I+pNdFoYyClwpoXhRrmM1Q54Pe5bVkhCoTjHKxvXiyQUVu+i7qHEva8QYnqKFa5KPYF+iwi5oxtVdawexZKog8k2N52NvGDVzlMQC826pQ34qcP+Fh32FkmodGVpYCJWsADKjhOgapB4zs3A7MlLPDhKiS0KKg=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 2,
+      "question": "Oracle에서 계층적 쿼리를 작성할 때 사용하는 절은?",
+      "options": [
+          "CONNECT BY",
+          "HIERARCHY",
+          "LEVEL BY",
+          "TREE"
+      ],
+      "correctAnswer": "U2FsdGVkX19uDC6/JkDiCEVOfVyP/KquBe1MNNUHhZCJ0lGyWttEB/9gT0eqqvkhtae+QPJQwOPo4NJh6jyVuA==",
+      "hint": "U2FsdGVkX1929dqMT6BbuBLW4o0K49Ic0O4LMGmm9NIatHz+tLNEAEmyn0OAsDecm1M9g7PHcjTCc4u5gqNzxo9LVUSwkMGvVF61vx8PODuxmDL1FgfgkSfol0BSdpNJWAnvnF29aq5FQs24xeSsFKUkZLWWt3/wV4pa+qcZ5cccHp63rUyaEv5bAiJxsTe18eNfjf988fY/RoiPSdl0rA==",
+      "difficulty": "medium",
+      "category": "고급 쿼리"
+  },
+  {
+      "id": 3,
+      "question": "SQL에서 트리거를 생성하는 명령어는?",
+      "options": [
+          "CREATE TRIGGER",
+          "MAKE TRIGGER",
+          "NEW TRIGGER",
+          "ADD TRIGGER"
+      ],
+      "correctAnswer": "U2FsdGVkX1+kYl8ZYsOV/0LZ2iWT4V4x4pHZbR0FfrYp4Tyx7YT4Y8upxGRwNcVT1VTbKquS4zsK4AQYSLpFrw==",
+      "hint": "U2FsdGVkX1+r25u/ajZtIFkm0iXFDejUcfmIoxs/1TWPMpEKHEc0tydQHHTR5iK21eWOf1wPdU76M9/cx7je8LGcTUWiw3M7B9mbQw8CwgqZI9rpC8Yq3k765r9Vb67M4fRjECd2jdPT7V3DX+efI6GpS5Z++LQ/YmDJErlC0rk=",
+      "difficulty": "medium",
+      "category": "데이터베이스 객체"
+  },
+  {
+      "id": 4,
+      "question": "SQL에서 데이터베이스 사용자에게 권한을 부여하는 명령어는?",
+      "options": [
+          "GRANT",
+          "GIVE",
+          "ASSIGN",
+          "ALLOW"
+      ],
+      "correctAnswer": "U2FsdGVkX1/I/Ok+QuJlRrdDGQuoy3o5SCLkbszFkjzFTGh3Y54dZlVByX9xdCZpTvrJDURlUcM8OL9/00YWNQ==",
+      "hint": "U2FsdGVkX1/9Elsnov5MtXxxKnPsJtwLdlaUTgeooDJqC0GvY8i25OXH14Eb0y9BK/oUQoUK0fxHQA+ezQrrcsBDiBrbnnVx9mtG0ofHikNIEavBIfQ+PVi1lzg4znOIoLbu4nOCe1ho74hdPoPI6WbNy7loqmRmW0csc8VQp+Q=",
+      "difficulty": "medium",
+      "category": "보안"
+  },
+  {
+      "id": 5,
+      "question": "SQL에서 권한을 취소하는 명령어는?",
+      "options": [
+          "REVOKE",
+          "REMOVE",
+          "DENY",
+          "DELETE"
+      ],
+      "correctAnswer": "U2FsdGVkX1/cM6JZo300oCHgxuxlGkYWS2HbZgi/PTi9K8qSfxvLn66sJ/fWdPb9f9gOMkzWKAAIJH1KDKq/NQ==",
+      "hint": "U2FsdGVkX19HlbSEZ91+c0uZN4iGuPBrW5T7JRJESvJQ74tldM+5DUWLiHkWSDmZ3dj0jue3aChgyCzxRTfK39UgqY0krKCSC4Sza+g2xG/7Gnyc65NUlrYt2ZE1McJuiT1K6BsFFhFuqAtgV0erycL185Z2VDNHa22X2ON/Axk=",
+      "difficulty": "medium",
+      "category": "보안"
+  },
+  {
+      "id": 6,
+      "question": "SQL에서 사용자 정의 함수(UDF)를 삭제하는 명령어는?",
+      "options": [
+          "DROP FUNCTION",
+          "DELETE FUNCTION",
+          "REMOVE FUNCTION",
+          "CLEAR FUNCTION"
+      ],
+      "correctAnswer": "U2FsdGVkX18vX2TfnTFZVJJebBWIBA+vX3UdUzBaC1STXXJ0LzMz+Z6fdGPXtth935QJpGm/CpDx61Jh2HohwQ==",
+      "hint": "U2FsdGVkX19gGbxntWxpEvXrO0z2sLPFQpnaor/KaRR5sAqGDpvZKy/5lOAl2aMlsuVcPapno1g++N6McGQTA7A+qYN00oHRqgmemHwJqZ2el9hdEf79kPrI5JwspB4m1S4IHsEeMB8KvvW3d4ixQcYHIxhWGd+hTD5mWIQU2LE=",
+      "difficulty": "medium",
+      "category": "데이터베이스 객체"
+  },
+  {
+      "id": 7,
+      "question": "SQL에서 인덱스를 생성하는 명령어는?",
+      "options": [
+          "CREATE INDEX",
+          "MAKE INDEX",
+          "NEW INDEX",
+          "ADD INDEX"
+      ],
+      "correctAnswer": "U2FsdGVkX1/doC6zWZnnyaRtAa8+OkIF3UV99ch3YEGtjC7G4SZ9sVbSxOR9tVNSq7XQSPG6IBOdl908NcRASw==",
+      "hint": "U2FsdGVkX19YYr/1FSo6tiV63lIRSmpkIvfvOt3zFrycxEAF3ZfsdjUC6+FZf+TM2KuUlhxvGagv0t/d66oeQG7JgRtuvPjoncfLLjEDOedqpWH2QevNb2zHm7fAYP4LOUxCPRCrpUgoUhBMGm6Gxx2uiZWQhsZFSOGGaUo9QkQ=",
+      "difficulty": "medium",
+      "category": "성능 최적화"
+  },
+  {
+      "id": 8,
+      "question": "SQL에서 인덱스를 삭제하는 명령어는?",
+      "options": [
+          "DROP INDEX",
+          "DELETE INDEX",
+          "REMOVE INDEX",
+          "CLEAR INDEX"
+      ],
+      "correctAnswer": "U2FsdGVkX1/AF0E9FqmS/Mgy/zhEZU+GXAxcMPSvVtw9Y8V1LIZR9XmOqfJ2A6RaP7tZb/ER7dWz4HBmulMiWg==",
+      "hint": "U2FsdGVkX18rDF6wCIJ0CtxIjEaGweZXiaCBQMapEBIK8sNnFV0cR6gtnZeDvNQtVa2YErY3gXwZtDDM6Y6V6Xy8s7WKDUagtPvdYLfPVjQGRebZinTzyuIWO+mNUEiwIprOxgBDRBCyd3PXzEkFNunXyd1W+UxLr9E4nkux89M=",
+      "difficulty": "medium",
+      "category": "성능 최적화"
+  },
+  {
+      "id": 9,
+      "question": "SQL에서 사용자가 테이블에 대한 모든 권한을 가지는 것을 보장하는 제약 조건은?",
+      "options": [
+          "PRIMARY KEY",
+          "FOREIGN KEY",
+          "UNIQUE",
+          "GRANT ALL"
+      ],
+      "correctAnswer": "U2FsdGVkX18s5FsqzBOvZ4qO+Wep5iDEcxSHvtHTmY+1j2SCjgJir/fBuA41TE48BH1TjLovUshTVrfI4l1P5Q==",
+      "hint": "U2FsdGVkX1/pjXOTHuKaDY/wPiOWKSlt2mZpd9JYpNUvAgGt/YSNlkhsK8hHU3OrfhV2k6gChVI2JAsxT/57lQYh9Ni3Nb4iGC1VI5JZaAFKF6TY1HYCT6zt5IpEmPSR+fLOb8LgBWxtMq2yUuh9WSLAl6qmHb7+MTtGfgRvbyxD8MJH0iGtec9/Dd9peZoAd8TKJnhMzrVIi6lzZifTWg==",
+      "difficulty": "medium",
+      "category": "보안"
+  },
+  {
+      "id": 10,
+      "question": "SQL에서 날짜 형식을 변환하는 함수는?",
+      "options": [
+          "TO_DATE",
+          "CONVERT_DATE",
+          "FORMAT_DATE",
+          "DATE_FORMAT"
+      ],
+      "correctAnswer": "U2FsdGVkX19WnMGgrc7+gwooDw9IyrbEeCihmfBzLJQi//GDun1TrZtx2a2ebiz5UjdfdqhLbzPNa+hGHsF9Sg==",
+      "hint": "U2FsdGVkX19dPPt37Z+IvnsLCPjIeJ+UVG8aSSrHBsI/hZ1dfg0rcYgYV5PiLx0wNIFUOsXeukD3y7OXe+yjdbcg7H3/gG7nGpMThI6xXEqX7H786bJA3HvCFf/cTvw+8qQ3TF9ySeJx4U7/g0tks93UDdvgl8ft5lrwaDQx2TU3g+8Wl/ayavg1KgiJvTQoHK/uugvKPCEmwPeNJRD5fg==",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 11,
+      "question": "SQL에서 문자를 숫자로 변환하는 함수는?",
+      "options": [
+          "TO_NUMBER",
+          "CONVERT_NUMBER",
+          "FORMAT_NUMBER",
+          "NUMBER_FORMAT"
+      ],
+      "correctAnswer": "U2FsdGVkX1/rZWFA61UYZ0H8ldii09zGnxPdXvzGBKA0+D7oPsD2DoDI/Pr/0jCcFswbPqSByZ0wZiw/XqqGUg==",
+      "hint": "U2FsdGVkX1/xk1k9ETp8F4P0qYQ0ghkSSNYfN+ROoE5jEtA7rxi9ijQx0r+ZupyvIB/pPpPuZxpDuuXg0/2+M/CEg7skLcxsIEOwriIwjEPsWTqOS0c0i7hYr0aG1KNe4y6cg1/1m3mTvn00D/nwkxvQM6FjaOcH64XHASAdYsk=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 12,
+      "question": "SQL에서 두 테이블의 공통된 열을 기반으로 결합하는 유형은?",
+      "options": [
+          "INNER JOIN",
+          "OUTER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN"
+      ],
+      "correctAnswer": "U2FsdGVkX1867EhfzEZCfAPPgnUrdzV7QNRpglV2Y4gkxr7flDiw5+tyBDhPQnBbBWYlnAltWN4gqEdKuPUHAw==",
+      "hint": "U2FsdGVkX195o2/lLJD+s9EUwr/44xnLp6hv9mIQ1I7lcNtknCR7Q2eSlNdMcdxiIkMRufdLGHA2U12pL/fwCoxioi8WKXdneOB/j+9XfHVS48xVNnQSr4ICn4mEB2gogzH0eAIljCH9twFUEm3MufZiCdWhFyfhK0Jtj83s6EI7j9jjOugNvqAD763JS4kV4TI9P/qURCWPRUj3LoiH7Q==",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 13,
+      "question": "SQL에서 두 테이블의 모든 행을 결합하는 유형은?",
+      "options": [
+          "INNER JOIN",
+          "OUTER JOIN",
+          "LEFT JOIN",
+          "FULL JOIN"
+      ],
+      "correctAnswer": "U2FsdGVkX18wwuNBiEzI76RxgrGKhbXSmT61XqxEMbQgwg2pvRGFTxYoN/tnNk7J5H9EIxXQgfHxF5rRVc8c7g==",
+      "hint": "U2FsdGVkX180JBYKLt9YCQuJdcJELvpiIAfbRSq8eZVDsj5Qth7a0QaMmFbpOEJeG8EYpb1ngtqvTPm8sL6n+kdfMO6ZT57oFElBPBM3zKW/gaTfXaWY9hveWdIkXkfdkD1nFLYRdzK7TA1gfvrZTSsFZygxn4o5dPLn5fC5SZQ=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 14,
+      "question": "SQL에서 첫 번째 행을 반환하는 함수는?",
+      "options": [
+          "FIRST",
+          "TOP",
+          "LIMIT",
+          "ROWNUM"
+      ],
+      "correctAnswer": "U2FsdGVkX18cyi1wO4YWDq4quPk4y16cM7an+a6TYKax3lkt/2UMh9xBu5t+TOoHtZg1WN6Sd9MU529qJ0rfNA==",
+      "hint": "U2FsdGVkX19EHTYA9ojzndrNwbVPOHqkMkgTtG97nPsUaIm69tt9YQWSsyC5e+JGJVFrbzm8y5NDfrZXsHiuhpLGxu6CLLxqNOghx1P6FDP30p9DS7TyrppopwoXSjjmPD4SzcrmXcYZcolUO9FA1w==",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 15,
+      "question": "SQL에서 두 날짜 사이의 차이를 계산하는 함수는?",
+      "options": [
+          "DATEDIFF",
+          "DATE_DIFF",
+          "DATEGAP",
+          "DAYSBETWEEN"
+      ],
+      "correctAnswer": "U2FsdGVkX19bmumm2i4gJJDh7PHmmYnYBSwrkWtARz+cGB1sea9OD66i75Y3uK62qfx35TWBloKZFhy9YOoEjg==",
+      "hint": "U2FsdGVkX18rg0xtcLnFL4j1/AgRrDnuKAbSiW5ADQTUTyJzUAu8N6fbFW0mDuChUxKh/TZxmRd6CBZ6vfnwbETIalpOuNyJzp7mUBpofsaw99RPiFbjYCiVqyJOm/ylV7vSGWjMojQVLb90Js9G7ZZh6PA0NqgjOlMTPvz/4bKCvsIPZln2haqR9R60VYoc31XQy974V1B165f8OGlKzA==",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 16,
+      "question": "SQL에서 조건부 로직을 수행하는 키워드는?",
+      "options": [
+          "IF",
+          "CASE",
+          "WHEN",
+          "CONDITION"
+      ],
+      "correctAnswer": "U2FsdGVkX1/mNAv9fqEHaiDtWHiLwCkM51jqPFc8ULyrlE2FE4Cn1QrCDZHwwz5MOE+5jVgfSZsIx1mJSUPPsw==",
+      "hint": "U2FsdGVkX19WypGawYTf65OyxlitO6Fy0XU/pIeWLXvqeuBdJHSAl548SzPycvhEl/qHZ0R5l6rPz/P32F1vFzZ+PDhO4rRjxaTqsyBePTJVSvP4IhukkIbaTApLPDZbmbOFtVDEnB+o1lnPwWeekMbMPXAJvCu4y8c89KbNimg=",
+      "difficulty": "medium",
+      "category": "기본 문법"
+  },
+  {
+      "id": 17,
+      "question": "SQL에서 NULL 값이 아닌 첫 번째 값을 반환하는 함수는?",
+      "options": [
+          "NVL",
+          "ISNULL",
+          "COALESCE",
+          "NULLIF"
+      ],
+      "correctAnswer": "U2FsdGVkX197bbtl6br+NsojK7zp+uQgbF1LMuMNjtMYQw1uMxCv/zsIh8nBSAEnHyIoovl5dUqGd92XuSXIdg==",
+      "hint": "U2FsdGVkX1/9VHz7XSSUlNblE9jvVlDznBGTA0b4YXr1/PD0EwQichjN5rmdrXMvij9rr4GdO3zb/uFpVye1uoqlNEUeyXUQuSh5TucLD4iLCernF1gqUa78uYQGEc9y9CRHqrdNag6CjmaKXlX3xv2H+C8EmfRbsVb1My9qzxKNRffms230yiL+i5My+16gtn2gtFx3cWFQGNOnOZTO7Q==",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 18,
+      "question": "SQL에서 값의 집합을 포함하는지 여부를 확인하는 연산자는?",
+      "options": [
+          "IN",
+          "INCLUDES",
+          "CONTAINS",
+          "BELONGS"
+      ],
+      "correctAnswer": "U2FsdGVkX1/xZKaq1YMjIqiOZrjqkwYWyyiKDs3IDkAUQXco0gudKzbdEl3GOjWS7W+BRUMwGkecyADdh97bIA==",
+      "hint": "U2FsdGVkX1+JWV3fZ9aHjTxlZUHbslwk7hvAp2FDFi+xB19AMbUtcDx4nkJijVC/iBa2pnayW6mU40+eUPRW0q4ZFUNjelBuzl3mgYr/yvzqKiYLNPvBbPgmj9BuRO5DqEIN/Me6IjEBrlqkPV53S30sKYGHZxElK6vuD1c0OyM=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 19,
+      "question": "SQL에서 특정 열의 값이 NULL인지 확인하는 조건은?",
+      "options": [
+          "IS NULL",
+          "EQUALS NULL",
+          "IS EMPTY",
+          "IS BLANK"
+      ],
+      "correctAnswer": "U2FsdGVkX1/Lxg3L1arOHy884/IisajWgsXpv+8mDbTpZMS5L0Ig62wT4FVJPYhVbjnlx/ECWPLBS1It1F4dkw==",
+      "hint": "U2FsdGVkX1+d6WdKGpF31Qg/72a0OTEoKJmWZfjNUY1D8/rlSaHXhnUYdRmZ0NAXw83/rEUBzKyc1V4CcF3qpUWIXCFGbDcyFppGMtjqo7BjLkyb9xWYMoVYeSBIBTIYU6PJTX5IUvmDa27m34BYWMt8lep9YxNuyGFK4wTyZR8=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 20,
+      "question": "SQL에서 모든 값을 반환하는 집합 연산자는?",
+      "options": [
+          "UNION",
+          "UNION ALL",
+          "INTERSECT",
+          "MINUS"
+      ],
+      "correctAnswer": "U2FsdGVkX183aeMUKSuQxcdCV7xLqWmjY7q3qZkj7ofESUBqrvornBnp4xa/apy/GbP7hCPramJ0Q6Odg0CEiQ==",
+      "hint": "U2FsdGVkX1+D7wAv287CpSpveO6S0Qw4WJQmXX1wo/4dp98V2hMF0FVKRSacUS9olj8KhnFGVG+LNF2jnJmyH8AB0C/qeG/VEtMH9q66no6VlUyM8OWD7VsTDUq8p1VYQOZLF99Ujb8dckmzBhvi2+9YulY70YkCN/mEFG0kXH7SzXPvFZf2O4nkGdm+8Rx1S9FniTip/jGSQzO/lKoXcrhOR41lbuXDWV4vWCBB904=",
+      "difficulty": "medium",
+      "category": "집합 연산"
+  },
+  {
+      "id": 21,
+      "question": "SQL에서 두 집합의 공통된 값을 반환하는 연산자는?",
+      "options": [
+          "UNION",
+          "UNION ALL",
+          "INTERSECT",
+          "MINUS"
+      ],
+      "correctAnswer": "U2FsdGVkX18sVWaZnXcXmbp0qw3CqC3H2/miqlAzh6Zri5smndQUiHz1FMTbaoPIy/+Y15DT3pI3AJLHmDg+2g==",
+      "hint": "U2FsdGVkX19YaClsmSl+LD0X65jMHkEO9ngg9bVaylhSDUzZuf6q6FDrrXvm9tLrWJyUjAA0wof7GfdF+9Aa5tAtZsEkzuWoSnB7mccRcZl1Op2fwA0okl8SACESgyUU3GCI2hrn4wnXOqahwP809fff6lOF8I1k4tSkTFDfSQ+iqLAAuPU6bY5oXFfQYjinofKL2fLGYTmWJrWGtKmmXPnepb+10gDc+XS418LmGUgL93eVvDGWrECypsp9Qr/pT8gjSdGX7qN7ZeN1hH7vQ/L062zl+9/pONiTLTWtlYsTES/ibpvP1osUscSKvz3or5nAvIZaMseDCeAxw6ZUZw==",
+      "difficulty": "medium",
+      "category": "집합 연산"
+  },
+  {
+      "id": 22,
+      "question": "SQL에서 두 집합의 차이를 반환하는 연산자는?",
+      "options": [
+          "UNION",
+          "UNION ALL",
+          "INTERSECT",
+          "MINUS"
+      ],
+      "correctAnswer": "U2FsdGVkX18UZIVg747oLuZZdClPiTA5oKNfvRmBAsRN6RkxuAm8bu+ymkVg3LzTLlCDrD3nDyR2V8TQs2o2lQ==",
+      "hint": "U2FsdGVkX1/KQ7ozPvwDyCFKdg0ewJY1aUZV+hanIGPyOik/g0UWGHaYbni3n+rGxYFzBPKbQfW4M7nqiHsoY3Vq92c3I8oKC+h8pY7XWs8UxFWSS4Rek5UZruQ3XR/SVQqJbCt2fiCzG/L2vycUdJd9ppwHSs4m3CpuBwPZkm/SvJRnf/cdNeVvk88s8Zu+W98501/JTM30zTQgdTPbeSa++7QWiUNk3jLzQwgzYMkxK24x/E7/4Ow8g6AqwC2rQ+pXf3Cb42uUDB3jqaCtxrV4fdKr5KUpyC8wM+3vtDxZHwtMtgfSw9yzDPL9oTjPJ/e5zhK9WMcIQ/DTm/Un4Y9+3mtXVXaMtaSOKZHeYFRnyflLm8QrozcFP62UzF5IK7w3lHNPHEThkFSYGCyXRA==",
+      "difficulty": "medium",
+      "category": "집합 연산"
+  },
+  {
+      "id": 23,
+      "question": "SQL에서 조건에 따라 서로 다른 값을 반환하는 함수는?",
+      "options": [
+          "IF",
+          "CASE",
+          "DECODE",
+          "SWITCH"
+      ],
+      "correctAnswer": "U2FsdGVkX1/gfIFSwjvNQii+/EV+oIwQ6pJW2y5XgUTtW5j632KPqlxDht8Pa98yJO5NpZ5BmRRi244TyzDpNA==",
+      "hint": "U2FsdGVkX19jKiaPWeBtBi+tspPjqotQ8UPaGNHxoVfcIp9F9wzVcUyuj61srhv8KvPoMF5MT9uQEnT2aAStfD/RCfbjLvdw+xItUN6vnyTGC+cZUpBDdh6mzQRPYHfUcCgIvld31B2zofiwxY8FoqL7RdMYNE8gdY2dU/d55PyhSkU/VuyGNC0aFk1VPQ6gTR7HbbgCx8qo0NeXnBJlCjcXczBOD9OMxUQA9CYqfwGj6CisAJAtzHgeDjqSSxF3GZwzcZR3etkEhA/pXk+VRtogRSq5AWH5eiZ1lA+Yjv32Do4AcSWw9DryBhZEHREYQ0KWkpIoEX6AdO22DUo39l7DA1TtjkqKjWxF8SjYk+3lJNVBgfP2GIoPCr6QK6K/CfMgUxbxelGYEOquJjw8ih6SSXhV1UZ9JWkHcGwc7ic=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 24,
+      "question": "SQL에서 테이블의 데이터와 관련된 데이터를 저장하는 것은?",
+      "options": [
+          "VIEW",
+          "INDEX",
+          "SEQUENCE",
+          "TRIGGER"
+      ],
+      "correctAnswer": "U2FsdGVkX186ICDM5AOs60ygEfxsUUVSMWAYubDy1/Fwqjh4q6RuK8j9n+J8yRYzmGLcwic89s8Qqmktzp13BA==",
+      "hint": "U2FsdGVkX1+N9/3vxLphYQiRjIYLEQxSBNjHs7P0J0A8+64Jurvpd9R91r4cU5qDkGtX8hIsiucB+AsfNwCNwIscoB1y4m+vPE89M+BRfQdqYLUijONHSV9Rn51MUmpwoqeAsHBzKYiWiTZqVOcJCd17/Gk7ING/IxiQS5D+NyxEx1a19tK1Nm5BPWtyeQGYHNAdn2KAL8yRGsjuyi/kHssUTytTyze7+rTU8iXbb6JEj5/ryoARz3zmkfBSvxnnDRjbrdbpTVVtchaV3uNv8JMF210gxKOhFYep50Gn4L1yGtm9ARLW0HrWX7F2aQPPv7CBLOp8m834ebdC6mUXQZESiEP1VOOFQp7/M/fNcr/p4sfG4D4KN8Kz6RnMLAmd163FLFYrNO2qCFCj5hQfUT8LT1uzDsMejov/b004461VTJeE5PkMLzsc5G46FItPQ/V1qa67r7GqRrnJwPGF8Z3bpXlMZdM7WjvJEldh/e/Uta2mxmNSlDYYMObtluaQ0wbKZwMrl0RU7femty2op/LI6YKLeF1grz+HA5gUO8MtUH2jWVBZEPbw9m2AAKKThoEPF58o24KMS2ilShcDPA==",
+      "difficulty": "medium",
+      "category": "데이터베이스 객체"
+  },
+  {
+      "id": 25,
+      "question": "SQL에서 일련 번호를 생성하는 객체는?",
+      "options": [
+          "SEQUENCE",
+          "INDEX",
+          "VIEW",
+          "TRIGGER"
+      ],
+      "correctAnswer": "U2FsdGVkX1/8g2HpfR5HpTcMQihw/e19pNYloG1g8bsDXtRqFK0OQ8572evq5IIydjmoUjm6QI6ExMt4q83Arw==",
+      "hint": "U2FsdGVkX19qdMOUuMWVFBIIqDvd3sb08T1NAUO1pB5UN4nZHBTB2eloJP0Bnfg1iSxvgKouaUxjNaUV7EOipulKImLBRjhVlsNcbvhUfEWRa0gQ+CT/fvvBqsB7PZYr9PZfORlRoYDcdExv3DbGhakv8vh45rCGDWGvGnnW0gXeNmb7IezpZZo2WnCL//RIlSSJRE83ObWWe+IMKu6pSIdvJX/TSPF4l594NZOIwODzebhYBWANqGa1HmM1z0Fk9yzEE/fSvlEMJFLdSZLmW0gzeHEIosIHrc8JJ2syHFtjy6ZRYh67J8h7qhZi/3+0y+LyzpnSy3YNzegzNT7s9hzhnihhfs774Vs26Diyn0NdFdfMX1d+njRG3q5CdG7VU2EucGNOOWyocQ0Ki9cbPQTqzcg4/REzSTj9loj/h76r0/niat1vfg9b5Wn89yrv3at9OVRFzrNgEx+L2V6zdK4rUX4Y2ns7ydymg9zeMt4=",
+      "difficulty": "medium",
+      "category": "데이터베이스 객체"
+  },
+  {
+      "id": 26,
+      "question": "SQL에서 데이터베이스를 복구하는 명령어는?",
+      "options": [
+          "RECOVER",
+          "RESTORE",
+          "REBUILD",
+          "REPAIR"
+      ],
+      "correctAnswer": "U2FsdGVkX1/9541r1CGajAnfBpA9fCtdaEQdbEI0F8Vx9f52mm7HEmivYHsLYXIpQ93mC4yp55EASDutouFfAQ==",
+      "hint": "U2FsdGVkX1/Y3s7nBlTzrL5ZUy0fzH7mDOhcmZbU+5DQYBL57h6zlercSkbVFu6+7m8qZyaLaSAv902dIy7PJnqrvG5VrShbttCinzzvJSpn+B9IQ77JyjO42NnkZAvE2K9j6fii4OyWIPPwxEPis9tSvOg405V3M+NXb+JgHQfoYvZrnS+omHOwco1sPpAlDq/pH/sG2aJ8qIi96kQtsCvlepN9XjCF1owyiFRq/g1Cdqxm5iZS3x7RStHUF+DFG6cqk3JTRnuDSMeWmTMFF3yoPL8inlkIKgzV+dEDIZHUViymUqI/eKCz8mlA2i4w2mxFCsQp58E6w0aTJB4e6IDVLMmjyAjHs/AnwsSml2iOi7OFNhpW8YVI3X7l1DLEdsn6Dnd0yeD3l0eWBL93FIb83OZ9+tCJSVvxwUpxcQOCwp9hFd2gdzZyJup3I9PY8rjREDnaYdS0zh5OHoNmSvryNPB4wZUM9ek4lE30/44=",
+      "difficulty": "medium",
+      "category": "데이터베이스 관리"
+  },
+  {
+      "id": 27,
+      "question": "SQL에서 트랜잭션의 일관성을 보장하는 명령어는?",
+      "options": [
+          "COMMIT",
+          "ROLLBACK",
+          "SAVEPOINT",
+          "CHECKPOINT"
+      ],
+      "correctAnswer": "U2FsdGVkX19cytgPg5bYE8/s4xGR4Jgbwa1/fIqxnGAP6cNJ4K1U/MbBX44iNg5Q1x69F6W05gKHMulGcE0CKA==",
+      "hint": "U2FsdGVkX19q4kUr7WBJGRjENaWsQNI8Yo57OyAKY5SvJmynzL7JISnG9xVp1gpaCc3MoKJggEQQkeFnt0LgNFfmYXlT/X2rXLUxfY190qjtsINEZrJz6dsYn2A1Fkg5/4wqAzMp+xIt98QZ9Pn1or5UwJjOuWm/k7fFzGRBOqKRhRE8Ue3cXWJg9JHEM7YBoiL25AC3D4ABO5KExfvIHVBZmUwFs1mQKGZnYJEPgcKkS5sjxDktIj48rv+AdJHBhZE/2EE+V/msgX3cBEsD9OShHMDLrQvJAb8neVIi+3n6zPtQZoudrhNoa9BnOJTljsWaKIJSeLUH3NqEmMTXNDapi28L4nRawlvR3AfkLJUlvPKjCzz5FyRxiqMv8UluG7DMLiA3wGGrkk6fNunktHewQmwD4ktZFAqRE1k34mUsr29UcGaVARFtxN9fBM488eIgZZWitO3lnTfckY+VyQ==",
+      "difficulty": "medium",
+      "category": "트랜잭션"
+  },
+  {
+      "id": 28,
+      "question": "SQL에서 트랜잭션의 일부분을 저장하는 명령어는?",
+      "options": [
+          "SAVEPOINT",
+          "ROLLBACK",
+          "COMMIT",
+          "CHECKPOINT"
+      ],
+      "correctAnswer": "U2FsdGVkX1+wfmHPMj18kLtDC00AB/HvZ6KIKIs6yHU8oMBtbsti1R+rd22rJ2wIy4Ed2SDpEOE8EiwjvBxmvg==",
+      "hint": "U2FsdGVkX1+bI5FPUPJ0HR5b9nALOacz5Ww2NsemZq/DWItCclh+p1GH4DQY9ma2FD3y/QV6T15HgDJf4UqZaQYbvPI7StU/J1rpKuo7DSUYoWnwjnBGm0DOlYMXj95H1oqUQy2MmHSIySekz/v5kZ/m/K7teozrH4KlYXOwoIKL1NKnNEcie7atdpIsYiVycmXZO7OBFFVEmUBL76IoZmKddgIkV1zMLPMZhKmJSBRpV6YALKEDf2E3kI9h/B5mwWIn/qbDSJXnZW25ASRSmY6K/WTlulIOLLtMI/po5JyxqyzHHcWxVqG4rpyGgPQS9Tz9W3Xiu/8VUzmo+EdSKY/6AADSYHWz3YgX8dS7N3IGjkIrQsa88iwlRyekPIJQoXgI32w0I/+DIVA16Lna5BPFJu3shju5KHPFjeMZJMG+GLTe0luixob4Lf9OA4wQDOi1hF8txRa+8rWK/ql+ZEV7XTwE+RVq4P+60snU3SaVaTnNEOE8Daj0uq5tuXIHvAdpaCVziLx4zyTl/IurZovvpr4Q5I99AQEJ51TSLJNdDkjaW84XQ+/OMPkWvRg85qB9vzAuFvaXIl8DwzKIeEm7WuchA3JRwefcG3v2CiKAI2Tt+yhI6RJ25RmRnepF",
+      "difficulty": "medium",
+      "category": "트랜잭션"
+  },
+  {
+      "id": 29,
+      "question": "SQL에서 데이터베이스에 대한 변경 사항을 취소하는 명령어는?",
+      "options": [
+          "ROLLBACK",
+          "UNDO",
+          "REVERT",
+          "CANCEL"
+      ],
+      "correctAnswer": "U2FsdGVkX18kXCal72uALEFEkbO20YxfImVt27juhGbi48VYllOyLLJn5ck0ii4AssdjkDvhaYon089Dd9Y3vA==",
+      "hint": "U2FsdGVkX1/qhqdwa9oGzenX12uX5SS2OYCeGpDtUBMaEGPSzPe96PjxSSp73EZxYe/jk0j6R5gSiUwRsvW9PRvNLIn2JfxaSdwex+w6q7UX/eFEgbXL7jynZ9mLfwHH40cFUgiVNfoqYjUI4P+lzbxGRYT81fe5iMpCqbKgq8ApwLm9irB0iQmpIE0K0P7EduRi6yPJW0CrEu9Syt85RiH1+EHncIkiezov2xmgmRhtJ8IfF38+AGGINUfWtFlwKyBNkcV2v+I4jCLQYblICkvZdle7dTRwOhXdJzuCI8L4RkE3Z/RJgSoWDuuQa9pTFvL6W1dMw/IouLetzkyB7ZBJ2NQAPig6/3qfg1AgsAFUOpeRHr84PITL9XA+sqPJHP472aAPqzWTYPfmca/aZGPHZSNVffhzO0/4CJKtvTD0iHEn/w6L3ElWemzU/Mc4M5cONXJlqskAhzx/KAdyAXXqCMQorkSYzIa5w5/jgZMFQWwJ5TNwtVkVnBZxtFb0wPfwhLoW5IpjlS7Cba5lnNoxnF2ZZQvnHK0lsl5CDEm/H7Lh0F0QRAOBVCLrvFNNyHlLZ3QLBdU280yzMzgHqw==",
+      "difficulty": "medium",
+      "category": "트랜잭션"
+  },
+  {
+      "id": 30,
+      "question": "SQL에서 열의 데이터를 변경하는 명령어는?",
+      "options": [
+          "UPDATE",
+          "MODIFY",
+          "CHANGE",
+          "ALTER"
+      ],
+      "correctAnswer": "U2FsdGVkX195EGue+fu/Kz4cfnfBtqvgEsyqj9mfdfHEmK1tbs4bfPtC2uViaGPiDKqSF7Yu77kMTyLABQEc3w==",
+      "hint": "U2FsdGVkX18+PHBAjYkICUD8m14MrNgT3qEq3n+jlblXAwpqjQANF38ZKNbM5SXcdcRg64PJPV9zjpMSNq6BDW2XnnytLwPAAOzDW5n8V53NpDb4oUS2DlqqC2snIrN6IifOCqezL3K2VtQy9JZ9cgA4O0m1c192t95vDRPSXBmGp/8r04GILuPlwrZ3N23Hjj+bcaV9vIB6nvZxd5Jrx76+X6DDEp9t/8PsbdZt+Rw9WWeG5MfKLs5M4AFET8jAOnpY4kHNOiQZlnHtBSXWviwnPa/uhaB+yFcGDUdJnesU5vxbX0FNgCK7nEzOO6t36nINf8zqOJOE2qyKBwPsrb/lOHwYU+sWcAiEmn7IIaLZyM7nvkWSBse3VJbeQkLk2lytzB6WLYS12m4Hrlzgi90zy/+ejyz04tvTbKRgiJiOj4/IcOD4QVgRxbGZuR806/9WBdtG068nxqTAvNzIQ+tSM55OzirgLn0pZua3XNCDcF2OP6Oh3p9/QbiagvGvbt/2yFKbb+xmI8GTkzA/8LXXo4E2J+o5l9sjLPt+Ka3DMLGbdRqcarl9gIQ5437KnX44sMYuqDj/UChL4Iy4zw==",
+      "difficulty": "medium",
+      "category": "데이터 조작"
+  },
+  {
+      "id": 31,
+      "question": "SQL에서 테이블의 구조를 변경하는 명령어는?",
+      "options": [
+          "ALTER",
+          "MODIFY",
+          "CHANGE",
+          "UPDATE"
+      ],
+      "correctAnswer": "U2FsdGVkX19NOE7wFNAgbUSAUUnOeZTWpPP+XC/9vFnnVdA97m4B8bSh0V11Caap32cz7OTEFuHmJktzp9dQVA==",
+      "hint": "U2FsdGVkX1+2fk4NFW4IV6F7x9B4iwO23XTQIfDJhxdh46/QvvbiZ4J5kZ1mTfXz2rAhYPfGt6FTHbio3e91dlD8PP463v82Fsbgm56cQbynhJ0C/SaxjVfN8B1Dg3BGrKeXi9ej36GjgX6Qs4nYSLtJ+YWAFRBJOn30608Epw8=",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 32,
+      "question": "SQL에서 모든 행을 삭제하는 명령어는?",
+      "options": [
+          "DELETE",
+          "TRUNCATE",
+          "REMOVE",
+          "CLEAR"
+      ],
+      "correctAnswer": "U2FsdGVkX1+FmwmgmKZZvV2yOa382rTHARitvyQYkP3qYgueHJ7Vq9tlw6U5nY9JBq0xrHqbJ9WhgZabUKY4Jw==",
+      "hint": "U2FsdGVkX1+etdddsYhSlnDCuF7BlRmSBb8qg/by43MGVCDwhEuTR3PmURLS4Et2IAkUuzxBz6VBxjhOXhFuHb2Pny/yoct4p60fu/VitI9l+bfY0WB4PuoF11jyBZk/iTfGQbkKSj87zKg13U6uo07xtsD0KboDzqTvbUEw4os=",
+      "difficulty": "medium",
+      "category": "데이터 조작"
+  },
+  {
+      "id": 33,
+      "question": "SQL에서 특정 열의 이름을 변경하는 명령어는?",
+      "options": [
+          "RENAME COLUMN",
+          "ALTER COLUMN",
+          "CHANGE COLUMN",
+          "MODIFY COLUMN"
+      ],
+      "correctAnswer": "U2FsdGVkX1+oYLMGhqy6jw4h7bEFDn602G46e0FILdZDzXSVEu7G/uE1B/McR6FinYtZ7tnV9EkbRCUGqZJLtw==",
+      "hint": "U2FsdGVkX18cCkYDzfmFTeZUjqp4QSWXRkIebKFRik+FGzzREe2Tdk5vdLsFN2GAg0iqoa9XQ27tHbnz8sDYH29Cv2ax/NdX5e6elIteZbDux3cw+0o4cuJBv7KIl1jXiPYpHm2Mz2e8m34mdBeFLYPscECwVj+0/vpUDjl1Y6I=",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 34,
+      "question": "SQL에서 특정 열의 데이터를 삭제하는 명령어는?",
+      "options": [
+          "DELETE COLUMN",
+          "REMOVE COLUMN",
+          "DROP COLUMN",
+          "CLEAR COLUMN"
+      ],
+      "correctAnswer": "U2FsdGVkX1/VIwv7g/vczv06VjyNwlCPV+yrYDP3Zd8vveCwZ5oZoVgC3oyfA3w7eVaYmWCAgjxlRwEw3SfkzA==",
+      "hint": "U2FsdGVkX1/OiGHslQI8bVCNg/RzbhGEqdZT70flmUwA3XDEAPdAfaW/lnjWVOHDvYN4yW3KrbxCoh0xKiRj0r+J74GynKmAXEqLJ/kwBXyMj9gGKNkzOr4MTYXWeo0uWZoedEuI2fnncpM7g83duy9lenG2Zd1dyG3uh9dP8V4=",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 35,
+      "question": "SQL에서 열의 데이터를 대체하는 함수는?",
+      "options": [
+          "REPLACE",
+          "SUBSTITUTE",
+          "SWAP",
+          "CHANGE"
+      ],
+      "correctAnswer": "U2FsdGVkX1/DyxjG1ezGXYl9I50/rvXaCccLr0tBv0APjq1KH7dBgibZYDaSYQUFQj9giCL/iSYf49CGmRDifQ==",
+      "hint": "U2FsdGVkX18W56RHeMm2I7hrMYM6lW+pmPJe++Auc2WfzkODSEvInJTR3Xaoig7j2O5K9NPoxCMSZl5K68lmKwKjExG1ocCesnVgA54SOadgVa3xsPrMBLJVJqi4J2hxBHvzHCXsZCtZA+P1clwNwUmSyT8HHjyAduZpLJPcgZU=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 36,
+      "question": "SQL에서 중첩된 SELECT 문을 포함하는 절은?",
+      "options": [
+          "INNER SELECT",
+          "SUBQUERY",
+          "NESTED SELECT",
+          "SELECT IN"
+      ],
+      "correctAnswer": "U2FsdGVkX19hfUJgVEC92Wm1MVVydwqpjD/NRKa7h+VU1saOOFJ7tY96sb3lR1V/0YoD2+ddwW0UiAQ/nJ/p/w==",
+      "hint": "U2FsdGVkX185s0DZHmNHu1UQi7epyCrweO8BsDs7IHV93LkLJywVP3tpKx1rztyU7PGCkpSoXZ3LafNaB6DB0pllBvbXrVyP3x0AGyROON3g0eXUaUiztkvTc2cmKfBYUTmm6Vu2b12kzSCTmytbA3s/EGhubAdH9Wmxu4WGakM=",
+      "difficulty": "medium",
+      "category": "서브쿼리"
+  },
+  {
+      "id": 37,
+      "question": "SQL에서 특정 조건을 만족하는 첫 번째 행을 반환하는 함수는?",
+      "options": [
+          "FIRST",
+          "TOP",
+          "LIMIT",
+          "ROWNUM"
+      ],
+      "correctAnswer": "U2FsdGVkX1/aK9Kuk7+Kz48mBe7s30wOIh4QAjvU4+WikOZY5t7SlSjae+tHL++Bj3eFE+mrbgQ0tgNEywuOrQ==",
+      "hint": "U2FsdGVkX19R/ewSiFqfNGTUgfb1pur3wm6g0J3qAZpVt/mpMHSv6omhScviNgXQlieK4WBZzE1gt/u6qFzjwGDYvq13qlVNJRkLiVfB53n+Qyu3P6DBdazzmZO+73wsEc3xqxvjonRT4YJ9qfMtBbrl4JO5O6yPzczd2I5SCnseY3nMYxwJBW6mT522Rbn9lqdLF9ssaBNHsoPjjIJQt6xx2E8h/M7d/Lrz7Gmq8SQ=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 38,
+      "question": "SQL에서 특정 열의 값을 증가시키는 명령어는?",
+      "options": [
+          "INCREMENT",
+          "ADD",
+          "INCREASE",
+          "UPDATE"
+      ],
+      "correctAnswer": "U2FsdGVkX1/yDmr4QqziY1A1R431JMIelfCh1v8y9BMhGv1jYSOe/IanOxaab2cVWL8Tc1KaPl2oDX0reOwa6Q==",
+      "hint": "U2FsdGVkX1/Iynzmv8M6Z8kwSfNjHViuMOvuIJr3Coeue30pDmHxcdjgoZaH3zjW+Qabep/1JJAGCEg37VqBeWX65HdD0q3ryJHN65BhykB233yr1Lri9qdBBrbktdHB0CLooLYk8o466cfZpBjwJoCuoQ+2fWR8cf0rPHTv7y1xlBO/OK5Yoeji8yTlEkvp/S+Ot2Nd6rph221O53IX7w==",
+      "difficulty": "medium",
+      "category": "데이터 조작"
+  },
+  {
+      "id": 39,
+      "question": "SQL에서 테이블의 데이터를 정렬하는 명령어는?",
+      "options": [
+          "ORDER BY",
+          "SORT BY",
+          "ARRANGE BY",
+          "ORGANIZE BY"
+      ],
+      "correctAnswer": "U2FsdGVkX18utX7bM+XhLaBJOxgk0mganAdPxXdEDFAStEP2HskryxHjxZcMf56QDD9wrUitJ01WpuithVrOWw==",
+      "hint": "U2FsdGVkX1+SGNHqwYOA9YUjh9ZDyqaOR0N1g2AbqW+1+ByzwzWX9HcnueDtD+GvTFx9/HFM6ioCsluakZwE+au01qXxmrLQz7cI+Y1M5XoPLriLxgNwTWH5q/oVglDc73FwQO6Zj+G4YSB0LrHNmCYsb2eQfza7Wcie0+XDY7Q=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 40,
+      "question": "SQL에서 현재 사용자 이름을 반환하는 함수는?",
+      "options": [
+          "CURRENT_USER",
+          "USER",
+          "SESSION_USER",
+          "SYSTEM_USER"
+      ],
+      "correctAnswer": "U2FsdGVkX1+HYavj36ndJP2m2JQhVV7BC4h5s3u18W+uXoPLaKW/fLCPfYx6YcaggF0/lsDJfuM402l45DKVLg==",
+      "hint": "U2FsdGVkX19aEwXDgn7mJUBwKjkkj7pxL3REzedjrGJ/iEe6yoAU8u/EVEa2BjAJNB0epk/laNo5XjA99tKmtWjSwBEJaEcxrFWsJlvxF3d8lLiHveJTRE/TGkAknxG4eK7M4u221cmBLT6jV+XD38pjiRCodEEgQ2EKB1zkSS8=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 41,
+      "question": "SQL에서 특정 열의 최대값을 구하는 함수는?",
+      "options": [
+          "MAX",
+          "HIGHEST",
+          "GREATEST",
+          "TOP"
+      ],
+      "correctAnswer": "U2FsdGVkX1/KDdxLQ5gDEZcSXoR71MqwuAAj7AjtiRqc0gFr4C9wL+MlxYDgMWnK6k3MnDsSziBMgM6EOXoTTg==",
+      "hint": "U2FsdGVkX19YWzHolNJQgzlCr5nA5U6edMSumvo9nDDIK3AobEL9cNl8TzGA5/dAjM4mhfPqZouAiGhMzx5pcdfszlJvWbjymwRYrhWLXLACgs75+enQlAHiAqgK0TBsEhj7uoI5UWCOGNFfWFc92pQT/S0uGWanvmQtbfqCRtY=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 42,
+      "question": "SQL에서 특정 열의 최소값을 구하는 함수는?",
+      "options": [
+          "MIN",
+          "LOWEST",
+          "LEAST",
+          "BOTTOM"
+      ],
+      "correctAnswer": "U2FsdGVkX1+LjG9Sb5y4NegHbQ9ZUZSGdPEn6OrzIMDW7uRqHDrK0CSw2DdgjsWherdwMLLD5q2LdE/i6AwT8g==",
+      "hint": "U2FsdGVkX19alHIg3YTynEVbFhPD4Ffj1fW9h2OAAIDkHN5O5DehZxhoD8LiSKWpxqgfpnJgC2gScUy9l15r3StWkepRxhoVv/QW0L9PaM23IFgpz8n4tMTpuciBqQxfMCwiVpSCdqHzWDg3N7RuuIVjpUb9Qo7d6h1cJswV4Ao=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 43,
+      "question": "SQL에서 테이블의 행 수를 세는 함수는?",
+      "options": [
+          "COUNT",
+          "NUMROWS",
+          "ROWCOUNT",
+          "TOTAL"
+      ],
+      "correctAnswer": "U2FsdGVkX1/UZLrG68s9X3/epxlzMagygr8RGGOJCVFpxzQ6uco5/PhkbxMo22sgVkpkr0PgUO1PPKhpghAHNQ==",
+      "hint": "U2FsdGVkX18/31hfYflvpEwoapmRS9yzq8UNQ14nikKSwyJZM2wfDgYjY5k/2MwJuR//AZcuzb2GU+rXTCKUYzkA8XhhInZA8yuVAPjgYcVachEGv1+0A0lgo8KMWfqoOny91zcBD0Zkcq+ZzaXBmWNGEMmMNX//oJ/nZMU+U/0=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 44,
+      "question": "SQL에서 특정 열의 평균값을 구하는 함수는?",
+      "options": [
+          "AVG",
+          "AVERAGE",
+          "MEAN",
+          "MEDIAN"
+      ],
+      "correctAnswer": "U2FsdGVkX18T8fT+qHK/hZ/HQ5Qk6h3js6lAXItPxLBPqqsWOZ0LTY9hs54ObrrrIN3VI+f53eLAPEgAWvL5BQ==",
+      "hint": "U2FsdGVkX19493hK6ZsZctbOIqu0/vOMfdW0Usho2X2naT+Qd7co9oHLuBB9EWjHgSs982VK6oY//0r4yW1ljlNCsprjzYCKzWBsl9MHMvAuW/BXNwIewcQ+5uJsdCVT8804Of5DVPNn9dzyyV4xD3y5M6Nn2hTfgfBAfuKUQRA=",
+      "difficulty": "medium",
+      "category": "함수"
+  },
+  {
+      "id": 45,
+      "question": "SQL에서 열의 데이터 형식을 지정하는 명령어는?",
+      "options": [
+          "DATA TYPE",
+          "COLUMN TYPE",
+          "DEFINE TYPE",
+          "ALTER TYPE"
+      ],
+      "correctAnswer": "U2FsdGVkX18Mqbn7onGrG4V0vtQAbPdOK4yXbFQ1GoP7AunX9Bd3dAxAgY8rRyB5ueGsrWKzRMoyRzedfG18FA==",
+      "hint": "U2FsdGVkX19drrFYFscsFemeefSsHg+7+6X3XORPAZqLJM4IW98MRtEvYlRDGgB4eQG9x+ytVVS8fKqJD3vv6M///+Ga+wYIVnaOAD36PfTKLSVf/Zi+D5tJp0tbHY/FNfvwrfl2DkH90M3olYa0Ld5wLI1a/Gyj9o40M1bhs37I+9dMhmEu3WsczjJ3V06PU7S85WpmfIAtzrRGXF0NTQ==",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 46,
+      "question": "SQL에서 열의 이름을 변경하는 명령어는?",
+      "options": [
+          "RENAME COLUMN",
+          "ALTER COLUMN",
+          "MODIFY COLUMN",
+          "CHANGE COLUMN"
+      ],
+      "correctAnswer": "U2FsdGVkX1+xkMgGOjJmTuTknRPsDqdeu/4KcPQJw/amIouxKEOuGn9ajGIhhjPvZQRndjjwTOqbv6RyHBUFbA==",
+      "hint": "U2FsdGVkX18vTL679bZmY7l35qWQ+qCMyKBNKo1tqfCdwgVr9uxtjxl4IJ6A0Oz3ogmzU8V1BgExzZinCZ2+l7rkVQz8ZzX2SBYW8JJDHiQXSG3UcW+M1Uo2VmpjM8c6V2aA19gYl5j+GkZOwctP+aKgoXRY3iwaFYjHIXmvuFA=",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 47,
+      "question": "SQL에서 열의 기본값을 설정하는 명령어는?",
+      "options": [
+          "DEFAULT",
+          "SET DEFAULT",
+          "DEFINE DEFAULT",
+          "ALTER DEFAULT"
+      ],
+      "correctAnswer": "U2FsdGVkX1+83BKH7A4ZCGvkiE2AN8kyHTg2l/6fXR3pX0ju84VS1kXGdYZD+S/QpstC51dfOmEQvij1zdo68w==",
+      "hint": "U2FsdGVkX19HF3RCUz7mBqrCLX+FhMO0M8O2EStW4nsP/AH2mb2JH80ohx8kvuyQUO5H+yl8PVYQekLmu6rsT9OlymMbYT99ggGJ+BClkRbsSn6PnlMjYVbj3wKpuR7MI21SRErrcnUYyOA/JxfwfMTwoa3+Utt35vytPe/ydtk=",
+      "difficulty": "medium",
+      "category": "데이터 정의"
+  },
+  {
+      "id": 48,
+      "question": "SQL에서 데이터를 그룹화하는 명령어는?",
+      "options": [
+          "GROUP BY",
+          "SORT BY",
+          "ORDER BY",
+          "CLUSTER BY"
+      ],
+      "correctAnswer": "U2FsdGVkX18uegrrEkqKiCGo50ItpArFAtndxN4Ghnt7sE01YdjujO5t+6d9gbFcl2VNeHLYayOcB3IrjCGAoA==",
+      "hint": "U2FsdGVkX1/O5yal6CLIe/y8akbpWfn+d68TnXwelp126ddnzKfuc5ROCxlbBxiRiOcbQEbNOQnMZO6y3VBW9JFChsB1sRV3JyQ3e7qxzWz+4vOhULgKqBLu02PafvH6smOId4jya/STPoDAejPNYrG3pGxiJXQZ3TasXGw5448=",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 49,
+      "question": "SQL에서 특정 패턴과 일치하는 행을 찾는 조건은?",
+      "options": [
+          "MATCHES",
+          "CONTAINS",
+          "LIKE",
+          "SIMILAR"
+      ],
+      "correctAnswer": "U2FsdGVkX1/uhZHUwnFLq3p3/tJORcM0XnlSSbyt5oQdfjOI05cXt9DN7dEzioBRbYj5mOwW2ctt9YMISeMxqg==",
+      "hint": "U2FsdGVkX19bYOkJg+7TsDeImNgDyUNwFoH42xZTmngtLqr+CVhWxWWYHLaHm5JPckSLSuVQMODkdRtWqcuKdpwO9DvWai7Y/mcTxqRNC0rj+48fCU1H2niAaz/P1jpf",
+      "difficulty": "medium",
+      "category": "데이터 조회"
+  },
+  {
+      "id": 50,
+      "question": "SQL에서 복잡한 쿼리의 성능을 향상시키기 위해 사용되는 주요 기법은?",
+      "options": [
+          "인덱스 생성",
+          "뷰 생성",
+          "서브쿼리 사용",
+          "테이블 조인"
+      ],
+      "correctAnswer": "U2FsdGVkX1/ReLFiW13tYw5i2uL6ZcfkYRB6KpO91g+Kjcho1fuK1A1pcQ2zhjdiMt+T4vSuaKnEh51wlPZ5ug==",
+      "hint": "U2FsdGVkX18lMML7E90sfUQgMm7ki3HBEzl/OlLOCmDaJ41TXt+eyCm9w3RrJpPjau11QMu50hY4JVbpRtEOX2zi8USWHIhYz2kPwfI84OE54a26xhK4plcNv9cXg/34wn11NhMi446vjA9jVrL9AzujhT8SxKjYsBA05eDS+wj9o7bPkQSxYtb5j8R4WFI2AbWNUxgLde2Ka4IfwwdEhQ==",
+      "difficulty": "hard",
+      "category": "성능 최적화"
+  }
+]

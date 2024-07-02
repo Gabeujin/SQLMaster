@@ -4,327 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="potato93, github.com/Gabeujin">
-    <meta name="keywords" content="oracle,oracleSql,oracleSqlEducation,oracleSqlQuiz,오라클SQL,오라클SQL공부,오라클SQL퀴즈,SQL공부앱,SQLMaster,SQL공부">
-    <meta name="title" content="Oracle SQL 퀴즈 챌린지(SQLMaster)">
-    <meta name="robots" content="index,nofollow">
-    <meta name="description" content="Oracle sql quiz SPA">
+    <meta name="keywords" content="IT education,개발 자격증공부,SQLD,ORACLE SQL,ADSP,SQL공부,SQL학습자료,ADSP학습자료,개발자공부,SQL퀴즈,ADSP퀴즈,SQL기출문제,ADSP기출문제">
+    <meta name="title" content="감자밭 학습창고">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="데이터 및 개발관련 다양한 퀴즈 웹앱(Various Quiz Web Apps for Data and Development)">
 
-    <meta property="og:url" content="https://potato-sqlm.netlify.app/" />
+    <meta property="og:url" content="https://potato-edu.netlify.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Oracle SQL 퀴즈 챌린지(SQLMaster)" />
-    <meta property="og:description" content="Oracle SQL에 관한 지식을 테스트하는 웹 기반 퀴즈 애플리케이션입니다." />
-    <meta property="og:image" content="https://potato-sqlm.netlify.app//favicons/android-icon-192x192.png" />
+    <meta property="og:title" content="감자밭 학습창고(Quiz Web App)" />
+    <meta property="og:description" content="데이터 및 개발관련 다양한 퀴즈 웹앱(Various Quiz Web Apps for Data and Development)을 소개합니다." />
+    <meta property="og:image" content="https://potato-edu.netlify.app/_favicons/android-icon-192x192.png" />
 
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Oracle SQL 퀴즈 챌린지(SQLMaster)" />
-    <meta property="twitter:description" content="Oracle SQL에 관한 지식을 테스트하는 웹 기반 퀴즈 애플리케이션입니다." />
-    <meta property="twitter:image" content="https://potato-sqlm.netlify.app//favicons/android-icon-192x192.png" />
+    <meta property="twitter:title" content="감자밭 학습창고(Quiz Web App)" />
+    <meta property="twitter:description" content="데이터 및 개발관련 다양한 퀴즈 웹앱(Various Quiz Web Apps for Data and Development)을 소개합니다." />
+    <meta property="twitter:image" content="https://potato-edu.netlify.app/_favicons/android-icon-192x192.png" />
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5018643859125887" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="http://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>Oracle SQL 퀴즈 챌린지</title>
-    <style>  
-        :root {
-            --primary-color: #2980b9;
-            --secondary-color: #3498db;
-            --background-color: #f4f4f4;
-            --text-color: #333;
-            --boss-primary-color: #c0392b;
-            --boss-secondary-color: #e74c3c;
-            --boss-background-color: #2c3e50;
-            --boss-text-color: #ecf0f1;
-        }
+    <title>감자밭 퀴즈퀴즈(Various Quiz Web Apps)</title>
+    <link rel="stylesheet" href="/_common/css/common.css">
+    <link rel="stylesheet" href="/_common/css/css_import.css">
+    <link rel="stylesheet" href="/_common/css/menu.css">
+    <link rel="preload" href="/_common/css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/_common/css/animate.min.css"></noscript>
 
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--background-color);
-            transition: all 0.3s ease;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1100px;
-            min-width: 305px;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-            color: var(--primary-color);
-            margin-bottom: 30px;
-        }
-
-        .quiz-container {
-            background-color: #fff;
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-
-        .question {
-            font-size: 20px;
-            margin-bottom: 25px;
-            line-height: 1.5;
-        }
-
-        .question-number {
-            font-weight: bold;
-            color: var(--primary-color);
-        }
-
-        .options {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-        }
-
-        .option {
-            padding: 15px;
-            background-color: #ecf0f1;
-            border: 2px solid #bdc3c7;
-            color:#1782ca;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 16px;
-        }
-
-        .option:hover {
-            background-color: #d5dbdb;
-            transform: translateY(-2px);
-        }
-
-        .option.selected {
-            background-color: var(--secondary-color);
-            color: #fff;
-            border-color: var(--primary-color);
-        }
-
-        .controls {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 30px;
-        }
-
-        button {
-            padding: 12px 25px;
-            background-color: var(--primary-color);
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-2px);
-        }
-
-        button:disabled {
-            background-color: #95a5a6;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        .hint-container {
-            margin-top: 25px;
-            font-style: italic;
-            color: #7f8c8d;
-        }
-
-        .progress-bar {
-            width: 100%;
-            height: 10px;
-            background-color: #ecf0f1;
-            border-radius: 5px;
-            margin-bottom: 25px;
-            overflow: hidden;
-        }
-
-        .progress {
-            width: 0%;
-            height: 100%;
-            background-color: var(--primary-color);
-            transition: width 0.5s ease;
-        }
-
-        .info-bar {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 25px;
-            font-weight: bold;
-        }
-
-        /* Boss mode styles */
-        body.boss-mode {
-            background-color: var(--boss-background-color);
-            color: var(--boss-text-color);
-        }
-
-        .boss-mode .quiz-container {
-            background-color: var(--boss-background-color);
-            box-shadow: 0 0 30px rgba(236, 240, 241, 0.1);
-        }
-
-        .boss-mode .option {
-            background-color: var(--boss-background-color);
-            border-color: var(--boss-text-color);
-            color: var(--boss-text-color);
-        }
-
-        .boss-mode .option:hover {
-            background-color: var(--boss-secondary-color);
-        }
-
-        .boss-mode .option.selected {
-            background-color: var(--boss-secondary-color);
-            border-color: var(--boss-primary-color);
-        }
-
-        .boss-mode button {
-            background-color: var(--boss-primary-color);
-        }
-
-        .boss-mode button:hover {
-            background-color: var(--boss-secondary-color);
-        }
-
-        .boss-mode .progress {
-            background-color: var(--boss-primary-color);
-        }
-
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
-            20%, 40%, 60%, 80% { transform: translateX(5px); }
-        }
-
-        .shake {
-            animation: shake 0.5s infinite;
-        }
-
-        .correct-answer {
-            animation: correctAnswer 0.5s;
-        }
-
-        @keyframes correctAnswer {
-            0%, 100% { background-color: var(--background-color); }
-            50% { background-color: #2ecc71; }
-        }
-
-        .wrong-answer {
-            animation: wrongAnswer 0.5s;
-        }
-
-        @keyframes wrongAnswer {
-            0%, 100% { background-color: var(--background-color); }
-            50% { background-color: #e74c3c; }
-        }
-
-        @media (max-width: 600px) {
-            .options {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .toast {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 16px;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-            z-index: 1000;
-        }
-
-        .result {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 150px;
-            font-weight: bold;
-            opacity: 0;
-            transition: all 0.3s ease-in-out;
-            z-index: 1000;
-        }
-
-        .result.correct {
-            color: #2ecc71;
-        }
-
-        .result.incorrect {
-            color: #e74c3c;
-        }
-
-        @keyframes fadeInOut {
-            0%, 100% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
-            50% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-        }
-    </style>
-    <link rel="stylesheet" href="css_import.css">
-    <link rel="preload" href="animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="animate.min.css"></noscript>
-
-    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32"  href="/favicons/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
-    <link rel="icon" type="image/png" sizes="96x96"  href="/favicons/apple-touch-icon-96x96.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/_favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32"  href="/_favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/_favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/_favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/_favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/_favicons/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="96x96"  href="/_favicons/apple-touch-icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/_favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/_favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/_favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/_favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/_favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/_favicons/android-icon-192x192.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-
 </head>
 <body>
     <div class="container">
-        <h1>🐶Oracle SQL 퀴즈 챌린지🐹</h1>
-        <div class="quiz-container animate__animated animate__fadeIn">
-            <div class="progress-bar"><div class="progress"></div></div>
-            <div class="info-bar">
-                <div class="hint-count">남은 힌트: <span id="hintCount">10</span></div>
-                <div class="score">점수: <span id="score">0</span></div>
-                <div class="difficulty">난이도: <span id="difficulty">Easy</span></div>
-            </div>
-            <div id="question" class="question"></div>
-            <div id="options" class="options"></div>
-            <div id="hintContainer" class="hint-container"></div>
-            <div class="controls">
-                <button type="button" id="hintBtn" class="animate__animated animate__fadeIn">힌트 보기</button>
-                <button type="button" id="submitBtn" class="animate__animated animate__fadeIn" disabled>제출</button>
-            </div>
-        </div>
+        <h1 style="font-family: 'Dokdo', sans-serif;">🥔🥔🥔🥔<br/>감자밭 퀴즈퀴즈<br/>STUDY & PLAY<br/>🥔🥔🥔🥔</h1>
     </div>
-    <input type="hidden" class="enc-po" name="po1" value="U2FsdGVkX1//">
-    <input type="hidden" class="enc-po" name="po2" value="BBwR6iOjsYsa67xZM0j">
-    <input type="hidden" class="enc-po" name="po3" value="5uFKZWSmFG54=">
     <div id="toast" class="toast"></div>
     <div id="result" class="result"></div>
-    <script src="app.js" defer></script>
 </body>
+<script src="/_common/js/common.js" defer></script>
 </html>
+
+
