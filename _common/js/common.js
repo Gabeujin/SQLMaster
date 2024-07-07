@@ -21,8 +21,15 @@ const containerModel = `<h1></h1>
                                 <div class="score">점수: <span id="score">0</span></div>
                                 <div class="difficulty">난이도: <span id="difficulty">Easy</span></div>
                             </div>
-                            <div id="question" class="question"></div>
-                            <div id="options" class="options"></div>
+                            <div id="question" class="question">
+                                <span class="question-number">&nbsp;</span>
+                            </div>
+                            <div id="options" class="options">
+                                <button type="button" class="option">&nbsp;</button>
+                                <button type="button" class="option">&nbsp;</button>
+                                <button type="button" class="option">&nbsp;</button>
+                                <button type="button" class="option">&nbsp;</button>
+                            </div>
                             <div id="hintContainer" class="hint-container"></div>
                             <div class="controls">
                                 <button type="button" id="hintBtn" class="animate__animated animate__fadeIn">힌트 보기</button>
@@ -302,12 +309,12 @@ function getToast(){
     document.body.appendChild(tempEl);
 }
 
-function setDisplay(){
-    document.body.classList.remove("hide");
-}
+// function setDisplay(){
+//     document.body.classList.remove("hide");
+// }
 
 getToggleMenu();
 getToast();
-setTimeout(()=>{
-    setDisplay();
-},500);
+// setTimeout(()=>{
+//     setDisplay();
+// },500);
