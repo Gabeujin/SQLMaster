@@ -25,6 +25,7 @@
     <link rel="preconnect" href="http://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>감자밭 퀴즈퀴즈(Various Quiz Web Apps)</title>
+    <link rel="stylesheet" href="/_common/css/main.css">
     <link rel="stylesheet" href="/_common/css/common.css">
     <link rel="stylesheet" href="/_common/css/css_import.css">
     <link rel="stylesheet" href="/_common/css/menu.css">
@@ -47,14 +48,39 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-    <div class="container">
-        <h1 style="font-family: 'Dokdo', sans-serif;">🥔🥔🥔🥔<br/>감자밭 퀴즈퀴즈<br/>STUDY & PLAY<br/>🥔🥔🥔🥔</h1>
+<body class="hide">
+    <div class="section">
+        <h1>🥔🥔🥔🥔<br/>Quiz Quiz<br/>STUDY & PLAY<br/>🥔🥔🥔🥔</h1>
+    </div>
+    <div class="section">
+        <h3>🥔Oracle SQL🥔</h3>
+        <h5>
+            oracle SQL 관련 문제가 각각의 난이도별로(쉬움, 보통, 어려움) 50문제씩 준비되어 있습니다.
+            <hr/>
+            개발자에게 필요한 기초 SQL 지식부터 DBA에게 필요한 전문지식까지 담았습니다.
+        </h5>
+        <div class="quiz-thumnail">
+            <img src="/_common/thumbnails/quiz-oracle-sql.png" alt="Oracle SQL Quiz Thumnail">
+        </div>
+        <button onclick="openQuiz('oracle-sql')">시작</button>
+    </div>
+    <div class="section">
+        <h3>🥔ADSP(데이터분석 준전문가)🥔</h3>
+        <h5>
+            ADsP(데이터분석 준전문가) 관련 문제가 각각의 난이도별로(쉬움, 보통, 어려움) 50문제씩 준비되어 있습니다.
+            <hr/>
+            자격증 시험에 도전하기전에 본인의 역량을 판단할 수 있는 문제부터 자격증 합격은 물론이고 전문성을 키울 수 있는 문제까지 있습니다.
+        </h5>
+        <div class="quiz-thumnail">
+            <img src="/_common/thumbnails/quiz-adsp.png" alt="ADsP Quiz Thumnail">
+        </div>
+        <button onclick="openQuiz('adsp')">시작</button>
     </div>
     <div id="toast" class="toast"></div>
     <div id="result" class="result"></div>
 </body>
 <script src="/_common/js/common.js" defer></script>
+<script src="/_common/js/main.js"></script>
 </html>
 
 

@@ -1,702 +1,702 @@
 [
   {
-      "id": 1,
-      "question": "Oracle의 실행 계획에서 FULL TABLE SCAN이 항상 나쁜 것은 아닙니다. 어떤 경우에 FULL TABLE SCAN이 효율적일 수 있을까요?",
-      "options": [
-          "인덱스가 없는 경우",
-          "테이블의 대부분의 행을 검색해야 할 때",
-          "테이블이 매우 작은 경우",
-          "위의 모든 경우"
-      ],
-      "correctAnswer": "U2FsdGVkX196USqrVCg4INF9c+UvJFHM2oWfp+/gZK3aknlIFq7kuljAaOKs3CTK5CKsNWvEn8wIeGhFTbACyw==",
-      "hint": "U2FsdGVkX18eIzI1pdHJbuGiXGlrMaDoGWa3YH+zsf3KjVEgBIWRQZqKEpUoITpBbV+KcrT1DvUc3z9dHXVRv4Qvqru495BhXQsje1/jdkGf73VXl4f9MIw6lvLAFTTK3FW0czeUToCV/y9+EwFml37vVWMJgnZ1Xp5Yxecv7hLUjELGajnuxgg1h2zFK0mRGpYyirAMYCxkbBah3k6IYw==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 2,
-      "question": "Oracle의 UNDO 세그먼트의 주요 목적은 무엇인가요?",
-      "options": [
-          "데이터 백업",
-          "트랜잭션 롤백",
-          "데이터 암호화",
-          "인덱스 관리"
-      ],
-      "correctAnswer": "U2FsdGVkX18bj8VXZjJ9kzcD085yVJVCh7OzO24EBdqNPnxdWN4gqYY0jPotbRbyaSQn9rAJqkOvLnnHmW8mcQ==",
-      "hint": "U2FsdGVkX1+bjPR0IuoiDtU8n6qpPsfFvRzYSek/uuxxKWlPBb9PxLolIf4o2uUiqsn8Td/895cyip47wRC2njOOf6i88OqgVTETTO1tuRLffPZQbESzIuLe4kCsWXNjnXTZgMKiK6ntpNgAF6mf93lW6r6u9C/PFqe15uZlREsyRuGPBsi7uTG2pVkrzTi4dOrI4aoCG8esB/kKL+LDNRb7UGpwVg9cCAji9IEREI7xtgLIoYeCTB59Q6Go1/vM",
-      "difficulty": "hard",
-      "category": "트랜잭션 관리"
-  },
-  {
-      "id": 3,
-      "question": "Oracle SQL에서 인덱스 스캔이 가장 적합한 경우는?",
-      "options": [
-          "테이블이 클 때",
-          "검색할 행이 적을 때",
-          "모든 행을 검색할 때",
-          "테이블이 작을 때"
-      ],
-      "correctAnswer": "U2FsdGVkX1/1g0/ueKChACIgUg5QhJ3vRxb63h3Mm+mIzLH8sV2WdpF4XREgeZ3EmnTK0guyQw6Ki9A5sr2cEA==",
-      "hint": "U2FsdGVkX19tfYfYpd7wOdZouSGj8oGcN9/bX6o+z/jQBm69uDJnoyu5NoVOh7dL9DF+CBdEJTOR/7DaxQ6tmtjTRHO1VQ4UdY+HG5aBkt8KjcTs37Om67nV9R7wXWneLed1r/W/kWkyS5RFgX9TEj//gpk2rAHBgWyZqJz8k7bOSmXCeWtnwwr2dYFIWu1KLyDyfNJ/sQQpKqHqY/JeKQ==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 4,
-      "question": "Oracle SQL에서 파티셔닝의 주요 목적은?",
-      "options": [
-          "데이터 백업",
-          "데이터 암호화",
-          "대용량 데이터의 관리와 성능 향상",
-          "데이터베이스 복구"
-      ],
-      "correctAnswer": "U2FsdGVkX1/G4cWNhM+MHvvxqDWRC1OnRCPQD5iTFeYMsX8QpYJM2vIf2qlHdHfLgQUkofaBBpTUB1aeMjm3Pw==",
-      "hint": "U2FsdGVkX1/Q+3acY3QN+i1ZkWi6G/R6aQxIgTPsYjRF3lMDatZWNMt0zsyH5f1rEySM3VfAMHw9LxQxNQoaytcPRqqvQ5JYwbKLiOJHsFIbitb7puL6FkvWw3zlmC48PNc+JR2QnYKnFaZjdeq4kyH0dNNZPZ7MTztkLqqVHl6hut5s+GtXlO+TOQXrybYALrAZcpfXyVufD11nBaOzN0EQI3PIE3Ex9wav7TD1SHOjNtmZEx0xrJM6R9FwYv6b",
-      "difficulty": "hard",
-      "category": "데이터베이스 설계"
-  },
-  {
-      "id": 5,
-      "question": "Oracle SQL에서 트리거를 비활성화하는 명령어는?",
-      "options": [
-          "DISABLE TRIGGER",
-          "DROP TRIGGER",
-          "DEACTIVATE TRIGGER",
-          "ALTER TRIGGER"
-      ],
-      "correctAnswer": "U2FsdGVkX18hvP/J5Vua+1kMlBP08qkyC1AwomwYBM/83cHY2BouZFsWEW06x6syO1AfZ4kn/upVLOavdI5n4w==",
-      "hint": "U2FsdGVkX18hUvG0axliKutGdKI50wYaVgSpYJqB7aXHgm5o+7imfvMkD/vdlOOnzA8mADxdnlG9l1GrN/7+GE9hhg6uHRq6mmz05B/MQm7ZP+vF5UkdEzejEsXy+ha4Bm8aKaCFMbn0pVObCWSsYEPvFuR01prd7dIpL24rTko=",
-      "difficulty": "hard",
-      "category": "데이터베이스 객체"
-  },
-  {
-      "id": 6,
-      "question": "Oracle SQL에서 옵티마이저 힌트를 사용하는 주요 이유는?",
-      "options": [
-          "쿼리 성능을 향상시키기 위해",
-          "데이터를 백업하기 위해",
-          "데이터를 암호화하기 위해",
-          "쿼리를 디버깅하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX18KlkQmxni1rYXqaTMF+c3jnrXwyVBguOv2HwkbweagQJkKMgXZdLe+6x9H77GreG5bXxE3ZOy4Bg==",
-      "hint": "U2FsdGVkX1+A68n3KbORURM7R2k5sGQg7/XbBCjpVvB702V+X25WtlfpbZo+hynPqzmTAHTSLlndFaoNqM4oUjtDbALdriyUwHdT9j8Mlj3Hueij7dnHMrc3uRQ7XD8VUxtxkE5keblX/hb3iA5Csvug7vRdYZt76fYqxLCL3nrGf1HP4v3Npfkn2mNIN0L8RnCLdO8gXE2pvi+HA3hrpAVnFBfL9aso6DMi7AOAcQQ=",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 7,
-      "question": "Oracle SQL에서 SEQUENCE의 주요 목적은?",
-      "options": [
-          "데이터의 중복을 방지하기 위해",
-          "일련 번호를 생성하기 위해",
-          "데이터를 백업하기 위해",
-          "데이터를 암호화하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX18Ozn/Se2a/bFRA0bx9/+lr9WRgWDg62URCk3rA2WSwXqfdm4tkqe1bVgpQDdMzCvdQh0G14S0adg==",
-      "hint": "U2FsdGVkX1+v0AxbKyvMFrchDhXxkh6VpdTpVV39tWAwXlhJUAQfMbj7+GNR1BEfvxmYPmjwyXJNEORCla23QbD7qW/LthuEFbAfTeJl1VbC0IndFlKgNgDqSMqYZHWbKavOZfdgdTdrQjSuMXz01IvTFrINdaJiXR9N9tePgEBcL25Tf/m0H2vtSsnTRkopYE38lf5LtcrNArejkPjSPA==",
-      "difficulty": "hard",
-      "category": "데이터베이스 객체"
-  },
-  {
-      "id": 8,
-      "question": "Oracle SQL에서 서브쿼리를 사용하는 이유는?",
-      "options": [
-          "데이터를 백업하기 위해",
-          "복잡한 쿼리를 작성하기 위해",
-          "데이터를 암호화하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX1+CO004Efm/8IyvgtJeJVyj6GglmQ/KvGIfaKKJUvyo6PRI+1S45BMhelUoN+PxU6Xr83v6ckJXQw==",
-      "hint": "U2FsdGVkX19hTE9N7Ycs2+Ay6KK2R4T3HddejmaZsGqE5CRWtbrvtAkX27746cLywfWtmHCyZicouz5aTTaDEudceOyzmhOjHmTOfzxeqwAQeljC1En5ZL6/TS4b3cXHg7kBzF4lWLJVAT+Zjg4EyPdw9WpsuJf+E05aQgasiQmFb699WMJe9r6raNsfgWvpjS5a+bNQ3Wh/bUiI/cWmzw==",
-      "difficulty": "hard",
-      "category": "고급 쿼리"
-  },
-  {
-      "id": 9,
-      "question": "Oracle SQL에서 데이터베이스 링크를 사용하는 주된 이유는?",
-      "options": [
-          "데이터를 백업하기 위해",
-          "다른 데이터베이스와 통신하기 위해",
-          "데이터를 암호화하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX180JjKfuMPETtj3Syjp1jOgxEzWyaphV/p5rXxz3fcqUFjOLD5iAF7jcMWpBsDPvbt2dT+TXLCTXg==",
-      "hint": "U2FsdGVkX1/jIcHPFp09cb1IawRNVAeIehql0mIaoCKGVQ7CdEObzQKQvyUDlpHhJuDSTlNza3PeiJiD39iq8lvv4z6N12l4ANBUvg8giY+nFysDgmKhhE1SEHlukyGeDcnlKHE1KN7W45hiI3ExxS7heoSb3V+MXdpIp5VlM+h4guP3BgLXoBo61DGaPC3yxTwbH1GsJ1PtbaHz5CTa1Prq+8KrKmDUH830x1mfXzg=",
-      "difficulty": "hard",
-      "category": "데이터베이스 연결"
-  },
-  {
-      "id": 10,
-      "question": "Oracle SQL에서 VIEW를 사용하는 주된 이유는?",
-      "options": [
-          "데이터의 가상 테이블을 생성하기 위해",
-          "데이터를 암호화하기 위해",
-          "데이터를 백업하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX1+F9eJE0z7beE3hIS52VerqPmCA9Zo2bs9qkwZY8E7Kl60tpGTEdm4X4WkvSzTFyJ7DDqmoMLvP/g==",
-      "hint": "U2FsdGVkX19e0RwtcSvoM8Y4tjmEm0I5BYHPwPfTcPK17JJmJNpkmHwLmrru4qzESsy2svaOCiITHpFL3jQgVLw6zYRmLE6zvkjoPAmZoVURA+zdmEazD3ZzTIJdIqDEmo8ami2ZtSuEUQc+Yl9ayussozSEwt+zUWSv/CY+2Tc=",
-      "difficulty": "hard",
-      "category": "데이터베이스 객체"
-  },
-  {
-      "id": 11,
-      "question": "Oracle SQL에서 물리적 백업과 논리적 백업의 차이는?",
-      "options": [
-          "물리적 백업은 데이터 파일을 백업하고, 논리적 백업은 데이터베이스 객체를 백업합니다.",
-          "물리적 백업은 데이터를 암호화하고, 논리적 백업은 데이터를 백업합니다.",
-          "물리적 백업은 데이터베이스를 복구하고, 논리적 백업은 데이터 파일을 복구합니다.",
-          "물리적 백업은 데이터를 백업하고, 논리적 백업은 데이터를 암호화합니다."
-      ],
-      "correctAnswer": "U2FsdGVkX1/mHM3co+c4YRDPZC6Xj3QaReXpA9/yDtPefRceMwdPsJwCupHgDobir+lIxs2nz7NQiAtPi2/OXA==",
-      "hint": "U2FsdGVkX18TEq3T36ZBHcl4H5YCv1kyJYO6qKzz68RjqHWB3Jd7oK8Z2ImIWPQTKHSUSPkuSNHeQyLsxhepZ6aQxuh7TcUQWOnqpsy18q4BjuFdZoYKFtedb3Ij5Zoyb//kPJ70jOX9Wc4lWs3O6bRd4wDNI6C03Ims52/8uZ+A+3tQF1XymJ6SgAaF3GYPW9scWzYkZjUSWuIRzYvikQ==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 12,
-      "question": "Oracle SQL에서 쿼리 성능을 최적화하기 위해 사용할 수 있는 것은?",
-      "options": [
-          "인덱스",
-          "트리거",
-          "시퀀스",
-          "뷰"
-      ],
-      "correctAnswer": "U2FsdGVkX19TMi0hOi+kELQi1P4YngqfIJa3csOlEmnyJgqqqqkdkvjFVjDGRY+XSX/dC1taaZQJ2KoF9Oq8tg==",
-      "hint": "U2FsdGVkX18Dm3ZfUtl2SNwT4rLqq1qiqxB4BlRbsFsjlC/7DQt2tMRYnqn/HqebSofydp62Zer9mqQ8Q1G1xTz/VTHFNRNTuzBu/9lP6AZq+Cc3N9JF4jG96Jl8P3daBSR4EOu6iJk5ENqfM7ihL/LvE9Gb/w+buibsvPcd6mg=",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 13,
-      "question": "Oracle SQL에서 데이터의 일관성을 보장하는 트랜잭션 속성은?",
-      "options": [
-          "원자성",
-          "일관성",
-          "격리성",
-          "내구성"
-      ],
-      "correctAnswer": "U2FsdGVkX182MXxwCDgXjQvcak1g9De7Rz9A0XOV5a+wJ7URhjUG34Lc/mYxhw3O/wBulsD5rwOS7n2UX6IiRw==",
-      "hint": "U2FsdGVkX1+rR4z8bSdv89SH3HaMSUzBlmr4JwichdBWQbqo8eeRGEHUFFEj45Cd5P7nx0KaD4WWthCiqSIU82z8CoiCzWZOK5CvWbe8Y+VE92zLw8CY2OKQVPUBilFw830Gr4ZkjXufGWCwEO44ffMEq2gvV8XlW9XCvbk5CmU=",
-      "difficulty": "hard",
-      "category": "트랜잭션 관리"
-  },
-  {
-      "id": 14,
-      "question": "Oracle SQL에서 파티션 테이블의 장점은?",
-      "options": [
-          "데이터를 암호화할 수 있습니다.",
-          "데이터를 더 빠르게 검색할 수 있습니다.",
-          "데이터베이스를 복구할 수 있습니다.",
-          "데이터를 더 안전하게 백업할 수 있습니다."
-      ],
-      "correctAnswer": "U2FsdGVkX19NdEhghZ5XKb3ZF3seH5viep/0YeUuw931ZbO3FQHpbsEa5yK2NTjcCuhuRzx8YusM6pV6m+2LJg==",
-      "hint": "U2FsdGVkX1+ClXvnlcj9Bm8L27EZ03yMIeFzyZtCc8uQHIGPslqs1MkH4vGVo3+Z+IIPVBCQ7WJEVP4adhvvpN8VjdFr+6ULh8Msuvdqxew90gosO6P8Wzo7homJp3PrtEsvU+Qi7PaptBa2v+eZylCNsLrtFsiFYc4j4tNpDAGHIGLJ+SpCUuoBu7KcYMFWTTxkiSWdhqWscObB+qh2iA==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 15,
-      "question": "Oracle SQL에서 데이터베이스의 크기를 줄이는 데 사용할 수 있는 것은?",
-      "options": [
-          "압축",
-          "인덱스",
-          "트리거",
-          "뷰"
-      ],
-      "correctAnswer": "U2FsdGVkX1+WhYXVyta4wOThX/WvFK8zuE48EmJLwNggh7Kg+VGEcZUnpXImbMfIXLk65JRHUdJmWTZ3raANYw==",
-      "hint": "U2FsdGVkX1/1pfnoQDLdR/j2O8NCCTIenQ3cX2hy6603YIf3EzJsbEUoiFrUv/Sre0In5XHYH0TJqPSzz4lGnVIrwDhJzAJY1hKEWrss6s8wVXPWUaS23xUKtZR1H+grTXhHWUtPMJXifL+bOL3ZQFtsD17vy1zhPptc1eph0FA=",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 16,
-      "question": "Oracle SQL에서 PL/SQL 블록의 세 가지 주요 구성 요소는?",
-      "options": [
-          "DECLARE, BEGIN, END",
-          "START, PROCESS, FINISH",
-          "OPEN, EXECUTE, CLOSE",
-          "CREATE, MODIFY, DELETE"
-      ],
-      "correctAnswer": "U2FsdGVkX1++9mlscf0bvKL4qw3/wTuZR8uCZu64F+r2VAPK/ZCEIGPRfFQjgiq0I9FbDkGJsI8Avy8KSiX3zg==",
-      "hint": "U2FsdGVkX18KuDKCCL8dKogp8Vj1e9h49TYWmVG1h2jMUBkUSqeM9hGuMYvTxJtKhlsPcNL6bBkxTzf43wRcuL9sXAEs4jQqgdGhmyGCAYoiarWRXzb5UkLu82ETHHhBd3bWM+jAITsiHElKDl2AiQ==",
-      "difficulty": "hard",
-      "category": "PL/SQL"
-  },
-  {
-      "id": 17,
-      "question": "Oracle SQL에서 커서를 사용하는 주된 이유는?",
-      "options": [
-          "데이터를 암호화하기 위해",
-          "다중 행을 처리하기 위해",
-          "데이터베이스를 백업하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX19EmXUzNKnvdZ39TZe7PqcnuERxIT+GW7R/XqJCNstk2ja3kMPOksVvIpfUAUG1qd4QrJ/XLYTl4w==",
-      "hint": "U2FsdGVkX198fkCnxXxGN/8PPAHdC7SiQdcuManrA1CVEkL0LwFZo/1XP4+5k64TjIPaxBihfZXLnR3PFCQOcdTcSlxygJjbtS0L/aHqNOLaRd5xAs0DAk8hwxuTwNOMfI58jex3JVZOIddt2ykiidwrT2tlDicLCuEVDszfWFQ=",
-      "difficulty": "hard",
-      "category": "PL/SQL"
-  },
-  {
-      "id": 18,
-      "question": "Oracle SQL에서 외래 키 제약 조건의 주요 목적은?",
-      "options": [
-          "데이터의 무결성을 보장하기 위해",
-          "데이터를 암호화하기 위해",
-          "데이터를 백업하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX18onbmfzhXNrrdxrCNEat47R/tjoIompi2+G+lzH1wxDiUADVTMXlD8vl3iqN9+mXWoBpG1PEzsug==",
-      "hint": "U2FsdGVkX1/2aGglbhVyjnCsKUUGHklgIr06jwKJoJMg4C8gmCw9QQyP6JSarkklbze7z2BH0u4BXto+o7J+ho9AISfOmOzGadjp6ODTpf3yp/3dr1TmoA/s3CCm4vk5gAl256H9zaza1kA930tFmYRBoSFSCyorYRmZm6aifyc=",
-      "difficulty": "hard",
-      "category": "데이터베이스 설계"
-  },
-  {
-      "id": 19,
-      "question": "Oracle SQL에서 물리적 백업을 수행할 때 사용하는 도구는?",
-      "options": [
-          "RMAN",
-          "SQL*Plus",
-          "Oracle Net",
-          "PL/SQL"
-      ],
-      "correctAnswer": "U2FsdGVkX19OL3us3A5sg9W5TydLzgCVpkZsHEd4IRcEDU7OSlweovGSLiwEqcpXiluDSMCC+1NtYxZOdRynIQ==",
-      "hint": "U2FsdGVkX1+o9oa6QCkD0oq7SmgUD/yQgPKabM/9flgixBwdVZyDX/jMC4kCh+xC6h4qsypUktLadZDojrI1fGFfeZm2sBMDcOVH/yzJR4B6dpulzHdBO2ff0smRmroewClSIkWcN9Cu7hFc2bea4g==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 20,
-      "question": "Oracle SQL에서 논리적 백업을 수행할 때 사용하는 도구는?",
-      "options": [
-          "Data Pump",
-          "RMAN",
-          "Oracle Net",
-          "PL/SQL"
-      ],
-      "correctAnswer": "U2FsdGVkX18TJh1fi2Q97o5vpAS+QI8bkAOJaLpOypZyHj6VaaUH0j8OFHIrJQydhc0mlmoQXM0VtNESYoKS8g==",
-      "hint": "U2FsdGVkX1+LvzAHKWVUJXpHg9igLICGX9hbBaj7oIkLGiq/ZT1GoJlCA2F/moYiZeFEFbHctexPFoF79FBFPdaCRw0zomnPS1ykUcw65Fb/3bdN5FbYb5GZV8uUa9jzgYhRluIrE/F5ri/uLj4QJQ==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 21,
-      "question": "Oracle SQL에서 파티션을 사용하는 주된 이유는?",
-      "options": [
-          "데이터의 가용성을 높이기 위해",
-          "데이터베이스의 보안을 강화하기 위해",
-          "대용량 데이터를 효율적으로 관리하기 위해",
-          "데이터를 암호화하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX19LD+33PFRcJRw17I7Q3FjzeAHu9cS2mTp0FoyjVTZTxOCiO9gNHz1zAbigxYnrDA8I5Ma0OLNQiA==",
-      "hint": "U2FsdGVkX19bb6AKLTh9Xr+XWftYmWrVvPeryaGCiC+8ipFsNxJPCwUdSx7ow9ja8TDPTR+Vveos/wf2BDYVnTmm/t4+NYBQFitbv/5H50IrzHIROXbiJT/QvI5VaZon87ridyCaOuiyNFljtJ2bCrYN+ZXrG1nL216f7YhQe7VQuQ2UNx4Grlf1G3nEA2iflTq6FkB+KdvUbytmzDYlbg==",
-      "difficulty": "hard",
-      "category": "데이터베이스 설계"
-  },
-  {
-      "id": 22,
-      "question": "Oracle SQL에서 쿼리 성능을 향상시키기 위해 사용할 수 있는 힌트는?",
-      "options": [
-          "INDEX",
-          "FULL",
-          "PARALLEL",
-          "ALL"
-      ],
-      "correctAnswer": "U2FsdGVkX19uJUPJ8kidBZjYEcKIh4r7XTvTKyacwAnUyewU8R5ZnEBs8ljSgMq0Wplts3h7+0D3S1dP2x4Nxg==",
-      "hint": "U2FsdGVkX18Zb28FWGY7SNVbVqTRneFYutxVVuhmEaYyboy00bVozN77XqghTfKJZa9gXR1mR+ytDHPfOeEUEgnkaSZ5/AVQiVQATt7xbIhGuvjXSwDZ8ki4LP2Vq5OnV+9uJRgkWwgqG4WvJlbvUg==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 23,
-      "question": "Oracle SQL에서 데이터의 일관성을 보장하기 위한 격리 수준은?",
-      "options": [
-          "READ UNCOMMITTED",
-          "READ COMMITTED",
-          "REPEATABLE READ",
-          "SERIALIZABLE"
-      ],
-      "correctAnswer": "U2FsdGVkX1+HK3fD9uYpdhBHpBVFVWJuWTYNS1Texx3sOHj4OOVnIQ/ctKm6wJfeZYVPz+RIA8RYgQhKM+wIDQ==",
-      "hint": "U2FsdGVkX194uvTWE2E8yL1ET5LxwBZ2DGAIKQlu3SLMjPc9ikZq7fgo55oGQTfAZPxd9NBlEsDvAIYP0c7u9nhGNNb1kV+IYtfTmhvaBWY/GTuW1pETdex0Lq5r9/6sNv4mjdkTmLYQiYmlJVdvnQ==",
-      "difficulty": "hard",
-      "category": "트랜잭션 관리"
-  },
-  {
-      "id": 24,
-      "question": "Oracle SQL에서 UNDO 테이블스페이스의 주요 목적은?",
-      "options": [
-          "데이터의 변경 사항을 추적하기 위해",
-          "데이터를 암호화하기 위해",
-          "데이터를 백업하기 위해",
-          "데이터베이스를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX18oafONlBoGb3G1keT1hrA8pTAVqKTi/OzzOHdrbVlnI45dn0aRkoUM8T5drS8uVgwodhqSYr6ndg==",
-      "hint": "U2FsdGVkX1+ClD8gB8hzYW/fqpVOiJiyXyhookWiGtnw4rFoF+V/Mxx9YBMTmX8/6vg9s8qkex+59BwMKdETQpdnuIqv6F9/LstS77jF48CB/2tlgGUSby0xtIJmVN0HH8HX7H+Ch6fOwvRR/ukU3A==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 25,
-      "question": "Oracle SQL에서 데이터베이스를 모니터링하는 데 사용할 수 있는 도구는?",
-      "options": [
-          "Oracle Enterprise Manager",
-          "SQLPlus",
-          "PL/SQL",
-          "Oracle Net"
-      ],
-      "correctAnswer": "U2FsdGVkX1+kye/upJ9osSHbws8cgnVOqyBwS7KvcSsfjADg/zxmlnNv9mG8vdcZ+IIc3MjhwtDvg852Jv0l4Q==",
-      "hint": "U2FsdGVkX19CVd1AmhBrRx0/PG6p8mQMqdpms2khj+AYo/TACFTJFEz3JX8kRQgF1afSjHgZ5gtxyG3f8XwcKpQNeEvEKS3UjSIidzOTGYTBloSpgKpLJ83ADaDy2h7y",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 26,
-      "question": "Oracle SQL에서 데이터베이스를 복구하는 데 사용할 수 있는 도구는?",
-      "options": [
-          "RMAN",
-          "SQLPlus",
-          "Oracle Net",
-          "PL/SQL"
-      ],
-      "correctAnswer": "U2FsdGVkX180VpneF85o2CiAY3CTxpE5Q3vulghxowIUpH22yckavWECdMPadDd0RRBB6CgeVXEkpqtsTc3O7A==",
-      "hint": "U2FsdGVkX18wDkuDzjQJAw9oGnOQak8UTiJajXztG09Z7GbqTUE+wJBRs2WwnxGssm5n+94iqFdtR9v1aI1Ja8dZ7GYqeDsJQJQBD/p7ZgugFfag6IB0c8bgsPiRoL1K",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 27,
-      "question": "Oracle SQL에서 데이터베이스 성능을 분석하는 데 사용할 수 있는 도구는?",
-      "options": [
-          "SQL Trace",
-          "SQL*Plus",
-          "PL/SQL",
-          "Oracle Net"
-      ],
-      "correctAnswer": "U2FsdGVkX182Jf+gE7SWdt6QnVXqfpQUI/L7mt//PRV4zDTQV+zSAt2Rspcy8+zR6QFpayAuK6LcrfhoS54C2w==",
-      "hint": "U2FsdGVkX1/UELHZ8fSdhWF3jdjZOpcVdiqSPM2IhxyvKNg8NrF9CLsG5nup4k7E4HQKAlw7cO/XrBtmDpjJW05ciz9HJuQe+hRc2eiOCeTAq3YI6qUjES1dMlC+CRQVhtEcxAbAGV0dEoH6Nabn5A==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 28,
-      "question": "Oracle SQL에서 데이터베이스의 보안을 강화하는 방법은?",
-      "options": [
-          "사용자 권한을 관리하기 위해",
-          "데이터를 암호화하기 위해",
-          "백업을 수행하기 위해",
-          "데이터를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX1/yrDtmpblkJ87Tn94w/HlGf9D+I+dCmMRVewwR3DX6TFUktEIvIVqS/k4avel/Udlgd90+ak7MzQ==",
-      "hint": "U2FsdGVkX192Kc79/w/Ul7v0SK54N2gojona4GmPhE6ZI2mmmv9C4XOo8z1Os45cNB9yakhQNIV1Ya1qKURRXvgyJwQ7Bq1BFQJ0ZUi0K3FzvlrenVUntzfMOGaTpNN9mN9o5r4+DrbDL9ziYKJELQ==",
-      "difficulty": "hard",
-      "category": "데이터베이스 보안"
-  },
-  {
-      "id": 29,
-      "question": "Oracle SQL에서 데이터베이스의 가용성을 높이는 방법은?",
-      "options": [
-          "데이터를 백업하기 위해",
-          "데이터를 암호화하기 위해",
-          "파티셔닝을 사용하기 위해",
-          "클러스터링을 사용하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX1+CM/7J3Xr8yJQP7oFQlrWOeZQGiNZZyOy+fTT8K0V0brLYT88KNrLkTcThGvwWG6T03nQ3uH1znQ==",
-      "hint": "U2FsdGVkX1/DsROomclQDjbWoJckCRkQfVNiTHPQIV+5DsUE8xtZaMGqsjmhxR6tNbjy41IVzrWPubV6BRdA/wy7HCG6wWt6O3glNqomJgZ24KnEsr44DPq0KNe0C4bT6RSx+HSnU0+/w/KUy1ukwQ==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 30,
-      "question": "Oracle SQL에서 데이터를 암호화하는 데 사용할 수 있는 기능은?",
-      "options": [
-          "TDE (Transparent Data Encryption)",
-          "RMAN",
-          "Data Pump",
-          "Oracle Net"
-      ],
-      "correctAnswer": "U2FsdGVkX19VbkAE9XgK/EAkTzVulQROEJJhcJZtDsRwBRMjpYGmRO/cdy6OrWeNDBuBGuGvLBnS+Y64tv4TLg==",
-      "hint": "U2FsdGVkX19V/n45ZCG0h1HpYMaR1pmN24A+AMRC+6E9tV6xDW9TdJHvV2jvP1ef/L0WbTJpGou9J/YjYx08z93gbQyuFU7E7bnfTLgvEYM81A3w9qbHx565aznY/Hr5rzluJtugzguQ8a+Q8rBXVA==",
-      "difficulty": "hard",
-      "category": "데이터베이스 보안"
-  },
-  {
-      "id": 31,
-      "question": "Oracle SQL에서 데이터베이스의 성능을 최적화하기 위해 사용할 수 있는 방법은?",
-      "options": [
-          "인덱스를 생성하기 위해",
-          "데이터를 암호화하기 위해",
-          "백업을 수행하기 위해",
-          "데이터를 복구하기 위해"
-      ],
-      "correctAnswer": "U2FsdGVkX18sYMTyElIeUs+WdkP4nbeSEXfhkuU3mVNxYu9cOvFXq9xk+UY3kHDm9o4j/wYSVRGR4XoP7xmoJQ==",
-      "hint": "U2FsdGVkX19LlJVAk34wQ+VcNoNwGjh5eN0w3zn+ZobJyjsz05aNJ+nFd8cPQhjlgBeCsW2wMvQrNT4tDL5GyeI4E6R2lqEkBysarB8xmZ7H8FRxv1uRWw15i5SyOKiCdKx/l8OfzVkVQDt+QNlEKA==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 32,
-      "question": "Oracle SQL에서 쿼리 실행 계획을 확인하는 방법은?",
-      "options": [
-          "EXPLAIN PLAN",
-          "SHOW PLAN",
-          "DISPLAY PLAN",
-          "REVEAL PLAN"
-      ],
-      "correctAnswer": "U2FsdGVkX1/NckgPnK45x1k5jczORD/nzoG7shEtYoCUHQ/9iRyOJk+5KNrH9ekq9d29nUShuuca4RJzaFUtWw==",
-      "hint": "U2FsdGVkX1/ER8fvj2A1LSFtVpnhtgEIMnzMvgHGQCCaA4i4vjRVORlxJzWuVxxKI/EWp4bognOvXeShxdv2bvajVgLCensx+w98uybqbZVDpw/8Fow2Ly7BpTUHMufnIxCMk9d3wq5/pKfSA6nt8qcwcN9pFD2diWaAxME7s/A=",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 33,
-      "question": "Oracle SQL에서 데이터베이스를 고가용성으로 구성하는 방법은?",
-      "options": [
-          "클러스터링",
-          "인덱싱",
-          "파티셔닝",
-          "압축"
-      ],
-      "correctAnswer": "U2FsdGVkX18yoLrXF4/4flk67bej9nd4SSCVI4k4hS06YzK3tNTMTNzGwD2dUeRd2N70BW7SF9dPDmKu2HGqSA==",
-      "hint": "U2FsdGVkX1/gv66TxZ51lMFpRvzcb3tYdC6YKygkC6xBy6m2Ei1UclvU1Sd3Ml0trp9Gi+S9kBFV3gjnwYSoC2p0HtmDLppAiRVjjUECAUjDbp0qgS7JCzxzotg59VcsaXXU/7zu13faXCVkhqWmpunfq29SK78q6I4pZRyJW8YxoaUoQxm8V+djZYaWG7td7sMG4kcTTej32F4P4IsrKA==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 34,
-      "question": "Oracle SQL에서 인덱스의 효율성을 측정하는 지표는?",
-      "options": [
-          "클러스터링 팩터",
-          "분산도",
-          "인덱스 스캔",
-          "풀 테이블 스캔"
-      ],
-      "correctAnswer": "U2FsdGVkX18wc6SWfx++mPXI2KYWqea3/xbLXHUJL4oI004ICXkRS32jM8Ea9zH1/DoGLa5nvpn8L+ff60IJog==",
-      "hint": "U2FsdGVkX195lvuYnjCKfMqXDdXTrF4q8boTY+EcoteuFCPxr9y80o5OUNtPOoDzAbE9zxyjGyFgSbY6ANxZmD4K32Ndj9TqqKJAS/gcjD/NWZILD5uSanaOop6XS0OiJoBjpnt4CxevrTgCv6F5O4T7IqWgJqnWxXVrnpfwGRM=",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 35,
-      "question": "Oracle SQL에서 파티션 테이블의 데이터를 병합하는 명령어는?",
-      "options": [
-          "MERGE PARTITION",
-          "UNION PARTITION",
-          "COMBINE PARTITION",
-          "JOIN PARTITION"
-      ],
-      "correctAnswer": "U2FsdGVkX1+2+FhPzseltJrS4Ff0tUAeZr8ANADI6qUGUaGUSVGOS+A3oGxdxlaPm/Oyi+7PQT92izt1gCs7cw==",
-      "hint": "U2FsdGVkX199W/JsgFRClbM63VAn+TvZwCX69M4Z/OOoLI6l8oTnB+pXOFAZxkMbQYAepMHLhGmW6zBxJ4JHWRGcFBTTMK8Ms4AYBR34innr8gnTJ6E0yc1BBdzEiXLdnLTrsF8Zn4Hh0+VpCriBe9LmyWN3LIpzmnIM2RCYv4A=",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
       "id": 36,
-      "question": "Oracle SQL에서 옵티마이저 모드를 설정하는 방법은?",
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 정책 평가(Policy Evaluation)의 주요 목적은?",
       "options": [
-          "ALTER SESSION",
-          "SET OPTIMIZER_MODE",
-          "CHANGE OPTIMIZER",
-          "CONFIGURE OPTIMIZER"
+          "최적 정책을 학습하기 위해",
+          "현재 정책의 가치를 평가하기 위해",
+          "모델의 복잡도를 줄이기 위해",
+          "보상의 변동성을 줄이기 위해"
       ],
-      "correctAnswer": "U2FsdGVkX1+LeJ3iti0LEsiU8EySq7ppvEth8y763y+mgoOMGNauJAFZE5LM9udoDtdFuvXbBzX0moGEyUPqQg==",
-      "hint": "U2FsdGVkX18d3BwrZakVb1aWIWuN/+g1XvYyYnyhlcnYEqOnrGJymWq73GQen1p6I2XVkqtO/ZP3To1K2WXqfoA3FOeTddoL4Qr/oFGx+NjhgdYPkx2pPw2witSMKeySFzeBCF4h5T3b/g97AI1ILnQTUO2DxuiWTABi5+oyOIev5CkTZ2BDjzINTUTDOoj3Bis74b9bAs2PXATsPoWskw==",
+      "correctAnswer": "U2FsdGVkX1+/ots26Dou43cEfPlYeVAFYUUSmdx9NN+ZW5/z09h399+RrJyeIll5BDGVpPIni5lCtyOPXPqNU3AbuyZVE4mM4MHPNuKUiiA=",
+      "hint": "U2FsdGVkX1/NNWD2lUTlIlD2pb4YTvSU6H2VX9eCVd9NF7QZGwhctKS8XmlmvsWeYjVsRN9aYpBV2x/HXW4qL0TBFjv/eCXBHwzV3WZJpArP+0EaHBVFpXhqapH0T4ObkWX9sx13Lm0lbOFo8aehuQ==",
       "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 37,
-      "question": "Oracle SQL에서 데이터베이스의 세그먼트를 관리하는 방법은?",
-      "options": [
-          "세그먼트 어드바이저",
-          "인덱스 어드바이저",
-          "파티션 어드바이저",
-          "클러스터 어드바이저"
-      ],
-      "correctAnswer": "U2FsdGVkX184C9PqPNXt/VdfiOEOfUaj2vfUP1a0nJUH8e4s0I6lVeNvEXuCT4aF91V5btf0SKoOosDkgRfnFg==",
-      "hint": "U2FsdGVkX19zLJYc1qqYPmnZ8hvH/dQdJY2QjTVLnMaMPTYMt1KiCqSh6Gx63w6zoXkOsn4rXrIZYfuFLzhfO35JHuSt1tTDVfJMaoQ/5YCERg/LZPLSIlWdAHv36DKge4MGccjFq97IDynLrP/87NUPjrJ2bvb2Csf+6geW9cr4spi2IhN8rxz9+MaL4AGwiOWjHSaSURgHTR5SfArEcw==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 38,
-      "question": "Oracle SQL에서 데이터베이스의 성능을 모니터링하는 뷰는?",
-      "options": [
-          "V$SQL",
-          "V$SESSION",
-          "V$SYSTEM",
-          "V$DATABASE"
-      ],
-      "correctAnswer": "U2FsdGVkX1+H4CY2AlKBgAKkBTTuPd4P84xqMB8HXJPaP33/mKn93h35f9uclDZ5aQSj173gxF/Weax9NFnCJQ==",
-      "hint": "U2FsdGVkX1/DYaV6n7RuftQxIc15xNjufQ1WVX88ryKSVDIyorA9CNdTaWEh05Lt9HL3MtcgujNeXjhkfsmdaNqWSIrhIR4iX4wvjrg7t2j81eirXkO1B0tEr3USYWHeDHieDslLo+AlGgzdX+iv8JLzC8gGaQDki2gc4+iZThs=",
-      "difficulty": "hard",
-      "category": "성능 최적화"
-  },
-  {
-      "id": 39,
-      "question": "Oracle SQL에서 파티션 키를 변경하는 명령어는?",
-      "options": [
-          "ALTER PARTITION",
-          "MODIFY PARTITION",
-          "CHANGE PARTITION",
-          "UPDATE PARTITION"
-      ],
-      "correctAnswer": "U2FsdGVkX1/C5ekVLc0mc+uOllI+gRX2gjJToIxbRVdxHkq+Oh+6kY31gfmK4NtEbliNChZvGLs5QyJOPsLq1Q==",
-      "hint": "U2FsdGVkX1+GpmfHGchF60Mk3W+NGJ3spBiCEEd/no1NbbvJPHO9bqvyASQ5zwwH/6EeVXCH1cuhe06nSXsZPwK75vkWJMI+HL9lmVpZBTV2NDWLTh+m4frQhnngaqm6r8sBAY8pu/qpAA3X6/eJlw==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 40,
-      "question": "Oracle SQL에서 데이터베이스의 재해 복구 계획을 수립하는 방법은?",
-      "options": [
-          "데이터 가용성",
-          "데이터 복구",
-          "데이터 백업",
-          "데이터 보호"
-      ],
-      "correctAnswer": "U2FsdGVkX19EmbtmCCnUj98bPEY9KBaBEYI5rvTjpHWbo1uai3y6be3gapNK7KprgVlDqvabjOO1c25Wg2OTYg==",
-      "hint": "U2FsdGVkX1/AOGewbwwLKmMBQOzK1L2dfkHzT4NN/xMbzTmkqj82Pk1NqZurdTllwWl5Our/ZacNEaLq0O5hNvCNwYQr/2Or5q0zQqH1sBeUeFB2hfRAqa8GavWfb9nouO+Uh/oRScaxrSulFZmpuN4pcWct2Sglgl13kXEgjMY=",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 41,
-      "question": "Oracle SQL에서 읽기 전용 트랜잭션을 시작하는 명령어는?",
-      "options": [
-          "SET TRANSACTION READ ONLY",
-          "START TRANSACTION READ ONLY",
-          "BEGIN TRANSACTION READ ONLY",
-          "INIT TRANSACTION READ ONLY"
-      ],
-      "correctAnswer": "U2FsdGVkX18Ud3NagQ6reJDmuMGz4vXTjnK+mQg6/6yNwhYscl95APVvB9S8qOotYnPqlpXzoSR7/8ea/rV2hw==",
-      "hint": "U2FsdGVkX1+eByhaz+WVSiqfQ2W4vDFqzA9hVGE/9iJ296HsE0wATWSJaHcMR+J8haIgTGXvHae0/ohBVqwOSBB6v9apWc/fpOs+jZElQnlKrP+dNjSGrwjeqfIrTFu6VnW/2zAXhV+je19orSynM7khWRHl/Q7Ns90SKWpTv08=",
-      "difficulty": "hard",
-      "category": "트랜잭션 관리"
-  },
-  {
-      "id": 42,
-      "question": "Oracle SQL에서 병렬 처리의 효과를 극대화하기 위해 사용하는 힌트는?",
-      "options": [
-          "PARALLEL",
-          "OPTIMIZE",
-          "FAST",
-          "SPEED"
-      ],
-      "correctAnswer": "U2FsdGVkX1+fjbtU5M1ybKbSjt6Gx3c5meziItT8e30UxlGQn39sjlWy2K89DkIZPLJR2Z3tneoiT6Ruaab/Cg==",
-      "hint": "U2FsdGVkX19koyta+d51revY5QeXLxH94fMiUWHoIeDBqtvAnnzWqCgv8Ih7N6EyuLd16sv/+VT0lbs9NENTkz/8nkXCpMotqv3GEwIzzaedF7vB0JiO/ImUrUdSgp+7Q6RvvZHQBMCt/6X9U1I90A==",
-      "difficulty": "hard",
-      "category": "성능 최적화"
+      "category": "강화 학습"
   },
   {
       "id": 43,
-      "question": "Oracle SQL에서 데이터베이스의 복구 시간을 최소화하는 방법은?",
+      "question": "다음 중 '데이터 군집화(Clustering)' 기법이 아닌 것은?",
       "options": [
-          "RMAN",
-          "데이터 압축",
-          "데이터 파티셔닝",
-          "데이터 암호화"
+          "K-평균 군집화 (K-means Clustering)",
+          "계층적 군집화 (Hierarchical Clustering)",
+          "스펙트럴 군집화 (Spectral Clustering)",
+          "주성분 분석 (PCA)"
       ],
-      "correctAnswer": "U2FsdGVkX1+P4o8APgidvFM2XgD/KPxtbLx/5lHYuM8Oq0KtUZpkavq37eJLMsSF9M2xePzBrumJWMEg7PIDcg==",
-      "hint": "U2FsdGVkX1+KhAU7glT6XDt7fHvGtfHPKDhZxggwRLF5uId/vW4pGemPBhVDjKgHv81BZG01zN24Ox6xUF7mzb41lB9dIoOFwz3aqir4oqIwJtAdO8o2qVkN3P46PExQ",
+      "correctAnswer": "U2FsdGVkX1/OS3/5snzT/MdHXkc0A5v0tjNJF1kSnZTcYuhlgtctFsnk1MYjJ1bo",
+      "hint": "U2FsdGVkX1+mM/snBIm3t2vZZ1lUueF2LZpc0CUUNr/3ykCCMb3gxbHIrmYDM2N9GcA9lk6HW8NDt1+Wp/OOnT1rZXbkeM7MFmvf+3zxV1ImtxXp/Md2/qeC8IO8VKWc",
       "difficulty": "hard",
-      "category": "데이터베이스 관리"
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 17,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 사용하는 보상 함수의 종류가 아닌 것은?",
+      "options": [
+          "즉각적 보상 (Immediate Reward)",
+          "누적 보상 (Cumulative Reward)",
+          "할인 보상 (Discounted Reward)",
+          "정규화 보상 (Normalized Reward)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+NlkfVR2UaYcyEjTQDt6AH1DhA4EjATnkb3JSE98Qg4+3N0FXBN2pBELKzq5rjNXqPSWVGSDukNw==",
+      "hint": "U2FsdGVkX1/p2Gu9qxOzGI7LDMmHr3z2aYDtmhTAVHm9IJbZBytM0xJDEInYRa+Sx08mjDbpoYjSuvC0FW24brN1G1yiarTj33nhTjCGWRKZ4s+IZl0HBNn7xnZ+ogTy6WavqcDCefk7RUXZL9sLaGRI29StvlZe/mHjuuONIvY=",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 6,
+      "question": "다음 중 '주성분 분석(PCA)'에서 주성분을 선택하는 기준으로 가장 적절한 것은?",
+      "options": [
+          "분산이 작은 주성분을 선택",
+          "분산이 큰 주성분을 선택",
+          "데이터의 평균에 가까운 주성분을 선택",
+          "데이터의 중앙값에 가까운 주성분을 선택"
+      ],
+      "correctAnswer": "U2FsdGVkX1+6bDZpcRAcQZtYUtSVj+hi7PtuPAIUMEIV4eJe/wvS7lm+VucrcB0JkbmzwjWAlcMIvkOeOrNd6Q==",
+      "hint": "U2FsdGVkX18U/07hPU2TT/2PYhesW4xJ0jbUDscQPhyKuM22ZZC5N26I+p59KygoJvMOJn45m2GQ4mpTDsjvl0PZpsSYTzQILOCE+ZQrhR/phUpkEqFw1AlyWZD7R6zl",
+      "difficulty": "hard",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 15,
+      "question": "다음 중 '랜덤 포레스트(Random Forest)'의 주요 특징이 아닌 것은?",
+      "options": [
+          "여러 결정 트리를 결합한 앙상블 학습 기법이다",
+          "과적합을 줄이기 위해 배깅(Bagging) 기법을 사용한다",
+          "높은 차원의 데이터를 처리하는 데 효율적이다",
+          "각 트리의 노드에서 모든 특징을 고려하여 분할한다"
+      ],
+      "correctAnswer": "U2FsdGVkX19xU3I+JzzsNOpH9vlF9PhdIytTDkjL7mTDPOCXj+UlDV3Ojwgh6RU3hGUdH560Bx2QTScaNxsROpWHTF+pLCSJxPJXBvGNu7Mlu9Um1a2rMjQSMnFZNatP",
+      "hint": "U2FsdGVkX19UDIlLIHIRv+0gFIjcl6+ZTFmqigBl4FrKbxgG83xtjULG/if4QvFNjZciRup0s+axm0D2jBtHPe28mBRJRdUD/JaIENVD7dLjuSp0/sgmAz85XMQUvuO6XvsyrNiBtYze1AgVv8Y0iYSCNtwCNkwx/Sl1WXoFn0dGadpV4lQg9KWEnZ62sJIX",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 20,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'의 Q-러닝(Q-Learning) 알고리즘에서 사용하는 업데이트 공식에 포함되지 않는 것은?",
+      "options": [
+          "학습률 (Learning Rate)",
+          "할인율 (Discount Rate)",
+          "보상 (Reward)",
+          "편향 (Bias)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+mDj1ndDqnwVTcaTb/SC1jXw4tef/dXvw=",
+      "hint": "U2FsdGVkX191ADUCOEEpMrTEDD/1wViVYDn+1Y8ndvrm/bpzb5mBrQ2uv0DSKMApubwHrYFy/nJAwm86Ht2+m0S34LYfQjV+gf2EAmxNrfvngCA0sVjIjAJeWR3dqXbknGUZLsFFxb5A8TYhl5WxaQ==",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 14,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 과적합(Overfitting)을 방지하기 위한 기법이 아닌 것은?",
+      "options": [
+          "드롭아웃 (Dropout)",
+          "데이터 증강 (Data Augmentation)",
+          "가중치 감소 (Weight Decay)",
+          "배치 정규화 (Batch Normalization)"
+      ],
+      "correctAnswer": "U2FsdGVkX19Rn+wsS7vmKQz1Bmf1AeKry0+C0zcrYNSsltEI2H/tZAYsVIw74nuH4lsQZIGM6WZtmNEteGdkUQ==",
+      "hint": "U2FsdGVkX18XkMWym1h3BxIQgRFv+/46uTktve+tPHt3Oag/prqPjtAIXN4cCNvIYLJJZ3yJrmxPmlMm5zUlvbT1kTweZ0IwGImnzEgooJV1Emm10SgrUZyHLWHx1LFoeYuvoypgmmZE+aUuN7jArA==",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 13,
+      "question": "다음 중 '결정 트리(Decision Tree)' 알고리즘에서 노드 분할 기준이 아닌 것은?",
+      "options": [
+          "지니 지수 (Gini Index)",
+          "정보 이득 (Information Gain)",
+          "엔트로피 (Entropy)",
+          "코사인 유사도 (Cosine Similarity)"
+      ],
+      "correctAnswer": "U2FsdGVkX1/MVz/RxNRzWNiOqck0njXLtqCYVczXu0cXFynGjDtDD1GQWcb9Rz+W5iWiIKrMI+ZpOCmbcQPoGQ==",
+      "hint": "U2FsdGVkX1+5FmsERTYezrMQx3ry+8ni0n7hUIBhhFblmMZaL8RFI+I0hrpnRRKzmzJ8k79ync9cYr5lQawqKHLjSQ4cry+tdFKbmmQCiUELurcBReyJ7DEABL2IKaIWx52TF/gH1kB671kHl72ZnA==",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 16,
+      "question": "다음 중 '주성분 분석(PCA)'의 기본 가정에 해당하지 않는 것은?",
+      "options": [
+          "선형성 (Linearity)",
+          "평균이 0인 데이터",
+          "분산이 큰 축이 중요한 정보",
+          "데이터의 비선형 변환"
+      ],
+      "correctAnswer": "U2FsdGVkX18HrWmpPqY/GZJSZ/zCylK52g7nihenbJwzISyTaryG56lsRd7EEcJq",
+      "hint": "U2FsdGVkX1/c6W50LoN+QSe1bBsTzUmdeeBJFcUTsAnF+h95axSbbk1I4hQd7YNbumGYSb7Ajbp8jKpYg1cykfjEh9MhZjAAn1Csqj6Mxkxtru0sdzT6AIf2hGVgWFj5",
+      "difficulty": "hard",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 27,
+      "question": "다음 중 '회귀 분석(Regression Analysis)'에서 릿지 회귀(Ridge Regression)와 라쏘 회귀(Lasso Regression)의 차이점은?",
+      "options": [
+          "릿지 회귀는 L1 정규화를 사용하고, 라쏘 회귀는 L2 정규화를 사용한다",
+          "릿지 회귀는 L2 정규화를 사용하고, 라쏘 회귀는 L1 정규화를 사용한다",
+          "릿지 회귀는 비선형 회귀 방법이고, 라쏘 회귀는 선형 회귀 방법이다",
+          "릿지 회귀와 라쏘 회귀는 동일한 정규화 방법을 사용한다"
+      ],
+      "correctAnswer": "U2FsdGVkX1/lCJNfmijz5dBh1Uj7/bzvj3+4MpqSgGnnJKOT9jhZG2PbdgprZFmyJcK6CVTKO7HFk84Qn3XS4iZ6z+zRjZ4SbwFvUR89V2GYjSahqJ/qjWrfwLr2rXuvGYi8x0Rn5i+TL8UMoBTtxA==",
+      "hint": "U2FsdGVkX18iten7eXEm5vgEymb+VhdMxpia8hxyz8W04U23QrwFgJEt57kydyEALemth5sao9vD9kd2mjAiKo6T2BP0OZ8zwv+miT1dTi67+OiUX8jBNebplv/AVL7L/d9CBCwUYTS4xwZHYF0YtA==",
+      "difficulty": "hard",
+      "category": "통계"
+  },
+  {
+      "id": 42,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 역전파(Backpropagation) 알고리즘이 수행하는 주요 작업은?",
+      "options": [
+          "네트워크의 가중치를 초기화한다",
+          "오차를 네트워크의 각 층으로 전파하여 가중치를 업데이트한다",
+          "데이터를 전처리한다",
+          "출력 값을 예측한다"
+      ],
+      "correctAnswer": "U2FsdGVkX19tWSZPa90yK9827baGUIqNfCjf3wMenqglTxNYxnz29nPY1/kUC6NXVWBzToNLrLvkYzRevIQNDBATz4LrQsPWpmP4rlAKvqbBjo2ezFyYEA6LdQVZSGIw9ue7/z90fampkdPUFUSXhw==",
+      "hint": "U2FsdGVkX19UbplnohM41/ifkgnDbqb3V0OTeMVKM7mySjsX/YWPCkP7IyrvPTxLkBKkMTfVvvSxSYX8W65qfzMwpDCOUQ/s7WkSKIolIEKY6bX9hwMM+a3bdaX0b4RcHshHH/xdy8yMQxKOL5UIToS4apVlHogm7JaulipTB70=",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 18,
+      "question": "다음 중 '회귀 분석(Regression Analysis)'에서 다중공선성(Multicollinearity)을 해결하기 위한 방법이 아닌 것은?",
+      "options": [
+          "변수 선택 (Variable Selection)",
+          "주성분 회귀 (Principal Component Regression)",
+          "릿지 회귀 (Ridge Regression)",
+          "로지스틱 회귀 (Logistic Regression)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+IZfei7L9S4iXTMKrDjTuAmauOKXbyC1YxaeRv+n5aD+C7qpOzht+e/rYjn325OCPzdssiRiaUMQ==",
+      "hint": "U2FsdGVkX1/e0LgVFNRIoW/yVfuy5Lc1EifusPNKm0JQcG/b2cbp9hQ1qCkHsqG0kFsPqHQAYYLmm3prCMBqAdYj6+8a/EqZ6VlhHhE1HBRqqgWSSkpWrLv+yifMGqHz+l1pkD8xV3pj5OFEW6mF/jCqeknymbkURDYQZssmm+c=",
+      "difficulty": "hard",
+      "category": "통계"
   },
   {
       "id": 44,
-      "question": "Oracle SQL에서 사용자 세션의 정보를 확인하는 뷰는?",
+      "question": "다음 중 '회귀 분석(Regression Analysis)'에서 가중치 감소(Weight Decay) 기법의 주요 목적은?",
       "options": [
-          "V$SESSION",
-          "V$SQL",
-          "V$SYSTEM",
-          "V$DATABASE"
+          "모델의 복잡도를 증가시키기 위해",
+          "모델의 가중치를 증가시키기 위해",
+          "모델의 과적합을 방지하기 위해",
+          "모델의 학습 속도를 높이기 위해"
       ],
-      "correctAnswer": "U2FsdGVkX1/nCOhnvb1nRmd5bM62e2q/MRMKgpEWXXokzSJjR3e1OVZKyLaTCKXH7oyP2b1F+OLlrW691s+Tfw==",
-      "hint": "U2FsdGVkX18NgXZEYKgOatR+ZxIbUiP1Zx0kgmYIdUGPitc0z0wNOkxu6784+ihe++GPFhzxQkGiVT/YC62ehN8sY0xD39tNWdxAEB96FS628oVvyzq3IwQ/FjOVQiMjbUIYreaE53z8eL8QDqZa6g==",
+      "correctAnswer": "U2FsdGVkX1/XwzeGFGpp55Swi8ONg1sOadMkLKIn8eAoMkSFJRYEKr0UAq7zOAX0klAmIvA/ggLGFSfaK3Vlkw==",
+      "hint": "U2FsdGVkX19MCQcLQ2iTHpN1imAEtwXAWwsANyIGbOCGBV89eg6FaDEa9va6V5n9w5rsMU/6ZmLcGNhCxRwf4n8diXDcp224GLjXPfLS0TverM3oTsxrWd23BPaK7SGUqxFPUOWf+kJgxCSayDmJjEsxghVvRFQ3xnzuON0Q3Qo=",
       "difficulty": "hard",
-      "category": "데이터베이스 관리"
-  },
-  {
-      "id": 45,
-      "question": "Oracle SQL에서 데이터베이스의 크기를 줄이는 주요 방법은?",
-      "options": [
-          "데이터 압축",
-          "데이터 암호화",
-          "데이터 파티셔닝",
-          "데이터 클러스터링"
-      ],
-      "correctAnswer": "U2FsdGVkX1+kapWzXIkCk1IVvHiy6ZB8mbWkymoow5wYVQLcV2q8EBBI+R9esxaXYgZebKn2z3pqQt+wwuoKig==",
-      "hint": "U2FsdGVkX19UsOlr795+GRHCs3HLZcRPcVLekdFbi9tnqCqjT4aKoqySR3v0pHULl70ZMXxQa+KpPhVmP2rKlDd265eQkRKBRkbGCkzGmdqrkYAM1WSSU4+LvN811b+8M/YoC5+MnMMBJDz0pEG0vg==",
-      "difficulty": "hard",
-      "category": "데이터베이스 관리"
+      "category": "통계"
   },
   {
       "id": 46,
-      "question": "Oracle SQL에서 뷰를 삭제하는 명령어는?",
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 사용되는 탐색-활용 균형(Exploration-Exploitation Balance) 기법이 아닌 것은?",
       "options": [
-          "DROP VIEW",
-          "DELETE VIEW",
-          "REMOVE VIEW",
-          "CLEAR VIEW"
+          "ε-탐욕 정책 (ε-greedy policy)",
+          "소프트맥스 탐색 (Softmax Exploration)",
+          "Q-러닝 (Q-Learning)",
+          "상대적 차이 탐색 (Relative Difference Exploration)"
       ],
-      "correctAnswer": "U2FsdGVkX19x4ViXByEAJFh6uwuaKNTfpZEjysrkvK7T+/Ip2IRk4dWkjKsRaaMSXos5hAzYSTPM7mmWkMC01g==",
-      "hint": "U2FsdGVkX1/kJe/+lMe/6M/cMqHyWhWN0Gz9KA1M8u9PqlXcTC7i9/4DCsLB6g01vAqVBEXDuVrsLLJi/LRrzckdDVThXyp+4Qaj3FAvqhJbrT0iUcHOPRmvMYGbWlKs",
+      "correctAnswer": "U2FsdGVkX1/BS/OeszoWlMdpmZo0ABRE0fFWo7ea0K9ccZeESMBFVCm3l1RtX5Dk",
+      "hint": "U2FsdGVkX1+uxKj8cuX6oxzflaGrFfbSlhnwtbYhH8CM5+GKP1zvXuiJZ/XWO2kyaSCQ4Hf5xYL8cS+TSBMqqDPEif8dDEqeiX0x39Snc+zfAMm0Bdk0e6P9UN9K8+pW1xCHaKENxVsJrcVLn3QsHyKg9B6Og+c6WjTrtu9ZntUV87uQcHzwjvzVsNeXjiaG",
       "difficulty": "hard",
-      "category": "데이터베이스 객체"
+      "category": "강화 학습"
   },
   {
-      "id": 47,
-      "question": "Oracle SQL에서 특정 데이터베이스 사용자의 권한을 조회하는 명령어는?",
+      "id": 23,
+      "question": "다음 중 '주성분 분석(PCA)'의 단점이 아닌 것은?",
       "options": [
-          "SELECT * FROM USER_ROLE_PRIVS",
-          "SHOW GRANTS",
-          "DESCRIBE USER",
-          "SELECT * FROM USER_PRIVILEGES"
+          "해석이 어렵다",
+          "데이터의 비선형 구조를 캡처하지 못한다",
+          "데이터의 분산이 작은 방향으로 정보 손실이 크다",
+          "고차원 데이터에서만 작동한다"
       ],
-      "correctAnswer": "U2FsdGVkX19R1Uq8QIuoP6YbxZLJcnwRneqORoGd81bMzAD13NA0MiNdudCUFktBi9upLrfYLAJOpd8QY5mxbg==",
-      "hint": "U2FsdGVkX19ejW4Lj0HCwXPjYUNxt7t3vuBEfP0IIxOXrIIYesI2nh0oIi6Nc45dwmQZzP5t+WO3Ap9g3tbvsQBATJ+K8K+kB8wMW3PpoFg1m51QPPcwzvDZvjLoGHgQTqs5SWXJA2O4xC5cOuGtCA==",
+      "correctAnswer": "U2FsdGVkX19qhZoyvENoRHFLwVX3Q6+mClU8RcBHZMv+617LJYG3ezTZRxlQIw1GmQIabpVK/JX6uMniuDN9qA==",
+      "hint": "U2FsdGVkX18yudUC61cTUxx6pFfChS7KAyvgvMMR0HBkd90wBB14PgXcKk/2/tWF7jeytsWZCsBvO5cuaG308+a278KF7zkWXCLdOvyVMP83TVzzzwv8/wQD7pu4N0o20aSlnS6ga7hJnhkfyTDN4ti2M4rIP71k7Dg5vGeFQ0o=",
       "difficulty": "hard",
-      "category": "데이터베이스 보안"
+      "category": "데이터 분석"
+  },
+  {
+      "id": 35,
+      "question": "다음 중 '랜덤 포레스트(Random Forest)'의 앙상블 기법에 해당하는 것은?",
+      "options": [
+          "배깅 (Bagging)",
+          "부스팅 (Boosting)",
+          "스태킹 (Stacking)",
+          "임베딩 (Embedding)"
+      ],
+      "correctAnswer": "U2FsdGVkX191/r5VPHt4vE99SAfcxN5E6eWstYl1X5OWK821pnTSnSt3RR/iRx9V",
+      "hint": "U2FsdGVkX18ax6DU4QBBPiaD2FZ4TqhPjy07WTfTynDrXJxpKaAS7G+hMNj1s19K8BmyRag1bZlsAfAH8CFEtM0mtpqPREy4TipExRm4b8jUPStyQDeyzXZzR+zRSkhLw0gJlOrhhwRND0Owc6KxBA==",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 39,
+      "question": "다음 중 '데이터 정규화(Data Normalization)'와 관련된 설명으로 올바르지 않은 것은?",
+      "options": [
+          "데이터의 스케일을 맞추기 위해 사용된다",
+          "데이터의 평균과 표준편차를 0과 1로 조정한다",
+          "모델 학습 시 데이터 간의 차이를 줄이기 위해 사용된다",
+          "특정 범위 내로 데이터를 조정한다"
+      ],
+      "correctAnswer": "U2FsdGVkX180id3YyjEDUBkow2jRINOSAy9NTT0KmHt9SngF6e3Va4OkgcWKMKNpD0Bz6FWdY+nNEDtGXhgayNmrldpXkEGhf5zsywblWjc=",
+      "hint": "U2FsdGVkX19PlGwd7FPNSIt42ywywj4DVPM4oXSxzp47dHqqvPuYwoL42Ip0eTSGTygAv+YG7nLNivp4SVuH3K2wapCM7B5lPCEqBA/dU9EhLFp+u+zvBYItRpuAhERfnCy825FmrDavJrRSHrlZplltHQmE5HqNYDaT0AviC9Y=",
+      "difficulty": "hard",
+      "category": "데이터 전처리"
+  },
+  {
+      "id": 37,
+      "question": "다음 중 '서포트 벡터 머신(SVM)'에서 사용되는 커널 트릭(Kernel Trick)의 주요 장점은?",
+      "options": [
+          "데이터의 차원을 줄인다",
+          "모델의 학습 속도를 높인다",
+          "비선형 데이터를 선형적으로 변환한다",
+          "모델의 복잡도를 줄인다"
+      ],
+      "correctAnswer": "U2FsdGVkX1+kJzgBwWcOiDher4XnI+/kzUFEwVU9xpNwJjx11OvRtORSJITIGpxcOdYGKeshNrcs+RHPetw1HTesBYa08AYeyH5umwzjmP0=",
+      "hint": "U2FsdGVkX1/ld+ktMWXoveiwhlxFOY4syGqXYIk3wZ20AmOPW3HWg2jIbr/K3i+rcsOVhVx+FVTFTenRf366pWliyYritkAuxaWyGfaiAeJTdveDuWKHowepSqDjSvLwfAtJX+Rh6G68FOSs8syb1gAQ3ZKC1rvdKcuBpkAIOqsUc/eb9QUfCwD4mwHs69QJ",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 12,
+      "question": "다음 중 'K-평균 군집화(K-means Clustering)'에서 클러스터의 초기 중심을 설정하는 방법이 아닌 것은?",
+      "options": [
+          "랜덤 초기화",
+          "K-평균++ 초기화",
+          "실루엣 분석 초기화",
+          "최대 최소 거리 초기화"
+      ],
+      "correctAnswer": "U2FsdGVkX180pD2luwLDrQ0GXqybXxNXuwQ4z2z9IQdyTNjRo9+ApjFSJW1CKfq/",
+      "hint": "U2FsdGVkX1+q5htKTpY2Sl4VsBe310LZ+g57XLqimNol8GRcWb3WEXtBjT+jG3ti9NMESH/AVXyqq5rGAnIdPMcc2U/vJhiyq5RZfbOpGjTZwm9Pb+AdBmyJvBkJxavplMeRU0HggoB10WGeN2BHs6WJWkoxnLSG6d+WuCijI0N7ygjDw4DCCdI1Jj9Kb7QW",
+      "difficulty": "hard",
+      "category": "데이터 마이닝"
   },
   {
       "id": 48,
-      "question": "Oracle SQL에서 데이터베이스 테이블의 통계를 수집하는 명령어는?",
+      "question": "다음 중 '텐서플로우(TensorFlow)'에서 사용하는 최적화 알고리즘이 아닌 것은?",
       "options": [
-          "ANALYZE TABLE",
-          "GATHER STATS",
-          "COLLECT STATS",
-          "COMPUTE STATS"
+          "SGD (Stochastic Gradient Descent)",
+          "Adam",
+          "RMSprop",
+          "Lasso"
       ],
-      "correctAnswer": "U2FsdGVkX1+gWJJiBA8bVNUYSca+mROa1q/k8BfDpMDLpvKE/OKp/oXDSe5yDFSqean++AmgPb/6CEqi2rRI5A==",
-      "hint": "U2FsdGVkX19ILJmMd5igrNykKhLS9hbtb/nShiMyUIUYnm0cg7Gz8oAKFNMrikfP7wP813lPu7m5lsPVieDIWADq+oDzBNPtir5raDxJZCr6v+2LhjnowqsgcZfbVhJNN/AnCz07UyMcJ3isAg8Cqg==",
+      "correctAnswer": "U2FsdGVkX1+TBXCxbNBwPYG6Z0iOIuTyX2inQLVEjZE=",
+      "hint": "U2FsdGVkX19hnxcm/St07Z0JwS/AwG0eW7h4fWeNkvvj57J78kh2rQIEQxVAjajZECvQwapN3vcAJyMYi50ayldfV14I6Ha0DyhP88gUpV58ozAKNm8XZFgfbz6p7t6yym6bqRaDQZas+DHP4z6vmDTOwHB3ZAxq0Fatnod1INA=",
       "difficulty": "hard",
-      "category": "성능 최적화"
+      "category": "딥러닝"
   },
   {
-      "id": 49,
-      "question": "Oracle SQL에서 두 테이블을 결합하는 데 사용되는 JOIN 유형은?",
+      "id": 29,
+      "question": "다음 중 '비지도 학습(Unsupervised Learning)' 기법이 아닌 것은?",
       "options": [
-          "INNER JOIN",
-          "OUTER JOIN",
-          "LEFT JOIN",
-          "RIGHT JOIN"
+          "K-평균 군집화",
+          "주성분 분석(PCA)",
+          "독립 성분 분석(ICA)",
+          "로지스틱 회귀"
       ],
-      "correctAnswer": "U2FsdGVkX1+GIWHv/9wWKYQFqJRJDGFwwiLIDlm74Oq/OFfame9shnOVYJvfrKRcEMKSaEpYL1e5h19rgVz8SQ==",
-      "hint": "U2FsdGVkX18yB6eIvjfO3RWIQclnr9CVO8/Q+P/vtjZYp5fNwM9L/V1Dis0zhEaJ54MmIZdvwjFwr+HkrLQXZ/+i2mHDZ3zIflGoxpcV+sA8b9J04j+lm/Ldc2KiPMNAu50frnMCtgyfTs7kQuTirJ7SnMHPmPewK6BHW1BE/XE=",
+      "correctAnswer": "U2FsdGVkX1/ImlVgYq1a3372Gi4QY0dHaU00ROS9Un849riCZb3U7zeOZ5A6f4J9",
+      "hint": "U2FsdGVkX1/BeWRdO4kvukpVL28jbV9mTYmpDx4ZIcsz2aMxgqZkZvjJOGoYyXGav0yWOoVeCeFrln7wwS14SR62Y4FR3NcwFrdCYmLmC9Y=",
       "difficulty": "hard",
-      "category": "데이터 조회"
+      "category": "머신러닝"
+  },
+  {
+      "id": 38,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 순환 신경망(RNN)이 주로 사용되는 분야가 아닌 것은?",
+      "options": [
+          "자연어 처리",
+          "시계열 예측",
+          "음성 인식",
+          "이미지 분류"
+      ],
+      "correctAnswer": "U2FsdGVkX1/iNwWcA63WoTtQoUGMEzx0f6q+GU3fk+g8T+itajoCH7tOC0GyEpEE",
+      "hint": "U2FsdGVkX1/S5nzsx5dcxBTQ/XNV9Q4IA1z14t4DrQhK6c/qGWpDzLg04/9CTmRGOqcLVxpn3w4uiumS8Z3dLSpE5kTR36Mpl4fwKW+DEitWl6j8Z5RMv+E74+xczWLWsVWIdn2ZJCbYNwyxJ42rvDg+irwMjqY9rJ/uJu0d0gs=",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 30,
+      "question": "다음 중 '결정 트리(Decision Tree)'의 가지치기(Pruning) 방법으로 주로 사용되는 것은?",
+      "options": [
+          "사전 가지치기 (Pre-pruning)",
+          "사후 가지치기 (Post-pruning)",
+          "혼합 가지치기 (Mixed-pruning)",
+          "반복 가지치기 (Iterative-pruning)"
+      ],
+      "correctAnswer": "U2FsdGVkX18OAPVVeZQfrUxY29b51y65AN9SItNTfNCJ+HQuOg+2qsah053cOR9CW3qI3smE71HdGTK/vl1JWg==",
+      "hint": "U2FsdGVkX19fjo3t3GkILXtDrhLzi811Sd3d0Q2Spy3vN8fi1+xc2UScU73pqep/JmYWzkvktiAzitvIR23Oh3zTjk+YkQntX4vrK8LGjq2UIcKu3b5BnwChF8/LypsP8wxrfFhoz383RGduQ7kfBQ==",
+      "difficulty": "hard",
+      "category": "머신러닝"
   },
   {
       "id": 50,
-      "question": "Oracle의 병렬 실행에 대한 설명으로 옳지 않은 것은?",
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 사용하는 가치 함수(Value Function)의 종류가 아닌 것은?",
       "options": [
-          "병렬 실행은 항상 성능을 향상시킨다.",
-          "병렬 힌트를 사용하여 병렬 처리를 제어할 수 있다.",
-          "병렬 실행은 CPU와 I/O 리소스를 많이 사용한다.",
-          "병렬 실행의 효과는 작업의 특성과 시스템 리소스에 따라 다르다."
+          "상태 가치 함수 (State Value Function)",
+          "행동 가치 함수 (Action Value Function)",
+          "정책 가치 함수 (Policy Value Function)",
+          "보상 가치 함수 (Reward Value Function)"
       ],
-      "correctAnswer": "U2FsdGVkX18zvbbYELuMN0DyllQoSYHxMOP98C7u6zb+tO47qVoZG3xKTaa7A0CukC41t3bDmonl5j0kKFtKRw==",
-      "hint": "U2FsdGVkX1+UIXeFRtwGPYUVMllB0qtfJCXVUKBBLof0FAa1IrpAmAwzzX6ZUuflkMd2O0BKXVARmM27rZ9Z/q5iwjyDSHruF0X1RSFbHyhFy0Xs3z9czp6I8Ktr0bIUcQnlVWQuk34z7KNYYl4LdVVRuMFvP/rwpJsrtiTlo7e1VXAnOhNAol0TZxJiexg/e5m9lD0hnwnz1ArdcqR1IXKgaF0tYU3sm8J/7oC2GmU=",
+      "correctAnswer": "U2FsdGVkX18pZPbA4vMEyraXWE63KkgUm1ndIx+ZaNOmvhYbIHsePcE3uvzoTXCAwHWWR2p0WLaak0ivQNtWCw==",
+      "hint": "U2FsdGVkX19TQwZQWSYBUJSthR31U5rWvg550gvX4ZkR+MNKmOpsao95b00Ioc9RtWKfVa1rYaBrs3oSmLRKWPVJ0KsoavFBmB2ZreBFCsp3dthTxQB6LgVpHpXNoMIZiiEhv9Ji5e99EcFse83xQg==",
       "difficulty": "hard",
-      "category": "성능 최적화"
+      "category": "강화 학습"
+  },
+  {
+      "id": 32,
+      "question": "다음 중 '서포트 벡터 머신(SVM)'의 커널 함수(Kernel Function)로 사용되지 않는 것은?",
+      "options": [
+          "선형 커널 (Linear Kernel)",
+          "다항 커널 (Polynomial Kernel)",
+          "가우시안 커널 (Gaussian Kernel)",
+          "로지스틱 커널 (Logistic Kernel)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+nLupsJDSCS953fuwjbElPtle8cs0AVx3pISilG0Vqsyt7I58R6wX+S478EKulitJXI9bsE7KKoA==",
+      "hint": "U2FsdGVkX1/EJeKmPGOxyilRWm+G/aD4IhqcH2Hj4Rp/mmaYbcruqvPjS1WbN7KDyKVQbts9lAY88dYi+t4N71PXtoyfR6hldGwZlsGegsc4PTRVE6Co8E8thJDHtDxT",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 47,
+      "question": "다음 중 '서포트 벡터 머신(SVM)'에서 사용하는 커널 함수가 아닌 것은?",
+      "options": [
+          "선형 커널 (Linear Kernel)",
+          "가우시안 커널 (Gaussian Kernel)",
+          "다항 커널 (Polynomial Kernel)",
+          "시그모이드 커널 (Sigmoid Kernel)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+3OiFoDQ4kjT/5OUDsTDHNMZQorulHjq2uza7WAt43TMctNiX79/MiIDQHiVLNYoTrSgJBZo7ndw==",
+      "hint": "U2FsdGVkX19RCkiuHU5jP9UViIo1f9mPTNN2zFqfr8KT8sJ+pP2WFfW1Cw2nZu4vBpqmhFNRBSpjS/EIXF47ueb62RG1eTxM+8eq8KkvrW22s+XcWQ+fTHTLVca1Sqjy5d0wodBcWE1C+3hibXaEeg==",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 1,
+      "question": "다음 중 'LSTM(Long Short-Term Memory)' 네트워크가 일반 RNN(Recurrent Neural Network)보다 더 효과적인 이유는 무엇인가?",
+      "options": [
+          "더 많은 데이터를 처리할 수 있기 때문에",
+          "긴 시퀀스 데이터의 장기 의존성을 더 잘 학습할 수 있기 때문에",
+          "훈련 시간이 짧기 때문에",
+          "더 적은 데이터로도 높은 성능을 내기 때문에"
+      ],
+      "correctAnswer": "U2FsdGVkX1/aVGd0vryZQgFzYOqTQ4noljRfkuChVtJPL5/jGrvMYkKAwcp3tjm8XftK/4zdZLQzyVwlCtU0zVci2nZx+TxhmmsQkN9RDScHHpWgFyOlPQ0YG64chaRNLcrgvyoJn4+Ub4gAYWm7NA==",
+      "hint": "U2FsdGVkX1+jq+EPPEx2UR97A1TU29Lr+tubhYx7mh3NzlqwLl1t/ZDVNDyz+f1Bn6dcYjYM6KDR556IFAGvquBIjcGyAznczKGusg9JCilxJE8btIw3c3HDZHQNckXSdk6f+gINw+dSpJztIPsPdnu6QfqlUQHBxqyI0hNJRUA=",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 2,
+      "question": "데이터 분석에서 '회귀 분석(Regression Analysis)'의 잔차 분석(Residual Analysis)은 주로 무엇을 평가하기 위해 사용되는가?",
+      "options": [
+          "모델의 복잡도",
+          "모델의 설명력",
+          "오차의 정규성",
+          "모델의 과적합 여부"
+      ],
+      "correctAnswer": "U2FsdGVkX1/4M++YDV4ZN75JFoVcxuR/h4WEn1cUIVpVx2ZlbquQKt4UdgvIKGd2",
+      "hint": "U2FsdGVkX1+Ig16I56OzmprcsQLDQ5NiHW1SLMyajRdfEXCIoS0agYrpshWbchsVAzi7TzBetDA/MkCmtTwbR+yRqv7SSVwPjRW6Gy1wyw2ZrhVuF6TXqNymjUU7qQpDJiQvLFipAQpKDbA8Kp4kZ/ujRzC4xZlSQvYx0sZ6eAc=",
+      "difficulty": "hard",
+      "category": "통계"
+  },
+  {
+      "id": 24,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 배치 정규화(Batch Normalization)를 사용하는 주된 이유는?",
+      "options": [
+          "학습 속도를 높이기 위해",
+          "과적합을 방지하기 위해",
+          "데이터의 차원을 줄이기 위해",
+          "데이터의 정규화를 위해"
+      ],
+      "correctAnswer": "U2FsdGVkX1+xuaAW9RaiBxLOJyeJmhhusXQhf0hTGK222mXkYadabMIjbu9e6mQQW7zGJkyJSeN696raAXdPQQ==",
+      "hint": "U2FsdGVkX1/SoajJdBCYqdfit8pbYaK3H/hm+CRkyvy1MF50YgAg056tEE1qEPVbZjXXGYRElDIXQFV1Bn2k94+jDVFisASbqFSW6sDpIUNzM1iNk49tz6/A3gMBO/6xzLqDt2MATQD0OrUDHTtrrg==",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 10,
+      "question": "다음 중 '회귀 분석(Regression Analysis)'에서 다중공선성(Multicollinearity)을 진단하는 방법이 아닌 것은?",
+      "options": [
+          "VIF (Variance Inflation Factor) 값 계산",
+          "조건 수 (Condition Number) 계산",
+          "잔차 분석 (Residual Analysis)",
+          "상관 행렬 (Correlation Matrix) 분석"
+      ],
+      "correctAnswer": "U2FsdGVkX18xi0trKN4Mk6k6o4vsoSMsBCz2FnzBKHR+RsddAfTHE1l90PK9bnhLCNZkLFKd5t4ULqfBEpxMYQ==",
+      "hint": "U2FsdGVkX191M1EkoM25LYjnNCdKFPiw76OfZyOeh1MvmdZ8AV7BAL2/UFfHcKv3dEZ7RYT47QEdUcfCqqSSUt/wlxKAtazBduASWlmFDZxzeSMCVJSoY9LJgHSI6Zpy",
+      "difficulty": "hard",
+      "category": "통계"
+  },
+  {
+      "id": 5,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 사용하는 개념이 아닌 것은?",
+      "options": [
+          "보상 함수 (Reward Function)",
+          "행동 가치 함수 (Action-Value Function)",
+          "정책 함수 (Policy Function)",
+          "비선형 회귀 (Nonlinear Regression)"
+      ],
+      "correctAnswer": "U2FsdGVkX19wPHire8iblX6+qRIOoTQch586YwqRPgNfXHQsNyKT5BkRj2QRDfNM/AslkAAsN1hYpmqzXHgp4g==",
+      "hint": "U2FsdGVkX1+4ETEqThvrEUuRBMyCwFSymXnmAt1UzmtA5JX+9l+k0oO/MwaJDe0ZZuIyY2uV97B4fRc0B2ZsNF6R6MBD8gNgX3E6KXNBrP40w+A91UgdDjLRHe1yUtez",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 41,
+      "question": "다음 중 '데이터 이상치(Outlier)' 탐지 기법이 아닌 것은?",
+      "options": [
+          "Z-점수 (Z-Score)",
+          "IQR (Interquartile Range)",
+          "히스토그램 (Histogram)",
+          "K-평균 군집화 (K-means Clustering)"
+      ],
+      "correctAnswer": "U2FsdGVkX1/l9rRghKtwdvJykHWWc9CSAqh7UiJnrqUgZPMf6X5T3k5itCu3J2e1",
+      "hint": "U2FsdGVkX18IVb8I3NNFzteTCYzL1HZbnz5eDz5dzy56nVOaH+tfukbqA2Dd+YOKVH4StW7IhI04PgPKvF+YTYsWnHKMHpQ2gTv1b9FvijJPCdcvprqKUmfXPpV3scbw/NC4L+mtQgXuFVg4apaXqckvPGx/0mV4X7D8NbpSq8PRJ875it0yIK4j9ksGpgw2",
+      "difficulty": "hard",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 34,
+      "question": "다음 중 '주성분 분석(PCA)'의 주요 목표는?",
+      "options": [
+          "데이터의 분포를 정규화",
+          "변수 간의 상관 관계 제거",
+          "데이터의 차원을 축소하면서 정보 손실 최소화",
+          "데이터의 이상값 탐지"
+      ],
+      "correctAnswer": "U2FsdGVkX19S+zDLqR3lal1PnDTuZWcz2ZFnSbhxJRNAgcuvsevGyA26IYgYv6/5cVtLbrUNSOaJ3NH4dyluIN7MFt2OAdCQ7o17/Mrt3dJPDpQvO8teHLExpzlKJ8OQ",
+      "hint": "U2FsdGVkX1+bXntLZaBrW+d4GndROn7XCitlTvtgsFDfmzyWNjuivmPzIN4wTESz2+ERLhGqAjiIlYA7d6rcA4HAiiz/5lUDNkdStmfmdLIf6ZCtsDrFzTLuVOmKISfVQmjMU164H2lYR+WTP9/Wkg==",
+      "difficulty": "hard",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 45,
+      "question": "다음 중 '데이터 마이닝(Data Mining)'의 연관 규칙(Association Rule) 기법에서 사용하는 지표가 아닌 것은?",
+      "options": [
+          "지지도 (Support)",
+          "신뢰도 (Confidence)",
+          "향상도 (Lift)",
+          "F1 점수 (F1 Score)"
+      ],
+      "correctAnswer": "U2FsdGVkX19pR9YkBmXrWJsAXC1vW5LPDtudS9KXnIpXzDCu6LUOvCBNiV1kgcwC",
+      "hint": "U2FsdGVkX1+4EdgTpkA6eW7Jj9F1fJuZ7rsSFv/kubrqDpRPwnH8KZFFIlI6Xcmh8+Gxf+2EOR77kaxK+oxoee8aQnTAnj1KTDqSFubfXT4=",
+      "difficulty": "hard",
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 26,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 정책 함수(Policy Function)를 학습하는 방법이 아닌 것은?",
+      "options": [
+          "정책 경사(Policy Gradient)",
+          "Q-러닝(Q-Learning)",
+          "SARSA",
+          "배치 정규화(Batch Normalization)"
+      ],
+      "correctAnswer": "U2FsdGVkX18NDupga+U//mvjiP2Vp++1G4zVl1+YwhsknLeRkYVwz6eh9lH6U2UXLF7ixlAkt79XL0+IkhiB6Q==",
+      "hint": "U2FsdGVkX1/9lqu81XHwVRmL61fsmFWjSl+2mFLLGYIObHVp1w9oMUCNaxn0svrLztnxVZIkUL0D+XSdaMq8EmCkCjDq5yL8oBbBS/1thU9tWfDBE1lU7BPUJa7JuIDOf5HFo0SB0wg55LargK2rY52GYiPVIOZ8gsufrBaJSic=",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 33,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 Q-러닝(Q-Learning)의 주요 단점은?",
+      "options": [
+          "모델 기반 접근법이기 때문에 모델의 정확성에 의존한다",
+          "높은 차원의 상태 공간에서 비효율적이다",
+          "보상을 예측할 수 없다",
+          "학습 속도가 매우 빠르다"
+      ],
+      "correctAnswer": "U2FsdGVkX1+6PDY1aNsMPoRNbSS+jXr4LSeT1qeWHv/fvsk3r1fAi+cYgpb6grVfBrJ6B42rBSL1Y7WudSc0VbdxXynKIYHgvhqlLrj8AaY=",
+      "hint": "U2FsdGVkX19H4xfmA5RbOSeWOV0IOzDNVhfkt9t78oC2LSvZWWCgZf84YkRtf/UwC/iyOJblEojbty6+lCrss7FXJIoVUtvg5diCDRx7spQrK0QpbjwgOi8HT1sY/Ict46VTAusVopumULAitxwjDQ==",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 28,
+      "question": "다음 중 '텐서플로우(TensorFlow)'의 기본 데이터 구조인 텐서(Tensor)의 특징으로 올바르지 않은 것은?",
+      "options": [
+          "다차원 배열이다",
+          "데이터의 타입을 지정할 수 있다",
+          "고정된 크기를 가진다",
+          "동적 그래프 연산을 지원한다"
+      ],
+      "correctAnswer": "U2FsdGVkX1/BAQO5uAOOXjmzrrV9qe2dQgAJSh/lH04w0sITwbmxDiEQdArjPZ/G",
+      "hint": "U2FsdGVkX1/fJU/R/cjylAs1+U+A6RnPHycglIYoJzE3gPT7560edU35JBZeqc6neTOrvaqqkbht0GO+6MSotTQbfM9eA1dsMxjmqNsijNP5GwS3tamTaqSGoUCiCZnxIz+fgcHJtseILqxzXYpTZg==",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 22,
+      "question": "다음 중 '결정 트리(Decision Tree)' 알고리즘의 가지치기(Pruning) 기법이 아닌 것은?",
+      "options": [
+          "사전 가지치기 (Pre-pruning)",
+          "사후 가지치기 (Post-pruning)",
+          "하이퍼파라미터 가지치기 (Hyperparameter Pruning)",
+          "적응형 가지치기 (Adaptive Pruning)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+9qk5gQdrPfRhl3NfJfBsC+RLvYppxTnwtdVPjfqqskr/c+l6ONMgfXvzbRqihBJOLDeWNSMHtYb0iqI8Hxf0W1UMV3OTMSKY=",
+      "hint": "U2FsdGVkX18f1hOVgR9Qsl1sjCxRcUJNm7blyrzxiFkSCo1xmGkEeH4w4VOmTOs248EL4xy9Lh1eIEUI4urQF6Urg59Oq3txCma9vvECW1Q/4mvknaqJeSyVK+kdlNXmw/cCbexnkzvuBvkYIx71MQ==",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 11,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 에이전트(Agent)가 환경(Environment)과 상호작용하는 과정에서 사용하는 주요 기법이 아닌 것은?",
+      "options": [
+          "탐색 (Exploration)",
+          "활용 (Exploitation)",
+          "감쇠 (Attenuation)",
+          "보상 (Reward)"
+      ],
+      "correctAnswer": "U2FsdGVkX18hfYc176VuwE/XHPCfB62oLAXmebdASuOug2toPixSzwYPMLIJLMLL",
+      "hint": "U2FsdGVkX1/3TdHvoC0AZ5ewmTtBnonYzujueq+MtLL+ZWv3HHLo3tYsPXUe+hu3d4xlhPD7+xzTAuEWp6/8jJwYJtAwdJWv0h9/E4wtn67HrGf01ODWHEJn5cpyoS9xah5bKWs6I9mEdFG0qAPYfg==",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 21,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 컨볼루션 신경망(CNN)이 주로 사용되는 분야가 아닌 것은?",
+      "options": [
+          "이미지 분류",
+          "객체 인식",
+          "시계열 예측",
+          "텍스트 생성"
+      ],
+      "correctAnswer": "U2FsdGVkX18i/ghhIWac6zscXjOsPW8I1XlYKBxaj8FDKvfJJ8aCQJsFZqOIxy6N",
+      "hint": "U2FsdGVkX19qYPwC3hAsJXPeYwCZjQ9M+fT2txcf2hyeUpS4E9feze5H3QZIbbFCX3I71bYECgrwfHiD4QzoEfLLy90AOFXCp7CgSYwSR5IN0gE4m1hHtPm0I1NIs0Su",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 8,
+      "question": "다음 중 '데이터 인과 관계(Causality)'와 '상관 관계(Correlation)'의 차이에 대한 설명으로 가장 적절한 것은?",
+      "options": [
+          "상관 관계는 두 변수 간의 인과 관계를 나타내지만, 인과 관계는 두 변수 간의 상관 관계를 나타내지 않는다.",
+          "인과 관계는 두 변수 간의 상관 관계를 나타내지만, 상관 관계는 두 변수 간의 인과 관계를 나타내지 않는다.",
+          "상관 관계와 인과 관계는 동일한 개념이다.",
+          "상관 관계는 인과 관계의 한 종류이다."
+      ],
+      "correctAnswer": "U2FsdGVkX18rKuKK4WSjNhlhT7gcK/Jimmyhd3xLAyNoluFqe46zf0FlDk7Rkj+dJ5hhWiuvh/2oZn+n3QjeZYyNgNHqSEw27es9ifmEsshzEaHUbGMmorO5QGt+8EVLk8SXB/zcjp94avK0e+USgt1+aRbtYT3bYBi8y72YN14PltiwN2Bed35t5EitVOFA9cJf/x42vsv76gI25qFzy9Sav5SWmbxzny+0F+Gf+/Y=",
+      "hint": "U2FsdGVkX1+8YXjMOXYonUIEaYo38C8hzNRfjiddfX5R6DbYaYTJvbkJlRPAy8FYdSznMlfA1pU2RYg01gm+PlbJ3npErIJYTOew7xc/UYEmn447uzP27FJv0kT/CSKetn3oYxoxD33t54Tt8h+UYh6DLA/TDBExR9abNwVsTZHXDjx9AQY5zXMHlDmdd75ksC0HPbpaVUmzbCVKEJpEBY2sPflwzmWdLjCK7ACiouZNDSnmzrWwgbs0DSZwBK5M",
+      "difficulty": "hard",
+      "category": "통계"
+  },
+  {
+      "id": 25,
+      "question": "다음 중 '서포트 벡터 머신(SVM)'의 라지 마진 분류기(Large Margin Classifier)의 주요 목적은?",
+      "options": [
+          "최대한 많은 데이터 포인트를 포함하는 결정 경계 생성",
+          "각 클래스 간의 최대 마진을 확보하는 결정 경계 생성",
+          "모든 데이터 포인트와의 평균 거리를 최소화하는 결정 경계 생성",
+          "각 클래스의 평균 중심을 결정 경계로 설정"
+      ],
+      "correctAnswer": "U2FsdGVkX1+mK8OmGcn+344sC+GESUOxMj5Ooyz2PM8W8CZ3yIkjbpaLkMeIBwesLivnbvVUBPSrH0JOoUBNgqvq1XoagfI0eWZt5LN6RWhfTa0RXj5UehxNGBiNoCxj",
+      "hint": "U2FsdGVkX19Mz69KTTQLtPzEGufrxkiZFDcKquLGzvuJKRcKlD15pxRIcPHkNnMCo50hcHiEqJDTC5HhZFbQhBrnMZNyZv0YsdS9kzCznX4WZPRUGFT5au4Ag/yaMjiz4TZLoxDXN3U/vrBljteUoHnY3SoBpjZBsC8jVkb/qhu2TDC+luNsuBue5vF94GnN",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 9,
+      "question": "다음 중 '텐서플로우(TensorFlow)'에서 텐서(Tensor)의 주요 특징이 아닌 것은?",
+      "options": [
+          "다차원 배열 구조",
+          "데이터의 흐름을 표현",
+          "변수를 정의",
+          "그래프 기반의 계산"
+      ],
+      "correctAnswer": "U2FsdGVkX19Z3HR2QDnm11a2vg9G39cos0/hWmy5koSVYerfn8vDmsBKcSGa3yIG",
+      "hint": "U2FsdGVkX1/LKjXhl1nGp3JLiFRYuZPPF7TUI17Q1PI9Oj7kVx7x3vYWst4x8pot7mpjOXz1F+chTBq+Dfh1CBBCncQArm0ilaGG+haMnGx2t4XY+ULX44GZetfS3xtRhltYqhNIFKt97y3mvH7ZUEIS2y9HoSkaW6ocGeS6z0hMHsYSp/yn1r/k4if4HlnK",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 31,
+      "question": "다음 중 '딥러닝(Deep Learning)'에서 그래디언트 소실 문제(Gradient Vanishing Problem)를 해결하기 위한 방법이 아닌 것은?",
+      "options": [
+          "ReLU 활성화 함수 사용",
+          "배치 정규화 (Batch Normalization)",
+          "잔차 연결 (Residual Connections)",
+          "드롭아웃 (Dropout)"
+      ],
+      "correctAnswer": "U2FsdGVkX1/4Dp5Mvi3pcmaft8doP1v/q8kvt0FDLiLXtnzBNucV9wTMp3OKTr0W",
+      "hint": "U2FsdGVkX19OJtO8uCpBbqQ0yt9txMQ/c3n9YEtn9dl57rsokq6tC+PKkJubIed+7QlqbHpd+M4zzBP9IvZ+3OqVmcuXUzmwIejCXK8l6JMqLkfda599smjklWFbCMEzKuAYFEEl4vU1lmT9CvZJbBq+SwXp7h6g3VD2J178/Il2kKnDcGN4kyiPHpebR5f3ALX2QWjdaffJLfCtUeb+oQ==",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 49,
+      "question": "다음 중 '주성분 분석(PCA)'에서 주성분을 선택하는 기준이 아닌 것은?",
+      "options": [
+          "분산이 큰 주성분",
+          "분산이 작은 주성분",
+          "데이터의 평균에서 멀리 떨어진 주성분",
+          "데이터의 중앙값에서 멀리 떨어진 주성분"
+      ],
+      "correctAnswer": "U2FsdGVkX18MeRaCZm+nw8ak2lM5qh+/HooqF42404a0oX4WwUuASaA7yAtFjz+p",
+      "hint": "U2FsdGVkX1+XpDwW1kSdOfToTMz49DN+hTAGa2jU+67FJv4A9d79MI6SNqDwwDRV5Uqs0+iaIdAusTVLxeN8/3xRWG6VrX7EYNEsgPBML08=",
+      "difficulty": "hard",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 19,
+      "question": "다음 중 '텐서플로우(TensorFlow)'에서 사용하는 주요 데이터 흐름 그래프의 구성 요소가 아닌 것은?",
+      "options": [
+          "노드 (Node)",
+          "엣지 (Edge)",
+          "텐서 (Tensor)",
+          "인덱스 (Index)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+unywViKTstywDoM9KBYN3TAcboSBRpTq6nky+EVowIuJ+qTXaDAlq",
+      "hint": "U2FsdGVkX1/64mLmMtGxloKx31UWzEIeZV4iRbFIXySqyLgGtLQ3wRs7lqmbxme7yEksHOL9cEkbNiRjJ7Wr0SAViKNcjYaqa9gGeXiUrkvZLrzdmtDgSMYzY10dk5W2sbl0c/npsMASe2hSs+ex5w==",
+      "difficulty": "hard",
+      "category": "딥러닝"
+  },
+  {
+      "id": 40,
+      "question": "다음 중 '강화 학습(Reinforcement Learning)'에서 사용하는 가치 함수(Value Function)의 종류가 아닌 것은?",
+      "options": [
+          "상태 가치 함수 (State Value Function)",
+          "행동 가치 함수 (Action Value Function)",
+          "정책 가치 함수 (Policy Value Function)",
+          "보상 가치 함수 (Reward Value Function)"
+      ],
+      "correctAnswer": "U2FsdGVkX186dnTzWVr31HKKgVmHXWTmKGH3m3+zVbbbnK4PBAqp0SpItfURw2bJI8jzt8qz2csiP4yHhO6poQ==",
+      "hint": "U2FsdGVkX1/D9YZzd+z5BQkiwoaeB4nvRUU54Bvd7F1OBcUhiPdpUbDJR8FxD3B8AGj7sHtfwoPxx0MamMO3ESduMH67ETsko56qMMzotaFAxXLYPlrAGc9c4u/qK/nv3pjZrT+wXAg+6MAwico6eA==",
+      "difficulty": "hard",
+      "category": "강화 학습"
+  },
+  {
+      "id": 3,
+      "question": "다음 중 시계열 데이터의 '자기상관 함수(ACF)'와 관련된 설명으로 가장 적절한 것은?",
+      "options": [
+          "각 시점의 데이터가 독립적임을 확인하는 함수이다",
+          "시계열 데이터의 추세를 확인하는 데 사용된다",
+          "시간의 지연(lag)에 따른 데이터 간의 상관성을 나타낸다",
+          "데이터의 분산이 일정한지 확인하는 데 사용된다"
+      ],
+      "correctAnswer": "U2FsdGVkX1+97NeAI8EVBM+F0OROuAm74CIsRefMjdrnwz1C9j8C0ikomkulDlL1aj/GBsfA2B4B8dZpqloDQ/pTK+tH3dCd7TAaiUDV1HoM8l34AmhWF4JMZScpfHkJ",
+      "hint": "U2FsdGVkX1+/yzrkVQ1qekNfAHnrMiaw+rTr+WADOgt885JCEBUeNqr0Xe3LiVN3UgYugH+6Q6nZcSHCIioZrERy8OxMf4blushx9yF3ITbHomsT8KVJwQRlfLbD3cDE",
+      "difficulty": "hard",
+      "category": "시계열 분석"
+  },
+  {
+      "id": 7,
+      "question": "다음 중 '서포트 벡터 머신(SVM)'에서 커널 트릭(Kernel Trick)을 사용하는 이유는?",
+      "options": [
+          "선형적으로 구분할 수 없는 데이터를 선형적으로 구분할 수 있게 변환하기 위해",
+          "모델의 학습 속도를 높이기 위해",
+          "데이터의 차원을 줄이기 위해",
+          "데이터의 분포를 정규화하기 위해"
+      ],
+      "correctAnswer": "U2FsdGVkX1/ujSwNtlpwFxq+gC4x+0fwbgrgWswgtMLXoU4+JqlUb8wytLgM09tBGe/PlkHiDjh1OK/fw/MLC2gAFEGjDDbYExByP7DSOyxlX4tPxRChTeZ2buj1iAQt6EPc8cDKhPWg17MtIC3GriOyf9LPof0kLgMo1zcpfxU=",
+      "hint": "U2FsdGVkX1+k+fmlr7cU8UMFB4dq0q5reSKqrlV/cqviDkHL1aWGHAMofG6Jgd0eiuSKa4lM8kblrJPwa9JO3/OvdgH3YjRKtW3P/V5MBQI8zSIcg7S0NvxSQKghCOa4UgOgnBvWgknEpdbWoisQRgziP6Jd1Wmj4vX+bGG/FxK00f5tSTe4ZBXtTP+8GHmi",
+      "difficulty": "hard",
+      "category": "머신러닝"
+  },
+  {
+      "id": 4,
+      "question": "머신러닝 모델에서 '특징 선택(Feature Selection)'이 중요한 이유는 무엇인가?",
+      "options": [
+          "모델의 복잡도를 줄이고 과적합을 방지하기 위해",
+          "데이터의 양을 늘리기 위해",
+          "모델의 학습 속도를 높이기 위해",
+          "모델의 설명력을 낮추기 위해"
+      ],
+      "correctAnswer": "U2FsdGVkX19UWoxIsl8D8B5KsQh479n2e4zIZk0J695qWou5ewSLx1ufnqfjiN6mD8jG6xuQlpTT0567Wk0BH/r75l/maqhl2m3vEj5+01nNLtm6Az9gPkYYSm2qyvT+",
+      "hint": "U2FsdGVkX1/Q/GsuPqoFzvpBVEPLzRULVfUDRkCtA5SWfF1pUgI1dRMoAXsnJ7EeNsnVU0rgDV/YrGYuzhiX+wd+scT8S42qk9yCF5ek2af3f+Rek5Hig5JgQ4gWbq3Fd72KS7e89jmKyKySMUbcVRTqICu2F6jE0YliCe8z/qk=",
+      "difficulty": "hard",
+      "category": "머신러닝"
   }
 ]

@@ -1,702 +1,702 @@
 [
   {
-      "id": 1,
-      "question": "Oracle SQL에서 테이블의 모든 열을 선택하는 명령어는?",
-      "options": [
-          "SELECT *",
-          "SELECT ALL",
-          "CHOOSE *",
-          "GET *"
-      ],
-      "correctAnswer": "U2FsdGVkX1+HCIVZTFtIoHfTCrb9V0tp/Fymy9PVlA4=",
-      "hint": "U2FsdGVkX199FT29gJaf4T24pq0aqH2A8dh5kr4394sB/y7CnzEskkZMHgrXrv382fyVFkKnNfyzvmbMEuZVA3q03c189vIEAqasNkJRvpGN7HqFqX8cwOFUXF7jHMgsM5nNGO0FruiW7e8beSYxFyPJojBbk5xv9oh9AELPgJQ=",
-      "difficulty": "easy",
-      "category": "기본 문법"
-  },
-  {
-      "id": 2,
-      "question": "새로운 행을 테이블에 삽입하는 SQL 명령어는?",
-      "options": [
-          "ADD",
-          "INSERT",
-          "APPEND",
-          "NEW"
-      ],
-      "correctAnswer": "U2FsdGVkX1+SqWkJtEJT39K0tUEyB4uHzY2EJj/jmIE=",
-      "hint": "U2FsdGVkX19fdJE+BegzJXHL+HOSwajZOg6d8iPRJWVIAhIpVV2NTKYmJA125qA1ZArr8aChb+JehGEJ38c5wK4IDdcLqv53pb1KTA057iNBW/ow4s+STaAm6C6Y+or+",
-      "difficulty": "easy",
-      "category": "데이터 조작"
-  },
-  {
-      "id": 3,
-      "question": "SQL에서 중복된 행을 제거하는 데 사용되는 키워드는?",
-      "options": [
-          "DISTINCT",
-          "UNIQUE",
-          "FILTER",
-          "REMOVE"
-      ],
-      "correctAnswer": "U2FsdGVkX19eTJTzurPfl8YdYAaY4q6/dK05dYu3qR0=",
-      "hint": "U2FsdGVkX198l7ZEDOZVAPMpl6EjxDsSJLoOSxKSD1rVtQrIixKZbbC5bQfrAgvw0fJznvtTY67gbrceq1uy8MQlfRi5B8O5DwqnCqzVKTriktANP5L0APGouW+H0KG86hA0pf4yHptWLv19eRR7vhS15u2HW5laGNVUG200XfQ=",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 4,
-      "question": "데이터베이스 객체를 제거하는 SQL 명령어는?",
-      "options": [
-          "DELETE",
-          "REMOVE",
-          "DROP",
-          "ERASE"
-      ],
-      "correctAnswer": "U2FsdGVkX1+SP4BRRyRkrLB/kDYpwSoqweRS848k5vU=",
-      "hint": "U2FsdGVkX1+qPZBH0twC2EDKNvpYZwRnPx+T58amYLNbw6/yijIXrab00TcfMdqszMyuZeiptNbNQC5P6mkY7iTSgFjipmOpE7fjbuHD4W8=",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 5,
-      "question": "SQL에서 조건에 맞는 행만 선택하는 데 사용되는 절은?",
-      "options": [
-          "WHERE",
-          "IF",
-          "CONDITION",
-          "FILTER"
-      ],
-      "correctAnswer": "U2FsdGVkX1+saj0iIi5DhvAjdtKb886MuAbduTAE4vM=",
-      "hint": "U2FsdGVkX1/vCzZQdYxDNpeJEjwoS7wIPMH/lSTq3898XohF/rVOBR5nS9RVT4/rFNG5hldgfKjYXlI3jgq5dB7biUuLNw68PvcFs5jc5B2HgqfKSL5tSSBLKiPknzLD",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 6,
-      "question": "SQL에서 두 개 이상의 테이블을 결합하는 데 사용되는 절은?",
-      "options": [
-          "COMBINE",
-          "JOIN",
-          "MERGE",
-          "CONNECT"
-      ],
-      "correctAnswer": "U2FsdGVkX18Y/C/zJUPJXvxqHRtsRHmGjxXwPH9C0wI=",
-      "hint": "U2FsdGVkX1+9+Q2rAsSaqb+4OQphT0RQTCzRGfYD3n8jXdoRJSHZ+PdQoEQbI2jGAVy0CAtue9NYWUSLUAQy5n2gtCOw7qQ88MJu8yRRHp7otmYV404nRiSwdpkiSd8onVbQ5XUbhw3jcx1WhPJyGqLyyVUWiMEpbKwqQa5v/cA=",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 7,
-      "question": "테이블의 모든 행을 삭제하는 SQL 명령어는?",
-      "options": [
-          "DELETE",
-          "TRUNCATE",
-          "REMOVE",
-          "CLEAR"
-      ],
-      "correctAnswer": "U2FsdGVkX1+ugmrNjwXSCW+mKwJC/nK8btAozu6Mjlw=",
-      "hint": "U2FsdGVkX18YvA5FY8xPK67avHm6Varyagjz/7RgNTc23yJ7rX54wV4hFHlbkfuC9w1QjZkE9cStPM/+3Uj0xHnL/yx4YJwOlVcE0Ydgbgyt3alNgNnOALnrSN9hUQ4RuLhlkNm1seRE4ZmAdpU9+kCI7x9c8caHPe8hbB92i5Y=",
-      "difficulty": "easy",
-      "category": "데이터 조작"
-  },
-  {
-      "id": 8,
-      "question": "SQL에서 열의 이름을 변경하는 명령어는?",
-      "options": [
-          "CHANGE",
-          "RENAME",
-          "ALTER",
-          "MODIFY"
-      ],
-      "correctAnswer": "U2FsdGVkX197LIxwAJSn6zczOF+mRYLKcgFM6UpHcKQ=",
-      "hint": "U2FsdGVkX18YpocGdz0dhoisdkrGE49RW/1mjxV+46+eQg9+iWWbHYz4wHK3ha+rxiLiPQ+fQD0BvG7/RIUX6Q5gdZawECl2QOgmof0mtzdbPUQA/YlcGWI/JO+Mo5Xlp9F+/xNIf3IZQZIn9tlQFBus6z6Ha78QR0+BZilI2HY=",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 9,
-      "question": "SQL에서 조건이 참일 때 수행되는 절은?",
-      "options": [
-          "IF",
-          "WHEN",
-          "CASE",
-          "WHERE"
-      ],
-      "correctAnswer": "U2FsdGVkX186Mpe/5/hS6n6Cew3quwL5Q/7B/3odV24=",
-      "hint": "U2FsdGVkX1/rLdyBZh1nbLGBX4Nw5ck46SEr7V62kdt5fSm8wnX5homPcixTd5hOZPcK0lJEl0j09GRg8NfHWIqjRV+BCnoKA9L7OXf8Ytk=",
-      "difficulty": "easy",
-      "category": "기본 문법"
-  },
-  {
-      "id": 10,
-      "question": "SQL에서 NULL 값을 대체하는 함수는?",
-      "options": [
-          "ISNULL",
-          "NVL",
-          "COALESCE",
-          "IFNULL"
-      ],
-      "correctAnswer": "U2FsdGVkX19ZVxsFJmmgs1svfM+2RdaDRe3W4Rx/67E=",
-      "hint": "U2FsdGVkX185HMP6nxxA89fsKgvEU47nrGMKwRHrfVNrzg9nfpE2yjFZJrpUv9qxkxcY5vl8+6MfVW14MMmOvwRWUKIrc8D0oIrkAw1GXuBmNgprIECGy2b53XpGNTxDAA0hHUTH5nnSUT9nSamAkg==",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 11,
-      "question": "SQL에서 숫자의 합계를 계산하는 함수는?",
-      "options": [
-          "SUM",
-          "TOTAL",
-          "ADD",
-          "AGGREGATE"
-      ],
-      "correctAnswer": "U2FsdGVkX1/kpGKskrtAjN1+XYjcgobW553TFhhgrHM=",
-      "hint": "U2FsdGVkX19YvR9LaWIgCGKJDkWFFPRGuGrj3VOrc+rm5d7bPx2Errp2RLHb8sCQKUcRFD1cZfdlbrHrrI0wtvXaEc7zIXsD34HsfnVO9ZlX7Qkp5kaXwVayd+IcbOlq",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 12,
-      "question": "SQL에서 평균을 계산하는 함수는?",
-      "options": [
-          "AVERAGE",
-          "MEAN",
-          "MEDIAN",
-          "AVG"
-      ],
-      "correctAnswer": "U2FsdGVkX18H5MF9wnOsBc+S8TYS9uIT4uZdMLq1JCE=",
-      "hint": "U2FsdGVkX1/BjsnggXZSy4o6r+gD7GM7dkLldftqa/gESc6FtuqUfMsQ2U9yOPSdQAMNFOmEulCWAyyJtMBV9iV+kDVnECn+Mf7X0t2myhoM7LYV2jlq2i3XLN7BmfnR",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 13,
-      "question": "SQL에서 행 수를 계산하는 함수는?",
-      "options": [
-          "COUNT",
-          "NUMBER",
-          "SUM",
-          "TALLY"
-      ],
-      "correctAnswer": "U2FsdGVkX1+q6EmWRkpFkHcsGS1OAYJ3k2B1uEhmDeI=",
-      "hint": "U2FsdGVkX19Q3+NzzsWF6XfxrGobL4wLxNfHABlSt9ZiUgpprCInkSX0YErYWFUNK8gZbRhNQEsyNU5/yr85ALS7sixgakwBAtUnzrpewkQ=",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 14,
-      "question": "SQL에서 가장 큰 값을 찾는 함수는?",
-      "options": [
-          "MAXIMUM",
-          "GREATEST",
-          "LARGEST",
-          "MAX"
-      ],
-      "correctAnswer": "U2FsdGVkX1/DdYyqAiKG+X035tnyFt4whH5GwpGvIzo=",
-      "hint": "U2FsdGVkX1/mq0NtbsQDavK2tb0zAhO+RDQ/TBZGQHxHUS+iAzUFAb+Sjccc9Vw8ubo6SKbQ2mWRswubTFEBYpczdKt5czTWfc5/IH1C0l+rDM8+j3pfh2rhlNGrKJ56",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 15,
-      "question": "SQL에서 가장 작은 값을 찾는 함수는?",
-      "options": [
-          "MINIMUM",
-          "LEAST",
-          "SMALLEST",
-          "MIN"
-      ],
-      "correctAnswer": "U2FsdGVkX18MKVkFVuXjDSDpzZqD3NiY6tU+aqNNU4c=",
-      "hint": "U2FsdGVkX180RvFuaNbn4ADHed0zW4HCeNdL3jR5H0EfKqnczRB8WXxhbEXmc3g2ArtkUgzcjwJUNFI4xag1oacA21etghXHwyaJxV1tW+yJzZXs+wLcHPT3whZD3hOq",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 16,
-      "question": "SQL에서 문자를 대문자로 변환하는 함수는?",
-      "options": [
-          "UPPERCASE",
-          "UPPER",
-          "TOUPPER",
-          "CAPITALIZE"
-      ],
-      "correctAnswer": "U2FsdGVkX19Cypkm32OA7ldJo8DZucKc2T/pBgUEC10=",
-      "hint": "U2FsdGVkX186Ux0JhV2KuOXMU6tTKQnnsscMW3RNOJM10sz00/e3pZQqznF6cEj6SqYgPC5tMIprPNo7OCJlUEEKOWhPob30f/Od3sO2cWrLIeAnZGVybOP5YfrRD57axLMi15zgkfItSxdAF5/TPw==",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 17,
-      "question": "SQL에서 문자를 소문자로 변환하는 함수는?",
-      "options": [
-          "LOWERCASE",
-          "LOWER",
-          "TOLOWER",
-          "UNCAPITALIZE"
-      ],
-      "correctAnswer": "U2FsdGVkX18T2YF/ymEZV+hoM9jccU82c3HiQ3DwYDk=",
-      "hint": "U2FsdGVkX18r+T91j73yGRJq8x42my/ehRbx0sJWKVcYDu6NDp60wSKp2Zvqq3bcKt887hf8qLUc7+Zsb5AM4ZQV4h/J3VhOch8ZdU8+5CJACeyyMTbkTG1ZSPdkfw9ornC3zRA2qtnn8izw1IWKiA==",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 18,
-      "question": "SQL에서 문자열의 길이를 반환하는 함수는?",
-      "options": [
-          "LENGTH",
-          "LEN",
-          "SIZE",
-          "CHARCOUNT"
-      ],
-      "correctAnswer": "U2FsdGVkX1+ifKcyeVItWc0oxhhTXvhuO4lT7BzIM6E=",
-      "hint": "U2FsdGVkX1897q+AZFEgYWmgtBNzzPKY8v/i50S2uU3r2BIGEwK/k/y7N1I4mm0xs0CCxg2a6o0BLLtMT//VYqzaRafVQtm/Xh9XAhYMxHHAheiOJ8qrbbCkflKI5a7zG0cJ5tyyZrrDcglKNHOdgg==",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 19,
-      "question": "SQL에서 문자열을 다른 문자열로 대체하는 함수는?",
-      "options": [
-          "REPLACE",
-          "SUBSTITUTE",
-          "SWAP",
-          "CHANGE"
-      ],
-      "correctAnswer": "U2FsdGVkX1+4knsgiKYyPd9EkvrI/zDoY1ti3bOjgeU=",
-      "hint": "U2FsdGVkX1/w01UrNNE/1oPwgkyR4TajXxfO16myJ6fU+65usoIxiQdVuLpay7r317LTb+jrdihCS34I3F/PrTSW+O9O803NZTYMaRvBW4HFV6gdklRPn3uy/ygSDvKqpOqNh6A8YNJ68BnyUSmFlcoRWtFTLwLV9rnnEthK4MI=",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 20,
-      "question": "SQL에서 현재 날짜와 시간을 반환하는 함수는?",
-      "options": [
-          "NOW",
-          "GETDATE",
-          "SYSDATE",
-          "CURRENT_TIMESTAMP"
-      ],
-      "correctAnswer": "U2FsdGVkX18Y/VWAKalLxZxJ47d5dsYMvQHDYVIvB8o=",
-      "hint": "U2FsdGVkX1/cELtYFzKiupvvzM8kR+mNsdaPLq2ER3bomUGyqmMPhT9i7qCs/E9UHHZvH5daFThRruYBvvbxgIWpG3Npq2C/3LyoHv23cTX0Zw0IRV5ghcXThdSs89Q5UBJOErc8toduCS+Uv3kamg==",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 21,
-      "question": "SQL에서 서브쿼리를 작성할 때 사용하는 키워드는?",
-      "options": [
-          "SUBQUERY",
-          "NESTED",
-          "INNER",
-          "WITH"
-      ],
-      "correctAnswer": "U2FsdGVkX1+ZhaXjeNXWOQYzmXOlNmEIg4fyNYKrqn0=",
-      "hint": "U2FsdGVkX18mpclUbvyVrfM2tX+wDz1A7j61am4PEmXsIi9w65LOoPGHMYWeo6xk/wtjMQTdcoCM7uuiaMlCeuc8cAjAIOp5SXzQa0GsagsaC1XwhwvtXc5NjJ7Bo+HeIE+0GNwpHXddYJk+BjyEa+Vqb87+RNkFInujPgc14EyW9ZnXoBi7+cTTso0MoVLbgH10HsmHa3GHV8M89VfxJSMy234QJbp6ddSEhrYasGg=",
-      "difficulty": "easy",
-      "category": "서브쿼리"
-  },
-  {
       "id": 22,
-      "question": "SQL에서 테이블의 데이터를 삭제하는 명령어는?",
+      "question": "데이터 분석에서 '정규화(Normalization)'의 주요 목적은?",
       "options": [
-          "DELETE",
-          "CLEAR",
-          "DROP",
-          "ERASE"
+          "데이터의 양을 줄이기 위해",
+          "모델의 과적합을 방지하기 위해",
+          "데이터 간 비교를 용이하게 하기 위해",
+          "데이터의 차원을 축소하기 위해"
       ],
-      "correctAnswer": "U2FsdGVkX1+8sGoCDP/s1DDSZ3m6kuES+PioQhoDnSE=",
-      "hint": "U2FsdGVkX1/4sOZ7VanLr0KOfPdLA7z9DFABeb0/HgPcbHLz77fx+1AHnMX1twZwumcICr5NJlIajOcfTphCiOeQB/wmGObNvdp9jCbkIqIUTxj80ZFF2WK431Cduj5zmSccYy96y8x/eqM49V/UWiqMkH1m5Gzm568WWVia/ELC9OjR7aZQn3RMnJnONvCtN6Uj+OmzkaEhVC6x9APYAw==",
+      "correctAnswer": "U2FsdGVkX1/SjucWv8qAaH8rzhDwfEmcOKhUXUY7bliMcWt34rvCNrFrdrqI+ClCkvB2CnR2ZL8XxlB6FFPX7uYrc5eSUNX03iaVetxAP3s=",
+      "hint": "U2FsdGVkX1+e0CMd3wsfvA3909F0JTVoI+l2Ur36WoLePdWV5iUIAAgLUaueqnuxs9ileTuyPn8VpsoZXvnJLKMgulVXha02zzlY33jYUFjhdWixmPAkt2Lyz3f4smGzrsEkSmEgAziTBvK44xpdng==",
       "difficulty": "easy",
-      "category": "데이터 조작"
-  },
-  {
-      "id": 23,
-      "question": "SQL에서 날짜의 차이를 계산하는 함수는?",
-      "options": [
-          "DATEDIFF",
-          "DATEGAP",
-          "DAYS_BETWEEN",
-          "DATE_DIFF"
-      ],
-      "correctAnswer": "U2FsdGVkX18hVIl4VZi7G5y4XyUdJVYvCEhArMxK97Q=",
-      "hint": "U2FsdGVkX1/3V5WkZIteDuG8qcPqq3mv9isbUDve4W6jiZcuEVpTmtrNSunqKurs1HSgZCKmA96YAJHsAm03oH7QSAs+hh/hW14V6ko7RoPWzNhLzmYQXnA5IgmCPpcAm1yWamEN3bqRYBOPDiFw0Y0Oe0i8/ighkuB8kEMxhik=",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 24,
-      "question": "SQL에서 중첩된 SELECT 문을 포함하는 절은?",
-      "options": [
-          "INNER SELECT",
-          "SUBQUERY",
-          "NESTED SELECT",
-          "SELECT IN"
-      ],
-      "correctAnswer": "U2FsdGVkX1952Ejlg64WoJ2HvCKr1P0aFQC1b/z3X00=",
-      "hint": "U2FsdGVkX1/UtP5woeDXTfR/Wi9SUiRlTxiNlIG1VhkNktdw9Ca/oI5IDcDhaCJO4rhlttjxHN14jBor4stHa9wbLgeRvc26Rvc486cO9iYDtjOBA96Syv2NxomdCm+T3qBwrXBkYqRFeW0eGDkpaVrNws2FWDSLNQYx17R6pQcL2J7fkluiyMFhzNxrZrWydk7H51r+0UUT0IbK5me3cVKPpMoK5+NaBEZYQLNXwRSyx3Qw1xUDZMU3hq/kLEJM",
-      "difficulty": "easy",
-      "category": "서브쿼리"
-  },
-  {
-      "id": 25,
-      "question": "SQL에서 특정 조건을 만족하는 첫 번째 행을 반환하는 함수는?",
-      "options": [
-          "FIRST",
-          "TOP",
-          "LIMIT",
-          "ROWNUM"
-      ],
-      "correctAnswer": "U2FsdGVkX1/h5tv7aRLrpcoPIJrVWAvS8AFsfn4mv1E=",
-      "hint": "U2FsdGVkX18gjCAC1nsWQkJvoR9hdZJgke635vmD4e5jt9xzkYZcRk4fO40KYkYQyCSyQAGPAY6BGJC2O5imkY7wkM+g201X6HObcWcpOWMxleWLJhVRR0r07a9X3JZ7rmz9Ohbh9OtFVzHjRRqqbXj8ElBtUhNI4yVPJfntNzvGeI0BbIZMX/UqWF1/d+0V+vJ8V5cmRHCih+u8NzjGu0HA5S5tjpWQ+lDeaSC7pd0=",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 26,
-      "question": "SQL에서 데이터를 정렬하는 키워드는?",
-      "options": [
-          "ORDER BY",
-          "SORT BY",
-          "ARRANGE BY",
-          "SEQUENCE BY"
-      ],
-      "correctAnswer": "U2FsdGVkX1+64CiRTnHleGQ25quHfHbmNzUR/vabpeI=",
-      "hint": "U2FsdGVkX1/3pMftlN+ADViIAREyUqja19jH4EgGfJM25LZvN6iHy49YigWRKMqs2zCW/j/NH7oCKUEjlEXugSVHz2rL7Ns1iwswbnX31nPqjzhkgMOb5Ug3cpAsGaIDloTwmCTsFyH13LbXQ6Zn8DE3OYm6Y7SeQ+s+MMRd/IvnUSX8B7Btjq0LrXYgPbKRslZBi9Jqi2e9tS1PQVqX2NEoXh1Bow0WUVEPqxv1834=",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 27,
-      "question": "SQL에서 기본 키 제약 조건을 정의하는 키워드는?",
-      "options": [
-          "PRIMARY KEY",
-          "UNIQUE KEY",
-          "FOREIGN KEY",
-          "KEY"
-      ],
-      "correctAnswer": "U2FsdGVkX196O1bZT9EPWUFo9u0zNLTZ651C9li04QQ=",
-      "hint": "U2FsdGVkX19YvuVzuLU4BWXoi6vbzN5eHOA3iAUP2LmA485lwA2lVVK+yK7V5PfDeeoYQD4jKeUtkKds9nZ4w8t4LdTq+R1KpagK9ataEj9VfvWB6BmOUIMMF8wJkU/msF3BsHy2vwF7NQtqb88siyUFj0/+A8Mcohiqqg4TT7/Ck01QcU/KE2V5VOH7gKM4qfcW6vW1GmgIUPk1YxAf2D+svxLNlFnX9TPpTILaAuo=",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 28,
-      "question": "SQL에서 외래 키 제약 조건을 정의하는 키워드는?",
-      "options": [
-          "PRIMARY KEY",
-          "UNIQUE KEY",
-          "FOREIGN KEY",
-          "KEY"
-      ],
-      "correctAnswer": "U2FsdGVkX1+h653CYsuFypS9HMHleuT5Un4i+7IuTOI=",
-      "hint": "U2FsdGVkX1+j0e9kjqC2+FXiRIQKlgYyOtCnC6OPwn1dxrGGwD4BqhhVcpEirekhwP/8VPhS2MPMTDnBYEKXYOTuKD5H6KmuiI2kK1jb1oScJdKCjNvGeFVtOilbbjuGHz2uKJKUYu55lX4M8lz+t3K3RAk7+lHB8iHZo7RSkkYsiynjSIJIFw1QFMyi3fclzsxR5bQEX0EVeG/d29IUjU8Xx3bowWojGXNm5fuJtWNHbyOLihV9RKyn5j7Xl5ceRMh4thD8to1XYOEodhN4jlRd7gm3+A6j4NIB2E+vlBMBH5KffMM93z82mhc76yUhYmSG0XfjWmxUI+9nTFBvOKKO2rO8p9n4cgdyfUTKUjVAaoGLTNgTZS7micINpTdwphTrVnu1HiQT7S+I0znFWQ==",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 29,
-      "question": "SQL에서 열의 데이터 형식을 변경하는 키워드는?",
-      "options": [
-          "MODIFY",
-          "CHANGE",
-          "ALTER",
-          "UPDATE"
-      ],
-      "correctAnswer": "U2FsdGVkX1/s+aBwOjZKP4tB0uwjy2ORKpe5/k+2hFQ=",
-      "hint": "U2FsdGVkX1+IqUoqp25y4ca4ec/femImVdZ7g29H70Co8tMzwu1Fcx1pcu+wQydrBfm4bPY9wAowqHAsB5D8j1yJZrbQuqG5liuVgq2CT966wGtG3CsYJubDBuH5rLoiH8geFcDufYJOKrGTpJKzT7l2R9Fn5ePeS5OpkbgD+yV8Do0hn2HhcMyyLu6DUFAmJ8K4jvYeKEKjQfY5VBdSbQ==",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 30,
-      "question": "SQL에서 두 테이블을 합치는 데 사용되는 절은?",
-      "options": [
-          "MERGE",
-          "JOIN",
-          "UNION",
-          "COMBINE"
-      ],
-      "correctAnswer": "U2FsdGVkX18nnywtNUx4zSfrZHAitU/RRVCC+KmbP2g=",
-      "hint": "U2FsdGVkX1/g9GLY6T+nnKdYGmZ3deWafxEuxLEDO1JMf+0/GyK6rudQTHUcF8LhFLeEwaJlnK3YfiRRfRM3peYKssmVLSTiYnljSgL8qFFF+sQuzcf7pRgRJ597Om1NER+qJ6xMscHq5mtZMObb5utQCS03xn11f/0cg9JPQhz3UAqQrPi4NegflFrUEn+euQOHvYUP3bc6rYgPQtUDMAUEYtGu3SG5Ed01CnNTCW4=",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 31,
-      "question": "SQL에서 집계 함수의 결과에 조건을 지정하는 절은?",
-      "options": [
-          "WHERE",
-          "HAVING",
-          "ON",
-          "FILTER"
-      ],
-      "correctAnswer": "U2FsdGVkX1+sALBN5H3/4Eax4VMjJdJtC2PrPJMaV5I=",
-      "hint": "U2FsdGVkX1+Z6oEMtDKSIcjdsgFnZLTstK5cQSVcOpJsfDNOzKtP+/sBpeB6XYJ8qpiKqHQd+c8a3A2c6odV/fySbcqJlBpnmjrw3cCLmjzIgm4Q8YtgpuqoJRdNqb708WRGAF1rKlzKCAQnOCik4EW9NXlBYQwepkEctLYlHD4o6JaBObsxRKJYmHP4YqaTQsbDQXdlNqEJ97TD79OtPl/pICNndEyMPjN4M0byyy0=",
-      "difficulty": "easy",
-      "category": "데이터 조회"
-  },
-  {
-      "id": 32,
-      "question": "SQL에서 테이블의 이름을 변경하는 명령어는?",
-      "options": [
-          "RENAME",
-          "ALTER",
-          "MODIFY",
-          "CHANGE"
-      ],
-      "correctAnswer": "U2FsdGVkX19les21+0fIIqCyV0XrD7OjK89LcECpZA4=",
-      "hint": "U2FsdGVkX18F4TQVS0laqdK10766vjpOZSW7J6pYxFHMYJadkv0k/B4hEwTU+i4BCUagUj2AfvyFcsjlS+IK9ao2kyPMBqJBpq9OSgVWLjP8mcVyAcLyVuxz1RZ2xJWvLWnCYN1GPGp/yq/KyOdNdblPvh2e1uKtkdYhUqCGg45/+yqwd7ECP8MQMYin+ib6",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 33,
-      "question": "SQL에서 데이터베이스의 이름을 변경하는 명령어는?",
-      "options": [
-          "RENAME DATABASE",
-          "ALTER DATABASE",
-          "CHANGE DATABASE",
-          "UPDATE DATABASE"
-      ],
-      "correctAnswer": "U2FsdGVkX19OQOzTB551bVhvKler2dn4PCBZBzcfRik=",
-      "hint": "U2FsdGVkX1+zzbIgSpeiST5MEU4X0q0Ni04D+XDbfQOTAyHfh1BGNl7hzhk0A674oeoYmJTUymdmiYAGcUN2Dl2mATgvsxkyJKh1yvqpw9GsqUicHwRYTNGQ4x2f9CvF5oHzeXd7JNdiaZcP18riisMiNNHi7ZYgCXRBPRsasi0UXv/NAzpMSH+mJYtkFDS6b41styxapgoxHEPkm6mu/A==",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 34,
-      "question": "SQL에서 열의 데이터 형식을 지정하는 키워드는?",
-      "options": [
-          "TYPE",
-          "FORMAT",
-          "DATA TYPE",
-          "COLUMN TYPE"
-      ],
-      "correctAnswer": "U2FsdGVkX18z+khf0xycFqBEyFmXhCeSF+ah7WumBOU=",
-      "hint": "U2FsdGVkX1/iCkUqA9xifQL5iOgubYV0VlqAxExFkfBTF7odpPZl7FUTglDioLGNw9LaP9LncpuPMzu5PoB+Njggf/Oi4nBh2SiFHwm3EsIgsQ8lStIEyDNcF1Nyo3wF+yCR6q512EqlnyrGvY3QeIVCA0AUydbTswcyOWXET3eMh8eZ3mprnn0pAkXvgilG",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 35,
-      "question": "SQL에서 기본값을 설정하는 키워드는?",
-      "options": [
-          "DEFAULT",
-          "SET",
-          "VALUE",
-          "INITIAL"
-      ],
-      "correctAnswer": "U2FsdGVkX1/o9PNU/2I74Tvw51WdI8W4aMmB1eNhtbM=",
-      "hint": "U2FsdGVkX19Wfhavspk6OcmVfLFdl3V0EIRe1ZxjLyY7FkmYDoh5ttjs37yEpTHcUtQS4fxY29GeFECIfgJw2/ACFOC7d7Y4y9Z32/hmbFIwq0u7pUMrVIBga5lwWPM6UaUfH4W+LUAYETdnA7JV+RdPMDx5sj90qt0+Y1T/c8tyLfV80wGwppD3GXUtY/Nt",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 36,
-      "question": "SQL에서 사용자가 정의한 함수를 작성할 때 사용하는 키워드는?",
-      "options": [
-          "USER FUNCTION",
-          "UDF",
-          "CREATE FUNCTION",
-          "MAKE FUNCTION"
-      ],
-      "correctAnswer": "U2FsdGVkX1/BUQ8Hoy62WRt2n5v6MTnNX4S4ozNYNvM=",
-      "hint": "U2FsdGVkX1/T8L8UhfpXj4p0QK4Fn+V4SfwwFY32Nf3nq6Zbz+lq9oedK3TUQW12ceQD80gdErh6zO1KGIGlEbfX7Ftui0NqhoCCP9rMDcnjhK7EHc1saX7TCy6E/MsX5Ry03X4KJC2B/a6KsUXNqZa5WS356yKCmcPqxqwvbKcKPHOhjuFJ0kr1yBl6NN+BRDYCT/iJ1ORR/4yjkatu3FcxyaolJGJzaPzDkzIxBjvpNGjTkKqJl4sarNfNQYTV",
-      "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 37,
-      "question": "SQL에서 트랜잭션을 시작하는 명령어는?",
-      "options": [
-          "START TRANSACTION",
-          "BEGIN TRANSACTION",
-          "OPEN TRANSACTION",
-          "INIT TRANSACTION"
-      ],
-      "correctAnswer": "U2FsdGVkX18P3pWUeQ0tvGQPBwtWjj+t324DhMfsYGo=",
-      "hint": "U2FsdGVkX18eqrzEaXlBiEAUvXgMhS9ryJLqk5QAbWJSGhI+2J+/1I+4Ytrr7wXzEW9vNAoSiYih8IIHW2fQtHpVl/6OuT3c5C5tnTpSc7Eb31epi05TaYkocub0WzD7CcypE9NM7sDm4I7mMRXltkfUYlPHzWe76ZlzopBwGKXZmIgHbOGLH/d+LiiUqfn2bN7cWcnUbOKmOCIboPSCLYWqGVxxDTh0LeSEMtYoQbCvxWMbzNjO6kY3NhpS3cJN7k699geTLrRbUP1AN4+rVzUDQ/tvWOyxEnYNp3ll2/Bus8VHcihDxMYwVpedsTpWBZmMAX/q96BpVRoMgnAFsCR7wp4JyPVWcAQapCzR2kkrEzoPONJN406IYwf7DegAjwlCNwVlAFtlEWuoPIAyDQ==",
-      "difficulty": "easy",
-      "category": "트랜잭션"
-  },
-  {
-      "id": 38,
-      "question": "SQL에서 트랜잭션을 종료하고 변경 사항을 저장하는 명령어는?",
-      "options": [
-          "END",
-          "COMMIT",
-          "SAVE",
-          "FINISH"
-      ],
-      "correctAnswer": "U2FsdGVkX18s4cpQ+1kcTUV3SwbckjlfUrESC2xAONU=",
-      "hint": "U2FsdGVkX1+1CMOUJ6fOByu5vUBdkqVs8gIsY1uU09L5tu1lRmTUqRlutaKBcAhBxJY63EN1UsjqFLaNH5f5NBg1liXWLTfKMzafmUbHL0x0iHPOEwJa/GVllhKJ9ZLN5rKQB8AtQQ9fWOazeo4YhknKCpB/TAOjUVxQfYK6eh1RXyxlZ4IKrBzvpauq54/gquMV7d04AghK6ZOWowHmjqLS/wzWj9PF6Tf2YHXUWGsTMtFM01CisamWt0qgQzk2yr4d5am5dddtbzJOxdXingnaRqDQp3NkOgXXnU7V2IrZYAaTWKhrjsprfTK5rX6Cx2df2RUZCoXJLuMcL+l/NA==",
-      "difficulty": "easy",
-      "category": "트랜잭션"
-  },
-  {
-      "id": 39,
-      "question": "SQL에서 트랜잭션을 종료하고 변경 사항을 취소하는 명령어는?",
-      "options": [
-          "ROLLBACK",
-          "CANCEL",
-          "REVERT",
-          "UNDO"
-      ],
-      "correctAnswer": "U2FsdGVkX19XQCenWAn7/LHIvoo6lCGpqZ7SXk5Xjfo=",
-      "hint": "U2FsdGVkX19dUdcQNbKPhBljslu9xpTe6iLTnYpgS4suuaBJy4GOelXnKhB6AtEB42zAZF6VWuHTi9AiNxzMu1Mnso6t9imm87WFPDMvvGYX1E3GHW9DD0P9bLDdJkLLErzHk8nCxEzo5WcQk0hND5mIlxzycAdCFxL/mMaxUFHJhyFB4E+ta7vjz24u583Zc3kLeIUJFGLMiJ7uFfLKR9jnbSlgWAPjja4NuAMMKyeDrpy3LDUh0fwXncnYDSYXoOBo86P6ki9XGlxuMAyo8O3C75LFTYkQ5BiJ8kfJ+0bkga26Jbkx38E0ScLGyIZZdViaERZFYMobmxSZrlDlmDyY39Nisxth1v2g0lZrRonOdtdZ02rz501OkGQrTzQ3GQILlpdQPfMrZqHYdu1EoA==",
-      "difficulty": "easy",
-      "category": "트랜잭션"
-  },
-  {
-      "id": 40,
-      "question": "SQL에서 기본 키 제약 조건을 제거하는 명령어는?",
-      "options": [
-          "REMOVE PRIMARY KEY",
-          "DROP PRIMARY KEY",
-          "DELETE PRIMARY KEY",
-          "ALTER PRIMARY KEY"
-      ],
-      "correctAnswer": "U2FsdGVkX1+3nXopLzVvFfUih5/IlvsjDBJbdKu5AUU=",
-      "hint": "U2FsdGVkX1/zaay2m3k4w0q1OesK5QZHZO3MxdH3sW4r4lieBJPQS8JMoBpwPJHZQa2zep6WFGxdjQkpm1sxD4roe45pjdtAB4A0JT4LEG01ZWm4N2EPGR2Jwc3Zey/Iw7G9QfMbY7uJSmbc0LH1ik7v8Cj1M29UVe1ZX9XvjB2T+15y9XPZ51jimH0iSX01oyq7eGIoTSkY3QlLp6sOzcjKpeROp5luUE5L+sh2mzFXMT3t2KTKmLRQdo250WZjWtCPNgNcfv8/g5bVBg1cQ/gknmhqCIkDY8jjDM2bWDGsHTE2ruCTXnKXHzsojbVjoTWGCXz5sNYxZUOjQZDa8PGqkakC8xx2lsIKrZt2NKrC18hpou6k5/isBsvORCfA4MpzBBjGdY78Ok8GNAvjjvyyXgxU9s21ttBBu5cmlX4X9V8VMNAe1T9pewzvQ2d+",
-      "difficulty": "easy",
-      "category": "데이터 정의"
-  },
-  {
-      "id": 41,
-      "question": "SQL에서 테이블의 데이터를 조회할 때 사용되는 키워드는?",
-      "options": [
-          "SELECT",
-          "SHOW",
-          "DISPLAY",
-          "FETCH"
-      ],
-      "correctAnswer": "U2FsdGVkX1980HGr+Y3C7FYrn6fhara8tJj3ga/doLk=",
-      "hint": "U2FsdGVkX1+soxrua0khJh66w3xOiClAeoRo1GrkxGr4TCInRWEcr5nXuiweSq7du00xGT/Yzls1sfwJ2JmFKSkqqEF88FzW3LEWpbV+gWDPkJ5+a24mg7DmrSHIQevwifouu8qXQ/l194P7rPWVYg==",
-      "difficulty": "easy",
-      "category": "데이터 조회"
+      "category": "데이터 전처리"
   },
   {
       "id": 42,
-      "question": "SQL에서 특정 열의 값이 NULL인지 확인하는 조건은?",
+      "question": "데이터 분석에서 '표준화(Standardization)'의 목적은?",
       "options": [
-          "IS NULL",
-          "EQUALS NULL",
-          "IS EMPTY",
-          "IS BLANK"
+          "변수의 단위를 맞추기 위해",
+          "데이터의 차원을 줄이기 위해",
+          "데이터의 양을 늘리기 위해",
+          "데이터의 상관관계를 높이기 위해"
       ],
-      "correctAnswer": "U2FsdGVkX189wLSR+L1Df2cTIFdcakiHW8jq1b9l8Mw=",
-      "hint": "U2FsdGVkX1/Xi/aZiHkd85nm2rAeBxrkihKZfBEgltwjl8km/snRot+NkAiTDsj2td82JMnnuyPXTkiFXLOcndjWAz7e2+3WatdBxr4F8RTn6SRv6/IcKXlqJjOuxgWv4Aut3ZLT3VwCHAK70Kde2Q==",
+      "correctAnswer": "U2FsdGVkX1/m4EALcp858Qm2FavrhKEX1pg42Oq2qVOy+/MWcDLaI/5HE7LfVg9e0PjB229HT7/oPzw4PGleJQ==",
+      "hint": "U2FsdGVkX19uKD8tqCZb7kRPZn1dOlaYZPBpyp32g1NciaWukEEXD2L+Ghgke7273wuAiYnyu6L+/3JXQiKeSPvBpbU7Wxcm9E5GHCIKA/Lm0qSn3M2R9nJbARtbzRf5",
       "difficulty": "easy",
-      "category": "데이터 조회"
+      "category": "데이터 전처리"
   },
   {
-      "id": 43,
-      "question": "SQL에서 모든 값을 반환하는 집합 연산자는?",
+      "id": 21,
+      "question": "다음 중 '로지스틱 회귀(Logistic Regression)'가 주로 사용되는 문제 유형은?",
       "options": [
-          "UNION",
-          "UNION ALL",
-          "INTERSECT",
-          "MINUS"
+          "회귀 분석",
+          "분류 문제",
+          "군집화 문제",
+          "차원 축소"
       ],
-      "correctAnswer": "U2FsdGVkX18ONURbXlW9H1oIPiWaLJu6vf8wC/hMRh0=",
-      "hint": "U2FsdGVkX19DtI75lVnFn53gQebNv9enDXd5AqGDWq6GG0VSjv7fonhfR30OdPO3TnTTMyVBAVeN/xFMtHN9EqCRq1QVa6UP4AUsy7tqZaJ8m0gfHrnerdw4eubDTugr/igW5HEcHcgLQIv8Am66fA==",
+      "correctAnswer": "U2FsdGVkX1+omQCC89VJDZQhuRiJqjl0v/8f6GHEcgw=",
+      "hint": "U2FsdGVkX1/efm5YdfOt8EOIjR7EW9g/ZedvWLAofFSyo3/z1HwWO7vUw4lvbkwEuaeLDGUoMA3lwaBgvGU3MmFCcCqb47EG8tqYc68ghmzxvgdr3rcLh+vHo0bjxXUk",
       "difficulty": "easy",
-      "category": "집합 연산"
+      "category": "머신러닝"
+  },
+  {
+      "id": 13,
+      "question": "데이터 분석에서 'SQL'의 주요 용도는?",
+      "options": [
+          "이미지 처리",
+          "자연어 처리",
+          "데이터베이스 쿼리",
+          "딥러닝 모델 구축"
+      ],
+      "correctAnswer": "U2FsdGVkX18/rEuqRoy/n1wr8ahgoeiCIwKsdZMbVx/6geP6MfvV3FDJnndFyM4Y",
+      "hint": "U2FsdGVkX19PB/uc2sY2mzWJV/ZjJ0YyxnXbBnAOS1TdTLkv+zZbTzxlT7Je5QVLLijxPdGeNHQIbFJVQDVizpyoTlxljZWGRYE5kPpO7dqj1yY4sx54TuPZVqsM2QLp",
+      "difficulty": "easy",
+      "category": "데이터베이스"
+  },
+  {
+      "id": 23,
+      "question": "다음 중 '지도 학습(Supervised Learning)'의 예가 아닌 것은?",
+      "options": [
+          "선형 회귀",
+          "K-최근접 이웃(K-NN)",
+          "K-평균 군집화",
+          "서포트 벡터 머신(SVM)"
+      ],
+      "correctAnswer": "U2FsdGVkX19v/WHCwADs9YzgDC0e7389D79TK70lLcICRcaQPjUW9yCz89PxNZ+m",
+      "hint": "U2FsdGVkX1+INCiFYIjabtLqGWJ8+MlxATBZgAFPmrZcVIYyXHMIgoKSn4+etRwAeBZt0USei92i3NZYRW+C/2jiXoxuxPAyM69UZmn8mVI=",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 7,
+      "question": "다음 중 데이터 분석가의 역량으로 가장 적절하지 않은 것은?",
+      "options": [
+          "통계적 사고능력",
+          "프로그래밍 능력",
+          "비즈니스 이해능력",
+          "마케팅 실행능력"
+      ],
+      "correctAnswer": "U2FsdGVkX191UxLUgFtJAwJD8JPKVKbouMXYazFKl2WxDA2oJs+suZWIxd6uKwo/",
+      "hint": "U2FsdGVkX18cXe9LnMwgCxmaN9LAEOxMJSYpgPs8OOvGnf7m0tLaLl85TfL8B0vqvQQIw8jgxh2guhCjtEJj6LsVbV//VND8CJ0gg1fHWis+DfgF+n/WvsKL67Q07EggVTbpJqazmKTZYeSo9vM2zg==",
+      "difficulty": "easy",
+      "category": "역량"
+  },
+  {
+      "id": 25,
+      "question": "다음 중 '클러스터링(Clustering)' 기법이 아닌 것은?",
+      "options": [
+          "K-평균 군집화",
+          "DBSCAN",
+          "계층적 군집화",
+          "의사결정 트리"
+      ],
+      "correctAnswer": "U2FsdGVkX1825LQmgOSs5jeOs/1MyTIlscpSgl8Yb482xt6TAiz/YQY8bN5yV4RU",
+      "hint": "U2FsdGVkX1+bVRAmEeSBjn7IWG3IB9u5SZaJmTacW5NkLA6ljTr0oAcMVaZDIgIqChakPoReUJMTiR/L/mg1f3ZxMAbLEgbHicvahxqRWFE=",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 41,
+      "question": "다음 중 '교차 검증'의 목적은?",
+      "options": [
+          "모델의 학습 속도 향상",
+          "데이터 전처리",
+          "모델의 일반화 성능 평가",
+          "데이터 시각화"
+      ],
+      "correctAnswer": "U2FsdGVkX1+jauK+f2UwaWPnVBXP5czNcrkyj4CvyAlBPDyONGwqC6r8XZDlxaP/TOEPJdrmR2GJY7nqJAxcug==",
+      "hint": "U2FsdGVkX1/R1hmgSx5mdzCghYyO9P+PXK7SuEEYI0Z7OS1jYX/NKeDFQHfIf+zMCIh9kzFOiyWmzKoLY6zYY5qigM0a3ddQalQrDN8K48VS6v9MTlcJT4upH3AO1i1CszNf9nc1LHxLROqQvmo18PLKLOGD3WbGXsI8bbMJu4c=",
+      "difficulty": "easy",
+      "category": "모델 검증"
+  },
+  {
+      "id": 3,
+      "question": "다음 중 딥러닝 모델이 아닌 것은?",
+      "options": [
+          "CNN",
+          "RNN",
+          "LSTM",
+          "SVM"
+      ],
+      "correctAnswer": "U2FsdGVkX1+01ZKljnA+UOBN4UMhLSMSEv8iFI5rmQ4=",
+      "hint": "U2FsdGVkX19pI4b+I4DMnDvJfmHEjuBMGq3N55qlQaMwcHhbmCnUBmBBfsPlXzKAwlw7Eog8R8Pa3Grog0lNLiO0fThTmlpk2RA6sBuPeQKCx8NYZOAsclDWlLLig2ii7tmX6eDATjB1+l6/qduyJQ==",
+      "difficulty": "easy",
+      "category": "딥러닝"
+  },
+  {
+      "id": 15,
+      "question": "다음 중 데이터 분석에서 '정밀도(Precision)'와 가장 관련이 깊은 개념은?",
+      "options": [
+          "참 양성 비율",
+          "참 음성 비율",
+          "거짓 양성 비율",
+          "거짓 음성 비율"
+      ],
+      "correctAnswer": "U2FsdGVkX19cpGNLwVnszwjacXzZ28SzCiUxk7tMEaotixRSDP+618PWxBwqLeBZ",
+      "hint": "U2FsdGVkX18pJeL3OH6bnXbNEU8A2NGX5+5oNejG4naWUMnxBHumrpfnSFh7AwR+L1igrvSCS0TdrG5n6Lg7gqV7knZyXnBavV8l9CtFTX+n9oszGBE+igiWYmsZaAmyDEfH1LrJD1ojIi2NI3sZJiiBsz8wLWxoVYq2Ed/1/gY=",
+      "difficulty": "easy",
+      "category": "모델 평가"
+  },
+  {
+      "id": 5,
+      "question": "다음 중 비정형 데이터에 해당하는 것은?",
+      "options": [
+          "고객의 나이",
+          "제품의 가격",
+          "고객 리뷰 텍스트",
+          "거래 날짜"
+      ],
+      "correctAnswer": "U2FsdGVkX19FOC9sTJuZdZExvg2XYj2TNN99XIpJ/BVoHDc4MCKRa/JbqA00vs0V",
+      "hint": "U2FsdGVkX18Rmp4tRCPcWMH0rYq+TprorUuapA/XdFd2BQXAY2GnDfgpJ/cV/5qVQpu/kOLf687gObjoPQE3tLOXNnlz81aXwjLx8HHBZRKkLmgiZFMz8Y+xEOtA2PNM",
+      "difficulty": "easy",
+      "category": "데이터 유형"
+  },
+  {
+      "id": 38,
+      "question": "데이터 분석에서 '평균 절대 오차(MAE)'란 무엇을 의미하는가?",
+      "options": [
+          "예측 값과 실제 값의 차이의 절대값 평균",
+          "예측 값과 실제 값의 차이의 제곱 평균",
+          "예측 값과 실제 값의 차이의 비율 평균",
+          "예측 값과 실제 값의 차이의 로그 평균"
+      ],
+      "correctAnswer": "U2FsdGVkX19Vv2nti0jaWc0TOhraHc0fCffHXytM4gdk+Zqla0Yh3HsA/e4+FbORnzpHkeX58KFHREECJ5h4Do6AJzu4xVID/izA8zCYAsU=",
+      "hint": "U2FsdGVkX18uD5BorE6FwQGnFMM0VirZlQGeKoaNWth9CRgNMeW7EHDDnBDbhBntuRG9QOBJ4DYW7X1qLR2690K1IDXz9Y51inCAyOPyHjfM9bxV2PxFEoZvGS7Ga01qaFioEGz64/AUanWO1lM31w==",
+      "difficulty": "easy",
+      "category": "모델 평가"
+  },
+  {
+      "id": 12,
+      "question": "다음 중 '비지도 학습(Unsupervised Learning)'의 예가 아닌 것은?",
+      "options": [
+          "K-평균 군집화",
+          "주성분 분석(PCA)",
+          "랜덤 포레스트",
+          "자기조직화 지도(SOM)"
+      ],
+      "correctAnswer": "U2FsdGVkX18FHP9vKWLFnpcqnqKqE+vxnuDNj7R/IVm5qUdsFDKLqBMK0Awx9Psj",
+      "hint": "U2FsdGVkX19BdXapfQsAFGib1KgAzD/ZZCAIXaXYeTbXCYn8hpr/YeO5b2xBaGX8DF6xR8Xuj4gEL4jYgmqnuwQXEq2dQEKyppCR4K1MyR0=",
+      "difficulty": "easy",
+      "category": "기타"
+  },
+  {
+      "id": 33,
+      "question": "다음 중 '비정형 데이터'의 예가 아닌 것은?",
+      "options": [
+          "텍스트 데이터",
+          "이미지 데이터",
+          "오디오 데이터",
+          "데이터베이스 테이블"
+      ],
+      "correctAnswer": "U2FsdGVkX19QKkGnS3XAq/PqumqHUafDjimuZnukk6e9Ws0cJOuWk9GnQGn2YPGQ",
+      "hint": "U2FsdGVkX1/9UpX3TaaKzCjBG5xe6hx/vFmsFiVqyaDpuZE4hlwK/k5uZoATQWK35BjGChAhBMeC3w7ToaAiYX+yZUozhiCR8lvuCTcxMYfKvVP7j2HIyGRcB9TmGTMz",
+      "difficulty": "easy",
+      "category": "데이터 유형"
+  },
+  {
+      "id": 24,
+      "question": "데이터 분석에서 '파라미터 튜닝(Parameter Tuning)'의 주요 목적은?",
+      "options": [
+          "데이터 전처리를 용이하게 하기 위해",
+          "모델의 예측 성능을 최적화하기 위해",
+          "데이터의 양을 줄이기 위해",
+          "모델의 학습 속도를 높이기 위해"
+      ],
+      "correctAnswer": "U2FsdGVkX1+aOe5++ejiRwai8LnpX7M0QPK1KzfHSzJ1orqlOPUxIhLceVqOPr8lU60af+ASO2fKaccRW7c9JxiyGGmLjIxlc5r9Y28r9jc=",
+      "hint": "U2FsdGVkX1/Wp7nw+44yj+BSs0Q+7Ke20/uhyVhSFNT/5rBzW9ouH0OUileL0wVwMLcVjbMwrFkK5tz+31m4SCQ43A9eLpPl0sTGgfx0SA15s/wxIChza9SGzG1BdpvM",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 8,
+      "question": "빅데이터 분석에서 'Hadoop'의 주요 구성요소가 아닌 것은?",
+      "options": [
+          "HDFS",
+          "MapReduce",
+          "YARN",
+          "SQL"
+      ],
+      "correctAnswer": "U2FsdGVkX1+mz6wFxPdLWbx4C7J4Goxj/m0IW3a19DY=",
+      "hint": "U2FsdGVkX1+8pskBhWKExtO2W6f8mw0LT2lOijPJm6kgueDtY86EuwZOvLL8n5NnFxAFbQIZy+qLCT3NOKxf7AOvyn14O8oE46sgOrfoiXPF6gWuruHsn4rw2Y7o0p7L",
+      "difficulty": "easy",
+      "category": "빅데이터"
   },
   {
       "id": 44,
-      "question": "SQL에서 두 집합의 공통된 값을 반환하는 연산자는?",
+      "question": "데이터 분석에서 '가우시안 분포(Gaussian Distribution)'란?",
       "options": [
-          "UNION",
-          "UNION ALL",
-          "INTERSECT",
-          "MINUS"
+          "데이터가 정규 분포를 따르는 경우",
+          "데이터가 균등 분포를 따르는 경우",
+          "데이터가 지수 분포를 따르는 경우",
+          "데이터가 이항 분포를 따르는 경우"
       ],
-      "correctAnswer": "U2FsdGVkX183O/BUiGqTgJ8QBQ9RlO+hlN8RXL5j80c=",
-      "hint": "U2FsdGVkX19HHW8XCzOCwcqNq5pP4ehFLzZeO+1HoHDiCZzZddRAVic9Fhm0LEdNmxYIGH41iKeLUVFcSaCYm1/179x3gkA0REl7MK8i17LD2cji+1AsQTh2ZPbFjvAS",
+      "correctAnswer": "U2FsdGVkX1+2ZnHr5jFSlRbrF3qtxpFa1UhEJ87BJwSkFosKf5piZfKbjfXnaSSlYcEgTmLuK5g+Pxp4f8sZlqZMRcv3qcPM7cnMUx16V8k=",
+      "hint": "U2FsdGVkX19ikj07paCy4h0r5At/G+H9gD8ApFJ29aRUCJ8L5bPKqaN089L6EJAnZJA3avlOUGNlZlu5u+5g+0CETjE2iXKj9xOqYF4BmvA96+cvYpKn4GlK5DQiqCRU",
       "difficulty": "easy",
-      "category": "집합 연산"
+      "category": "통계"
   },
   {
-      "id": 45,
-      "question": "SQL에서 두 집합의 차이를 반환하는 연산자는?",
+      "id": 6,
+      "question": "다음 중 데이터 품질의 차원이 아닌 것은?",
       "options": [
-          "UNION",
-          "UNION ALL",
-          "INTERSECT",
-          "MINUS"
+          "정확성",
+          "완전성",
+          "일관성",
+          "복잡성"
       ],
-      "correctAnswer": "U2FsdGVkX1+MHcK3iwcUA1olhfvoUsJ5UWQE774AqZE=",
-      "hint": "U2FsdGVkX19ZdNoNArzO0Vyo772cisAy4gLSqguB+8WepVL2tSOXu+BIOW2qxanY0yOKQ6M20CjcGbCDnQVBYEnw5P7Azkg+dUpkxLrRXE2x0eqPIqJI83O039y7q6WQluoWg20DmI6qmPwBGHvLWBL/nKZwn/l+q4+uZ909Qh8=",
+      "correctAnswer": "U2FsdGVkX19avZLPG7wjAdF+WW3bsyNffNwD7yOjQ2k=",
+      "hint": "U2FsdGVkX19R4jxPWPXciw7IsEr+0pBAtt1yRIfyqUy1nm3Hio2lki9UhGyfwU6wKFgrrQVF7RRlOCpaVd39WJq/rl68BK1NiDdskRb1No39UusgR1MAFqBItvN1R9Sep2NH19xF0pSoKK1NaduVqQ==",
       "difficulty": "easy",
-      "category": "집합 연산"
+      "category": "데이터 품질"
   },
   {
-      "id": 46,
-      "question": "SQL에서 조건에 따라 서로 다른 값을 반환하는 함수는?",
+      "id": 9,
+      "question": "다음 중 데이터 시각화 도구가 아닌 것은?",
       "options": [
-          "IF",
-          "CASE",
-          "DECODE",
-          "SWITCH"
+          "Tableau",
+          "Power BI",
+          "MongoDB",
+          "Qlik"
       ],
-      "correctAnswer": "U2FsdGVkX18k4lameH7KhiLfexyIkRBp/dTIo2sfwg8=",
-      "hint": "U2FsdGVkX1/GkY0QDHXsYjI6BjeU/afv823+VVuZ0kyUOSSn+Pij9qQQVCcABxbGbheWnAwYgnNaCbelAhWXUBLqVrDjP1zMiLg8nDgfj+i+Ci/+5YZ2an8XFXC8bsryhA6AFJ7IcudfagacPVwXi4j14jkI76pVQHNNhnzq1d2S05D7YNRfSRMU5UeIES1uU4UgwLkug3qBrupfxC/c1W/M6S3zxkGrpNfOaiPqZZ2nY9LTa6WoQG/eWa0BubFB",
+      "correctAnswer": "U2FsdGVkX1+ZjXivKPF2y6qEZuBB/v9HaF6mQhIrO0I=",
+      "hint": "U2FsdGVkX1+oD3/SibLrF3ez8oVa4yalt86M56TQpIqoIqSfrvZK+Gnn9NjwahQm2Rrxrunq4noNEwXzmVnjgR33Q0m0RXxC7Ysdcgerymw=",
       "difficulty": "easy",
-      "category": "함수"
-  },
-  {
-      "id": 47,
-      "question": "SQL에서 테이블의 데이터와 관련된 데이터를 저장하는 것은?",
-      "options": [
-          "VIEW",
-          "INDEX",
-          "SEQUENCE",
-          "TRIGGER"
-      ],
-      "correctAnswer": "U2FsdGVkX1+GdYhDPGXOGhvUCgh+4onymiOBLLV4/GY=",
-      "hint": "U2FsdGVkX199GJMG+kR69duEZ0PAraEShN9zsn5hjcgmmKIL5IPX9mcc9eTI01Jczc6xEnKFRybJUxAFOss2yUgZ11y5p7H+3pke29XL5j0Vu5JlBVtxu/tcHlV/GMl5VcL2unwB1aC4tXHmRvrFHghumNjqTy3WxJ2CL8I5Ylo=",
-      "difficulty": "easy",
-      "category": "데이터베이스 객체"
-  },
-  {
-      "id": 48,
-      "question": "SQL에서 일련 번호를 생성하는 객체는?",
-      "options": [
-          "SEQUENCE",
-          "INDEX",
-          "VIEW",
-          "TRIGGER"
-      ],
-      "correctAnswer": "U2FsdGVkX1+PDXvwQcxR18h9Vexygi2tOzmxe2X01gE=",
-      "hint": "U2FsdGVkX1/0kxHZCaVa+skrPd+lX7SaylVqPiezuJ2omxevHkkwKYx9qTex41Yw3jhTTWMPCqhdkEvLekLXmg72UNtKjBoMUGH5mRzgwCZOqtSwgccZvw6onF+QYmuq",
-      "difficulty": "easy",
-      "category": "데이터베이스 객체"
+      "category": "데이터 시각화"
   },
   {
       "id": 49,
-      "question": "SQL에서 데이터베이스를 복구하는 명령어는?",
+      "question": "다음 중 '비정형 데이터'의 예가 아닌 것은?",
       "options": [
-          "RECOVER",
-          "RESTORE",
-          "REBUILD",
-          "REPAIR"
+          "텍스트 데이터",
+          "이미지 데이터",
+          "오디오 데이터",
+          "스프레드시트 데이터"
       ],
-      "correctAnswer": "U2FsdGVkX1/FIkeEOI1D/2UEB0WoLkOnRjhcd6xybdU=",
-      "hint": "U2FsdGVkX19pC7Hx/hC2k22tNCLQMfl/HzKM5hV3I8W/ATJ4Hzs5lE7x6W7QU8DXRfAczHP0drTeChn8k5T9D89EK6M2J0+6Y/qvoF1uFozWin2TFORu51orLooaDuKz",
+      "correctAnswer": "U2FsdGVkX1/IKt1NAZi8LGRP/JotC0Awekfw2Me61elVKpoeV1nu3qgPtcQqPhXq",
+      "hint": "U2FsdGVkX19m3C02T1DfYsiq1jWi8SV4b40eTNpu/MyGhZVDcdpo1ezIEqF/TG4XDbnUHhhzX//mjpP2+PVaV3Q+p24Wmpm600sRy1fGLXY=",
       "difficulty": "easy",
-      "category": "데이터베이스 관리"
+      "category": "데이터 유형"
+  },
+  {
+      "id": 2,
+      "question": "다음 중 데이터 거버넌스의 주요 영역에 해당하지 않는 것은?",
+      "options": [
+          "데이터 아키텍처 관리",
+          "데이터 품질 관리",
+          "메타데이터 관리",
+          "데이터 마케팅 관리"
+      ],
+      "correctAnswer": "U2FsdGVkX1+Hj9NdfAX5zjyHtt9eRRLhBS0HHSZOABbN2Vo4knWvcGBimf7WHrX8",
+      "hint": "U2FsdGVkX18xIhelewmepxTm79/Rw9Nq6xNKf/4D17wUu2M/xas11NfV3aPKvtuzZPKu30MJ4OVogwSJ8Wlq2InBl2NU96WQfRlvkQ3TwBD9XJnyIMwW2mn6nzELME8tQohwKB+Ll5paRjp7HSGuog==",
+      "difficulty": "easy",
+      "category": "데이터 거버넌스"
+  },
+  {
+      "id": 11,
+      "question": "데이터 분석에서 '교차 검증(Cross-validation)'의 주요 목적은?",
+      "options": [
+          "데이터의 품질 향상",
+          "모델의 일반화 성능 평가",
+          "데이터의 차원 축소",
+          "분석 속도 개선"
+      ],
+      "correctAnswer": "U2FsdGVkX19gVNQYXEmkRdmN4bArZr8+yaHkK9t1Fwpf6Dh9S1FljI1H3fwfD8fWV3FcA+icWc7Xe+sZKpZ9+Q==",
+      "hint": "U2FsdGVkX188N3VqCFIaDcPw85Xp7vlZ38O4cKL3ST+I8234s3Cl9eydMPB2UUDzlg35vmJJ5ZilbtRnk17OSSR/VmAX7H0aXWxPFcXjL7krP/mY1artZ+tKywkDNVFXU77kHyzCVJsUVjq5MzrVgZs2d8vvtd6acfw0MinrNRI=",
+      "difficulty": "easy",
+      "category": "모델 검증"
+  },
+  {
+      "id": 17,
+      "question": "다음 중 시계열 데이터의 예측 성능을 평가하는 지표가 아닌 것은?",
+      "options": [
+          "MSE (Mean Squared Error)",
+          "RMSE (Root Mean Squared Error)",
+          "MAPE (Mean Absolute Percentage Error)",
+          "R-squared (결정 계수)"
+      ],
+      "correctAnswer": "U2FsdGVkX1/5nYLkUFKAu3nJNkUWSh0OeJ39mldGmzNWpLI5Z5BDj8JAC6nt5K1T",
+      "hint": "U2FsdGVkX1/bsd/2diWGfKkTzILag3mijtePwyEvNBsKGUbr7E2qVJWEtB7vW1NJ3KXPzzBG8CO9drjK1RFguj21txmHAVXuen7t+QZJ59LlzKbv2Cfy7TKIN4bySSCxlG7chp9jit9CIW7mDcqwgA==",
+      "difficulty": "easy",
+      "category": "시계열 분석"
+  },
+  {
+      "id": 14,
+      "question": "다음 중 데이터 마이닝의 '연관 규칙(Association Rule)' 분석에서 사용되는 지표가 아닌 것은?",
+      "options": [
+          "지지도(Support)",
+          "신뢰도(Confidence)",
+          "향상도(Lift)",
+          "정확도(Accuracy)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+rKYggX5Lgo7jiDLX1xocP035OL+YQBmPpYq3OpHY2nXbo2EZyHjgW",
+      "hint": "U2FsdGVkX18bhp/5lr4C4voLNWOiQ+FdkQ/3P27GH+TOOcnB13P7z5FFrO0s6GwAasj8VNR0uL9BYYdyV42hyzIPhwhqjzC2MLbBxpT8sh3PAhuZv1227xEOETNkCI5Ui3kKrYBAlUCxvh5Hh3dEzjuY90E+3iMsNgGqksE/a/w=",
+      "difficulty": "easy",
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 31,
+      "question": "다음 중 데이터 마이닝에서 '분류(Classification)'와 가장 관련이 깊은 알고리즘은?",
+      "options": [
+          "K-평균 군집화",
+          "주성분 분석(PCA)",
+          "로지스틱 회귀",
+          "주성분 회귀"
+      ],
+      "correctAnswer": "U2FsdGVkX18ACmM7e5g7zGfb1gknCL0ZI6jrCc1M057YH+7Hd+bHnuJAAi4e5yxW",
+      "hint": "U2FsdGVkX19fZKBrtLh4n/dvJkQh+aHUBDPHlVPZnJnn9ehcRZQg2kq7ZWWql424BuZ4sGZiTAAOE4uKlM8LZFFPre9YxWu7tvgEsuCAOZZ7xjyAHDbmfuRax4KGF69B",
+      "difficulty": "easy",
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 36,
+      "question": "데이터 분석에서 '훈련 데이터'와 '테스트 데이터'의 주요 차이점은?",
+      "options": [
+          "훈련 데이터는 모델을 평가하는 데 사용되고, 테스트 데이터는 모델을 학습하는 데 사용된다.",
+          "훈련 데이터는 모델을 학습하는 데 사용되고, 테스트 데이터는 모델을 평가하는 데 사용된다.",
+          "훈련 데이터는 모델을 학습하는 데 사용되며, 테스트 데이터는 모델을 검증하는 데 사용된다.",
+          "훈련 데이터와 테스트 데이터는 모두 모델을 평가하는 데 사용된다."
+      ],
+      "correctAnswer": "U2FsdGVkX18x7DI7/U4T2aWD6rx+EUtkwL+R3tL3TmzzxQjpY7pH3n+BMiTNTZyYnztt95wPATMJRy6g8421aBx/Ke0StWBBhu/kZ1bSulMZJJfC/oN/lbHdxK57OgdgL7I5DDxvXrOwo/enHFPY4juZgmSw8V+d1gifoEGIYgY+IlkDXYz6iZwBU+qoKcLo",
+      "hint": "U2FsdGVkX19u4xdZrc7WvxL4ypRBNX+qPQaT5MuL58KKT6p9hRGBhdV7yh/lvyWvqUu/ez8qqf3VDvF2geNStsw042nQUL5sAYc3OvV1OIJyUFL79o1yRtAqUYKpALAo+7kJT2lw5PSrBpiNeFtHOXHWVu8QiIOPIAQnBk8jX2M=",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 45,
+      "question": "다음 중 '데이터 웨어하우스'의 특징이 아닌 것은?",
+      "options": [
+          "통합된 데이터",
+          "주제 지향적 데이터",
+          "휘발성 데이터",
+          "시간 변화 데이터"
+      ],
+      "correctAnswer": "U2FsdGVkX1/6bqoC1L657LnueZDWBpTekZpKO3pyMH9GLPLjV9ykP3aToJBD8Jo4",
+      "hint": "U2FsdGVkX19tJ4Ko10Kj3fvUmiATskS9oAFovNkUOlYOwvDyff1ylDJlvdXGvGOzSQKLXceWIZDMZ0BRQzy0dPEFDuqIiXVLcGtakFK4UnAq2Q0Hxz50qNqsoe910lys",
+      "difficulty": "easy",
+      "category": "데이터 웨어하우스"
+  },
+  {
+      "id": 26,
+      "question": "데이터 분석에서 'P-값(P-value)'이란?",
+      "options": [
+          "데이터의 분포를 나타내는 지표",
+          "통계적 유의성을 나타내는 값",
+          "모델의 정확도를 나타내는 지표",
+          "데이터의 상관관계를 나타내는 값"
+      ],
+      "correctAnswer": "U2FsdGVkX1839+pz2Lu8sJgwbPHZ35AM53JvembZWxX6N7A4GU0R1O4vTDMjktAG538z6nfUelMlw1N230h7cA==",
+      "hint": "U2FsdGVkX1+mMXHdlqKOXiDvC1n59Ah6WO8gwUEzJDq4Ubzt0z2Lk9GVoN2ASpD8lmc9fw04YUG4hqs8XQIfXe2BddIMCwRXbDeoDid/DHsl9/0g/7J2uDZBs0o/NUG1",
+      "difficulty": "easy",
+      "category": "통계"
+  },
+  {
+      "id": 32,
+      "question": "데이터 분석에서 '고차원 데이터'의 주요 문제점은?",
+      "options": [
+          "차원의 저주",
+          "데이터의 품질 저하",
+          "분석 속도의 증가",
+          "데이터의 양 감소"
+      ],
+      "correctAnswer": "U2FsdGVkX1+hj17FWpHdRT8bhbFRVDUNEJ/oVC23SHsAljchQnIkuzqvrmqnumY0",
+      "hint": "U2FsdGVkX1+DPKOBEaoXgRI1+rhEg/8woAZTjLZoGHeZ0BLyRAPZ0ZqdPn3Zqr5oC4i1BEZm1vrTEBNFq1xas9SwmCTBjrhpiN5rho2Gq4VUWkUVURseSVKo4rVlVYNB84YNrglToUM0hjYJBVqyJw==",
+      "difficulty": "easy",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 37,
+      "question": "다음 중 '지도 학습'의 예가 아닌 것은?",
+      "options": [
+          "선형 회귀",
+          "로지스틱 회귀",
+          "K-평균 군집화",
+          "의사결정 트리"
+      ],
+      "correctAnswer": "U2FsdGVkX19fa7c7XNzKaLq5im4C9QM/9h3PpBRpnDirDQig1v/XnKcRR9IhzakD",
+      "hint": "U2FsdGVkX1/23cvPs9og8zNGlwETrv0g1Oh8pEuzum9QdkNZrnxFs69U/iuB2YA+QlUtrlPqHAzp6iGv+rDInjvQlHTGXr430hebza0/nD0=",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 1,
+      "question": "빅데이터의 3V 중 'Volume'이 의미하는 바는 무엇인가?",
+      "options": [
+          "데이터의 다양성",
+          "데이터의 속도",
+          "데이터의 양",
+          "데이터의 가치"
+      ],
+      "correctAnswer": "U2FsdGVkX18XN9/3uhoC2PgbJUip0L4UETO762p+jSWi3/fW5PSfb5Qh4alVB4iM",
+      "hint": "U2FsdGVkX1/xSvwWUsSy1kFyFfEmEK+6rH9GqENKzYoz4TRlx8KBaViF+/37YKcnhZger8kwLA51RRYnMIdTusq678dKYkNx78fBRpMyiYs=",
+      "difficulty": "easy",
+      "category": "빅데이터"
+  },
+  {
+      "id": 27,
+      "question": "다음 중 '교차 검증(Cross-validation)'의 종류가 아닌 것은?",
+      "options": [
+          "홀드아웃(hold-out) 검증",
+          "K-폴드(k-fold) 검증",
+          "부트스트랩(bootstrap) 검증",
+          "점진적(incremental) 검증"
+      ],
+      "correctAnswer": "U2FsdGVkX1/7QfJDX2rwTzp9SaIUAdqEDW8H8/wIyPFk37UK1UFRyXZAgyTbxfeN",
+      "hint": "U2FsdGVkX18C7xxlBuoBTobu0pUHv6eXXv+vc+V2IaQDILjazhGo1dhiwTwjAX260gje+Z767IyWsjVaQUOzwaCi2xMJDSGTFHxcQOzQ/VXxWzRlHkiO1/RDsw6WO6Hj",
+      "difficulty": "easy",
+      "category": "모델 검증"
+  },
+  {
+      "id": 16,
+      "question": "데이터 분석에서 'F1 점수'란 무엇인가?",
+      "options": [
+          "정밀도와 재현율의 조화 평균",
+          "정밀도와 정확도의 조화 평균",
+          "정밀도와 특이도의 조화 평균",
+          "정밀도와 민감도의 조화 평균"
+      ],
+      "correctAnswer": "U2FsdGVkX19ifU1u9s2jV5W2DfsEmetSH+bub3EfGXWeaxzlC33obX9jZgDbGTVILpTPc6jg6lPHVAiAjMjXpg==",
+      "hint": "U2FsdGVkX1+ZNrXQjajJIWIVsyR03SpczcM9ONAbUYNdiXL/kUgZNChuZBnlts4Os+bmdVEOSezm0GKYP/cZjIMTzKH7fYDfWInO5HhcJ4GZ8SAe0pQoxX4fYE7kmtwz",
+      "difficulty": "easy",
+      "category": "모델 평가"
+  },
+  {
+      "id": 46,
+      "question": "데이터 분석에서 '분산(Variance)'의 의미는?",
+      "options": [
+          "데이터의 평균",
+          "데이터의 중위수",
+          "데이터 값들이 평균에서 얼마나 떨어져 있는지를 나타내는 값",
+          "데이터 값들의 최대값과 최소값의 차이"
+      ],
+      "correctAnswer": "U2FsdGVkX18UNXNgN+GqDA7ltKej9j85QPC4XRsecJRTk39yLUnQleZNQoohomsGE2HmyoWqlVAsj3sPDIU5fpy3UAvFKAG2lxYOAm8TQUIvmm3V62zydv5nSHqp6PBbiD/QnKR6ydSMss0AKeaarw==",
+      "hint": "U2FsdGVkX193Z+910K65tCcsAqFRbHA8nQEY8BgW3s4OyK0h9B9RuJ7hJZEsCrEEDJVpNdKoQzGQIiWKIZkmLzO1bLg9WWUYk+hRugIoRsSxccoXon68Svij/WATm9g7lUJtQVf3YSs8Vb9Sl7UcOw==",
+      "difficulty": "easy",
+      "category": "통계"
   },
   {
       "id": 50,
-      "question": "SQL에서 트랜잭션의 일관성을 보장하는 명령어는?",
+      "question": "데이터 분석에서 'P-값(P-value)'의 의미는?",
       "options": [
-          "COMMIT",
-          "ROLLBACK",
-          "SAVEPOINT",
-          "CHECKPOINT"
+          "가설이 참일 확률",
+          "가설이 거짓일 확률",
+          "데이터가 주어진 모델에서 벗어날 확률",
+          "데이터가 우연히 관측될 확률"
       ],
-      "correctAnswer": "U2FsdGVkX180pS+8efxHxH+vJfTy6pgzpi422X04H/U=",
-      "hint": "U2FsdGVkX18PAbELpVnjRg7prL11SHW2QuxzWhmVsBiqPEFphtCQHGSVe3gWVaeg/2xCWe8y55vaHqb0LwY8N9GgmV71mg7sb4o8rDFecpD3C+B2T+U0O119HF0p84s2QoNzygPSgP6n3M3C8qpdyI9+u+JOwml8VYhsj0glTczqAYuE4hxDITPnzZ5ycKwE",
+      "correctAnswer": "U2FsdGVkX18U/qCriEkX7Znhoe/hdjeb7922pdxnATs6dV9pdbE4dOPR1nquEoGg9Z4NOgswgf3/Lpn9JW7u1g==",
+      "hint": "U2FsdGVkX18MlEjKg4v0TojgaCkARaV85MwCJX3AkU0tk5cSrXz1n+rBeZR39uy8hQ1N7z5YlmY7xMkL/a4o+HrK8b4QfpL2qXazypyz+aOvlJTyTunWrsOnYytG+kVsH8GOCp8MFb1bSXGqSbYOyA==",
       "difficulty": "easy",
-      "category": "트랜잭션"
+      "category": "통계"
+  },
+  {
+      "id": 20,
+      "question": "다음 중 '의사결정 트리(Decision Tree)'의 장점이 아닌 것은?",
+      "options": [
+          "해석이 쉽다",
+          "과적합의 위험이 적다",
+          "수치형 및 범주형 데이터 모두 처리 가능",
+          "시각화가 가능하다"
+      ],
+      "correctAnswer": "U2FsdGVkX1/DbdsxHxU7zQjivTuJgkj10Ct7ipVHG8qdS49IRxI7GhpfAV+E/5gi",
+      "hint": "U2FsdGVkX1+/NqTiC78RAOcZHUDD7cISafJP+iN+5H0J5UVWn5J4SdE/ZALheYEPfegrXOkaeURTFsQSI+Qct6uZ9Z5KHAo8XvHTCSuIauCiXEXTvH5TAADQuxwA1XrwyDhoW3nP0u2QqRxyQe3l6w==",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 28,
+      "question": "데이터 분석에서 '데이터 왜곡(Data distortion)'이란 무엇인가?",
+      "options": [
+          "데이터가 과적합된 상태",
+          "데이터가 불완전한 상태",
+          "데이터의 구조가 변경된 상태",
+          "데이터가 원래의 의미와 다르게 변형된 상태"
+      ],
+      "correctAnswer": "U2FsdGVkX19iTh07FMbVpw5bH5729MFj2BqkQCE/fInhPnd+9p/ZQtOpFq5IMLLY6d+789TBjsTmZpD5CJP0it414FaDO/gGEWj7/rPGa4k=",
+      "hint": "U2FsdGVkX19LcMUJLXtnk2RsR6adwqq7G7+ZKjbQw/vHShWx1HV+YQCA8jX7KI3RnSyAPscl2f7CWemQOY66/OCU21imFMiGMZGjJDCC8ixJerjDyRT+p4Tt0uNi6cPBOkBqCDYN4B4v8cYEasqN0g==",
+      "difficulty": "easy",
+      "category": "데이터 처리"
+  },
+  {
+      "id": 4,
+      "question": "다음 중 데이터 전처리 과정에 해당하지 않는 것은?",
+      "options": [
+          "결측치 처리",
+          "이상치 처리",
+          "정규화",
+          "회귀분석"
+      ],
+      "correctAnswer": "U2FsdGVkX1+anQVJWrn6k5LnSzEELSITmIkjqHeZNhU=",
+      "hint": "U2FsdGVkX18ctkDq6DzYTDf9Z/nj6WiTHXOt/iW0D3HDpwdagcd+iw484p7C1tLHNBlem9IS4B8aIPerG+VoB/3ZdcCLjnwYwb/8qcWqUsjCUIPkTeutKpsL8S51aCEf",
+      "difficulty": "easy",
+      "category": "데이터 전처리"
+  },
+  {
+      "id": 18,
+      "question": "데이터 분석에서 '표본 편향(Sampling Bias)'이란 무엇인가?",
+      "options": [
+          "전체 모집단을 대표하지 않는 표본이 선택된 경우",
+          "데이터의 일부가 누락된 경우",
+          "데이터가 임의로 선택된 경우",
+          "데이터가 과대 추정된 경우"
+      ],
+      "correctAnswer": "U2FsdGVkX1/MdWQQMebfbznswCxuhQH5eXA0FFDLmZJniYsAfLTJ+GW167fT1+Rbt1nDac1+Ou44ubVco6Q/OioQLQfakrDYyQf51cu+66aqmtZnN19IJny22v1isQvX",
+      "hint": "U2FsdGVkX1+JBW+oX4r9yTiGtNFqwaRCCHXong/8n4BNoeJpOHJbRa1K4HxelkoTcRy+kwNdJH+deTA2Z8oEayzapbu0iU+dTJ3FDZJIjX2q7/mXMDMNnfd5g1OzMESL/gCiOG/H/GUsR88ZqJBZFtmqnpGCSmiivE7xJxOYkbE=",
+      "difficulty": "easy",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 29,
+      "question": "다음 중 '분산 분석(ANOVA)'의 목적은?",
+      "options": [
+          "두 그룹 간의 평균 차이를 검정",
+          "세 그룹 이상의 평균 차이를 검정",
+          "데이터의 분포를 확인",
+          "데이터의 상관관계를 확인"
+      ],
+      "correctAnswer": "U2FsdGVkX18NbqtKUve4ym1+Brxw9wxCp8F0CjGC+kH6LNpL5bZhZvyWCrhEBXmQ8UtKxuBXVfc9peLlUBU7Qg==",
+      "hint": "U2FsdGVkX19YMHuaBvlnkq4TMArghJihUP2Owa2pxAxmczt/ICGDlQPLwq2FeA7x+jAemlqKlbKwFCxoO5zxD/7rQxvHPY71jxn2xx4/OsY6uIN46PR/HFMy+C0ds++Q",
+      "difficulty": "easy",
+      "category": "통계"
+  },
+  {
+      "id": 43,
+      "question": "다음 중 '비지도 학습'의 예가 아닌 것은?",
+      "options": [
+          "K-평균 군집화",
+          "주성분 분석(PCA)",
+          "서포트 벡터 머신(SVM)",
+          "자기조직화 지도(SOM)"
+      ],
+      "correctAnswer": "U2FsdGVkX1+vmKRLk3kal2cZVAHO5i+Qs4+Xt4CKiz9gcKLXopa+QSv1Vqg0kDKC",
+      "hint": "U2FsdGVkX1+lCw69WtdcJGhh02Bd1lW/FLtm60EA7FT4gcV1f6ORCotZ1PiLx3fmMQZVrBcVjKXtA+BbGn1sQw==",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 48,
+      "question": "데이터 분석에서 '정규화(Normalization)'와 '표준화(Standardization)'의 차이점은?",
+      "options": [
+          "정규화는 데이터를 0과 1 사이로 조정하고, 표준화는 평균이 0이고 분산이 1이 되도록 조정합니다.",
+          "정규화는 평균이 0이고 분산이 1이 되도록 조정하고, 표준화는 데이터를 0과 1 사이로 조정합니다.",
+          "정규화와 표준화는 동일한 의미를 갖습니다.",
+          "정규화는 데이터의 단위를 맞추고, 표준화는 데이터를 정렬합니다."
+      ],
+      "correctAnswer": "U2FsdGVkX1/NPWK6AvRkmc4YsOG1BgnO9ZT0grG9jPnCDnn/OcqpwhNkHc0O2ViK8lu3IHhzy6bmL9aAKLP8iVNIGPcVnb6SKHV6vEH7iyS6IGh6AFzJqN2u9vc4eU3GPxJ2qcfuOovpx84J5ph6hs4q8D5DfsHFrXXyiMIiUNxF1IQdrvv3shuQnNjsXWA3wVs7xcFeTLkUkSQZ8JHl0A==",
+      "hint": "U2FsdGVkX19fjjfTDVXQdbGHXQzCBSBNVP4+RmwVrulhBhMmmr2sWB2gay1Jgr0Zz7Vuo1oxnmiws2gvQGJFiBRoNoUDewSn1DZhiQbZ6JPOLbQg9Tf6xAOrMEPnjI44",
+      "difficulty": "easy",
+      "category": "데이터 전처리"
+  },
+  {
+      "id": 47,
+      "question": "다음 중 '연관 규칙(Association Rule)'의 지표가 아닌 것은?",
+      "options": [
+          "지지도(Support)",
+          "신뢰도(Confidence)",
+          "향상도(Lift)",
+          "정확도(Accuracy)"
+      ],
+      "correctAnswer": "U2FsdGVkX1/ZMjOXxEbNn7wUNxySSgKIF0TzUmE00wv4+1qzEau8wR/+EVXWE7As",
+      "hint": "U2FsdGVkX19crimCcTpomD/X9WyPbsPc3kg2vZLBSQMuwgPLK1xMWnFnAL1auTgvqGRXxGS1kWeC5MWwQbtF4wB2mhFaRY/E0dAupgJGB450HPxUOPPuSaY5IXnD7cDZ",
+      "difficulty": "easy",
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 10,
+      "question": "텍스트 마이닝에서 '불용어(Stop words)'란?",
+      "options": [
+          "분석에 중요한 의미를 갖는 단어",
+          "분석에서 제외되는 의미 없는 단어",
+          "문장의 주제를 나타내는 단어",
+          "문장의 감성을 나타내는 단어"
+      ],
+      "correctAnswer": "U2FsdGVkX1+aIuDVrqnGfNJ9OKhlznfidC+IvaBRt+IlEk0GANZIeLFDujIdxf3LjaBVOpZ1eR62jG3yWMqIExZ4hfyQ/RNhlK1HaRLP9Yc=",
+      "hint": "U2FsdGVkX1+ul6J2kOyQCjiECrd4QL57pjfLn4quESCLilZV3916oshgm+YTeXWufW1PwJf1yNDOqKzo7hu1Y0tkbE98UvebSAXv45Cw1o0=",
+      "difficulty": "easy",
+      "category": "텍스트 마이닝"
+  },
+  {
+      "id": 30,
+      "question": "데이터 분석에서 '파이썬(Python)'의 주요 장점이 아닌 것은?",
+      "options": [
+          "사용하기 쉬운 문법",
+          "다양한 라이브러리 지원",
+          "빠른 실행 속도",
+          "다양한 응용 분야"
+      ],
+      "correctAnswer": "U2FsdGVkX1+TYhUDYU+HURsW7JB1muZu5pUbFYKKvFjKaVEYWcK+uzAVYO/HM+xF",
+      "hint": "U2FsdGVkX19RX1zoqC6TN+mfkz7u0bMIvM4vbCxyi5T9aHsmewpGcDGA3TPTws5u+ly0A42x1jESKiUWAS92v2tsfo1n1/5WLJd5sj7NjFcjJNura/XmIpH5WGSwuHMVxUGdXadR/NDiBMV5nZHmJ+u2JBPyDXjwDzVftWZfUK0jKKaBr/vVa0P2bjMmqm7Q7g1pGlNPpY8rFyvMcwJ/jg==",
+      "difficulty": "easy",
+      "category": "프로그래밍"
+  },
+  {
+      "id": 19,
+      "question": "다음 중 머신러닝에서 '훈련 데이터'와 '테스트 데이터'의 역할이 바르게 설명된 것은?",
+      "options": [
+          "훈련 데이터는 모델을 평가하는 데 사용되고, 테스트 데이터는 모델을 학습하는 데 사용된다.",
+          "훈련 데이터는 모델을 학습하는 데 사용되고, 테스트 데이터는 모델을 평가하는 데 사용된다.",
+          "훈련 데이터와 테스트 데이터 모두 모델을 학습하는 데 사용된다.",
+          "훈련 데이터와 테스트 데이터 모두 모델을 평가하는 데 사용된다."
+      ],
+      "correctAnswer": "U2FsdGVkX19r3nf6G+tI0im9nR1+96wuUi4rg+Ao2eDIuZsMcXfVkoVncSECoRcOJnDnbHqwQSmQ/B1Rw4/NtGeKDp7fsXRVNmx8l1FVSzm3e+ul4WcC0noWSSCVskYxPqI4jaPz4/HJZCkeA/34rFXZICJrK86k3t6kDFWvVrQxUzEqwOrYuK3Jau8FD5OC",
+      "hint": "U2FsdGVkX19oCuK/ndfmODqBxNvuQU7JVIQPw3SwWOJL82kh6sPxcRKmV4Tc74o3jE9NRzeZAwfVQIk2JcokV9bt9QF6i6OK+S1k9GMdyLef8lLrNXrqMuO0sm60AoSl1MNKWLaqPxZhgLSHawZbRw==",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 34,
+      "question": "데이터 분석에서 '결정 트리(Decision Tree)'의 단점은?",
+      "options": [
+          "해석이 어렵다",
+          "과적합의 위험이 있다",
+          "데이터의 양이 많을수록 성능이 떨어진다",
+          "데이터 전처리가 복잡하다"
+      ],
+      "correctAnswer": "U2FsdGVkX1+rm6lXEIiOfWGbfyAaCNYn1TDX+HZLwK//MqFu9V0eQ89kuv9/YqQe",
+      "hint": "U2FsdGVkX19GvNEGcY2OQXPTjCEASHBaHxrqs/11hR0NV/cTrSIyRhK7RI6eDd4rbkMf5cyirVQvvEFzB/qMs53iQX8GsraLp8Cht98m2Q4HGwUlnuon59N2LVnQ1VK7",
+      "difficulty": "easy",
+      "category": "머신러닝"
+  },
+  {
+      "id": 35,
+      "question": "다음 중 '주성분 분석(PCA)'의 주요 목적은?",
+      "options": [
+          "데이터 군집화",
+          "데이터 차원 축소",
+          "데이터 분류",
+          "데이터 회귀"
+      ],
+      "correctAnswer": "U2FsdGVkX19vbpEI1Y7Om/YEiqIWaqj3m6Roo64xQj5rzFR0iRY+ugmkKkW9m6V5",
+      "hint": "U2FsdGVkX1+7NRGGTKkYTRSfzVFxGz/ueXJxZgXGFjbCIgIlzw4YUPnQaQr/Zwh64A7KJoeGqNEp7FYyu6QtHaz8TB2fUClJAwugSu6bv4o7GBdqWIi+d47RpbnBaNDE",
+      "difficulty": "easy",
+      "category": "데이터 분석"
+  },
+  {
+      "id": 39,
+      "question": "다음 중 데이터 마이닝에서 '회귀(Regression)' 기법이 아닌 것은?",
+      "options": [
+          "선형 회귀",
+          "로지스틱 회귀",
+          "의사결정 트리 회귀",
+          "K-평균 군집화"
+      ],
+      "correctAnswer": "U2FsdGVkX1+W1BN1P6gQA+qEaPmUu3aLLQ5Br+pM4ppNr1qJgEiBfHlrryAEkDW/",
+      "hint": "U2FsdGVkX19dXFDL1nRI50vVtrDzBgfIpZl7xGQGRqOi21o5BXWjnpMB1JxpAc0Qe247wpwpt8IIB8xWsOb2PCP8vbGddSvIt0hXLemh17s=",
+      "difficulty": "easy",
+      "category": "데이터 마이닝"
+  },
+  {
+      "id": 40,
+      "question": "데이터 분석에서 '과적합(Overfitting)'을 방지하기 위한 방법은?",
+      "options": [
+          "더 많은 데이터 수집",
+          "모델의 복잡도 증가",
+          "훈련 데이터 감소",
+          "모델 파라미터 줄이기"
+      ],
+      "correctAnswer": "U2FsdGVkX1+Ui5d6U5lQt28W3RHymsX9T/rSTkFQAcYIFCpG9jiB9f2cIVhwh60L",
+      "hint": "U2FsdGVkX18wB7d6XAP6URj4xKSzB8CVghDaEOKkXQUUFmQz97QWddGnw1xo3qyCqLeu4zYv9oQcXteGMeHmW7amqE82mH/FDcO8scK96sYMjbUVRGN+0GoMJk0m7M1S/zjC+pSdNFksKt2kXVT5ISkevoir0INo8iJ2E6zHU7upuMzpnBXAprbyalS52RCY",
+      "difficulty": "easy",
+      "category": "머신러닝"
   }
 ]

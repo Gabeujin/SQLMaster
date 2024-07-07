@@ -1,7 +1,7 @@
 let questions = {
     easy: [],
     medium: [],
-    hard: []
+    hard: [],
 };
 
 let currentQuestionIndex = 0
@@ -45,7 +45,7 @@ async function fetchQuestions(app) {
             scoreEl = document.getElementById('score');
             difficultyEl = document.getElementById('difficulty');
     
-            mainTitleEl.textContent = `🐶${app.toUpperCase()}🐹퀴즈`;
+            mainTitleEl.textContent = `🐶${app.toUpperCase()}🐹`;
             submitBtn.addEventListener('click', checkAnswer);
             hintBtn.addEventListener('click', showHint);
             const difficulties = ['easy', 'medium', 'hard'];
@@ -161,7 +161,8 @@ function checkAnswer() {
     const selectedOption = optionsEl.querySelector('.selected');
     if (!selectedOption) return;
     const question = questions[currentDifficulty][currentQuestionIndex];
-    if(question.options[fnDec(question.correctAnswer, getEncPo())] === selectedOption.dataset.opVal) {
+    if((question.options[fnDec(question.correctAnswer, getEncPo())] === selectedOption.dataset.opVal)
+        ||fnDec(question.correctAnswer, getEncPo()) === selectedOption.dataset.opVal) {
         score++;
         showPositiveFeedback();
         showToast('정답입니다!');
@@ -298,9 +299,15 @@ function getToast(){
     const tempEl = document.createElement("div");
     tempEl.innerHTML = `<div id="toast" class="toast"></div>
                     <div id="result" class="result"></div>`;
-
     document.body.appendChild(tempEl);
+}
+
+function setDisplay(){
+    document.body.classList.remove("hide");
 }
 
 getToggleMenu();
 getToast();
+setTimeout(()=>{
+    setDisplay();
+},500);
